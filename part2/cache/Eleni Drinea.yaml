@@ -1,0 +1,430 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.semanticscholar.org/graph/v1/author/search?query=Eleni%20Drinea&fields=affiliations,aliases,authorId,citationCount,externalIds,hIndex,homepage,name,paperCount,papers,papers.abstract,papers.authors,papers.citationCount,papers.corpusId,papers.externalIds,papers.fieldsOfStudy,papers.influentialCitationCount,papers.isOpenAccess,papers.journal,papers.openAccessPdf,papers.paperId,papers.publicationDate,papers.publicationTypes,papers.publicationVenue,papers.referenceCount,papers.s2FieldsOfStudy,papers.title,papers.url,papers.venue,papers.year,url&offset=0&limit=1000
+  response:
+    body:
+      string: '{"total": 2, "offset": 0, "data": [{"authorId": "2082762450", "externalIds":
+        {}, "url": "https://www.semanticscholar.org/author/2082762450", "name": "Eleni
+        Drinea", "aliases": null, "affiliations": [], "homepage": null, "paperCount":
+        1, "citationCount": 0, "hIndex": 0, "papers": [{"paperId": "e3360ba3c6df710fcebd35018eb1c259734191a8",
+        "externalIds": {"CorpusId": 15941615}, "corpusId": 15941615, "publicationVenue":
+        null, "url": "https://www.semanticscholar.org/paper/e3360ba3c6df710fcebd35018eb1c259734191a8",
+        "title": "\u00d0\u00f0\u00d7 \u00d2\u00f2 \u00d2\u00d7 \u00c5\u00f3\u00f0\u00d7
+        \u00db\u00fb\u00f8\u00f8", "abstract": null, "venue": "", "year": 2007, "referenceCount":
+        0, "citationCount": 0, "influentialCitationCount": 0, "isOpenAccess": false,
+        "openAccessPdf": null, "fieldsOfStudy": null, "s2FieldsOfStudy": [], "publicationTypes":
+        null, "publicationDate": null, "journal": null, "authors": [{"authorId": "2082762450",
+        "name": "Eleni Drinea"}]}]}, {"authorId": "2103183", "externalIds": {"DBLP":
+        ["Eleni Drinea"]}, "url": "https://www.semanticscholar.org/author/2103183",
+        "name": "Eleni Drinea", "aliases": null, "affiliations": [], "homepage": null,
+        "paperCount": 16, "citationCount": 706, "hIndex": 13, "papers": [{"paperId":
+        "eb3b4f85af38bc9f855cea4d67dae5cfcd8fe5a2", "externalIds": {"DBLP": "journals/phycomm/DrineaKF13",
+        "MAG": "1996340076", "DOI": "10.1016/j.phycom.2012.05.005", "CorpusId": 10805142},
+        "corpusId": 10805142, "publicationVenue": {"id": "ad8fb850-1592-4749-b903-d6bdb385adb1",
+        "name": "Physical Communication", "type": "journal", "alternate_names": ["Phys
+        Commun", "Physics Communication"], "issn": "1874-4907", "alternate_issns":
+        ["2528-5971"], "url": "https://www.journals.elsevier.com/physical-communication/",
+        "alternate_urls": ["https://journal.unnes.ac.id/nju/index.php/pc"]}, "url":
+        "https://www.semanticscholar.org/paper/eb3b4f85af38bc9f855cea4d67dae5cfcd8fe5a2",
+        "title": "Real-time delay with network coding and feedback", "abstract": null,
+        "venue": "Physical Communication", "year": 2013, "referenceCount": 40, "citationCount":
+        13, "influentialCitationCount": 1, "isOpenAccess": true, "openAccessPdf":
+        {"url": "http://infoscience.epfl.ch/record/126035/files/techreport.pdf", "status":
+        null}, "fieldsOfStudy": ["Computer Science"], "s2FieldsOfStudy": [{"category":
+        "Computer Science", "source": "external"}, {"category": "Computer Science",
+        "source": "s2-fos-model"}], "publicationTypes": ["JournalArticle"], "publicationDate":
+        "2013-03-01", "journal": {"volume": "6", "pages": "100-113", "name": "Phys.
+        Commun."}, "authors": [{"authorId": "2103183", "name": "Eleni Drinea"}, {"authorId":
+        "2023262", "name": "L. Keller"}, {"authorId": "1762299", "name": "C. Fragouli"}]},
+        {"paperId": "e7b1ce1eb146e686476de77c69b58a76983f2c8d", "externalIds": {"MAG":
+        "756458153", "CorpusId": 60163227}, "corpusId": 60163227, "publicationVenue":
+        null, "url": "https://www.semanticscholar.org/paper/e7b1ce1eb146e686476de77c69b58a76983f2c8d",
+        "title": "Broadcasting with real-time delay", "abstract": null, "venue": "",
+        "year": 2011, "referenceCount": 0, "citationCount": 0, "influentialCitationCount":
+        0, "isOpenAccess": false, "openAccessPdf": null, "fieldsOfStudy": ["Computer
+        Science"], "s2FieldsOfStudy": [{"category": "Computer Science", "source":
+        "external"}], "publicationTypes": null, "publicationDate": null, "journal":
+        {"volume": "", "name": ""}, "authors": [{"authorId": "2023262", "name": "L.
+        Keller"}, {"authorId": "2103183", "name": "Eleni Drinea"}, {"authorId": "1762299",
+        "name": "C. Fragouli"}]}, {"paperId": "98b83fad457ed9d4b0227948c78d1dcf3b84dfde",
+        "externalIds": {"DBLP": "journals/tit/KirschD10", "MAG": "2123052937", "DOI":
+        "10.1109/TIT.2009.2034883", "CorpusId": 123010239}, "corpusId": 123010239,
+        "publicationVenue": {"id": "748e730b-add9-47ee-819d-8ae54e504ef9", "name":
+        "IEEE Transactions on Information Theory", "type": "journal", "alternate_names":
+        ["IEEE Trans Inf Theory"], "issn": "0018-9448", "url": "http://www.comm.utoronto.ca/trans-it/",
+        "alternate_urls": ["https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?puNumber=18",
+        "http://ieeexplore.ieee.org/servlet/opac?punumber=18"]}, "url": "https://www.semanticscholar.org/paper/98b83fad457ed9d4b0227948c78d1dcf3b84dfde",
+        "title": "Directly lower bounding the information capacity for channels with
+        I.I.D.deletions and duplications", "abstract": "In this paper, we directly
+        lower bound the information capacity for channels with independent identically
+        distributed (i.i.d.) deletions and duplications. Our approach differs from
+        previous work in that we focus on the information capacity using ideas from
+        renewal theory, rather than focusing on the transmission capacity by analyzing
+        the error probability of some randomly generated code using a combinatorial
+        argument. Of course, the transmission and information capacities are equal,
+        but our change of perspective allows for a much simpler analysis that gives
+        more general theoretical results. We then apply these results to the binary
+        deletion channel to improve existing lower bounds on its capacity.", "venue":
+        "IEEE Transactions on Information Theory", "year": 2010, "referenceCount":
+        10, "citationCount": 24, "influentialCitationCount": 2, "isOpenAccess": false,
+        "openAccessPdf": null, "fieldsOfStudy": ["Mathematics", "Computer Science"],
+        "s2FieldsOfStudy": [{"category": "Mathematics", "source": "external"}, {"category":
+        "Computer Science", "source": "external"}, {"category": "Computer Science",
+        "source": "s2-fos-model"}], "publicationTypes": ["JournalArticle"], "publicationDate":
+        null, "journal": {"volume": "56", "pages": "86-102", "name": "IEEE Trans.
+        Inf. Theory"}, "authors": [{"authorId": "3352299", "name": "A. Kirsch"}, {"authorId":
+        "2103183", "name": "Eleni Drinea"}]}, {"paperId": "7150cbbbef826cc9c753a44c947a689c8237fe06",
+        "externalIds": {"MAG": "2248726460", "DBLP": "conf/isit/DrineaFK09", "DOI":
+        "10.1109/ISIT.2009.5205612", "CorpusId": 14320739}, "corpusId": 14320739,
+        "publicationVenue": null, "url": "https://www.semanticscholar.org/paper/7150cbbbef826cc9c753a44c947a689c8237fe06",
+        "title": "Delay with network coding and feedback", "abstract": "We consider
+        the problem of minimizing delay when broadcasting over erasure channels with
+        feedback. A sender wishes to communicate the same set of \u00b5 messages to
+        several receivers over separate erasure channels. The sender can broadcast
+        a single message or a combination (encoding) of messages at each timestep.
+        Receivers provide feedback as to whether the transmission was received. If
+        at some time step a receiver cannot identify a new message, delay is incurred.
+        Our notion of delay is motivated by real-time applications that request progressively
+        refined input, such as the successive refinement of an image encoded using
+        multiple description coding. Our setup is novel because it combines coding
+        techniques with feedback information to the end of minimizing delay. It allows
+        \u0398(\u00b5) benefits as compared to previous approaches for offline algorithms,
+        while feedback allows online algorithms to achieve smaller delay than online
+        algorithms without feedback. Our main complexity results are that the offline
+        minimization problem is NP-hard when the sender only schedules single messages
+        and that the general problem remains NP-hard even when coding is allowed.
+        However we show that coding does offer delay and complexity gains over scheduling.
+        We also discuss online heuristics and evaluate their performance through simulations.",
+        "venue": "2009 IEEE International Symposium on Information Theory", "year":
+        2009, "referenceCount": 24, "citationCount": 71, "influentialCitationCount":
+        1, "isOpenAccess": true, "openAccessPdf": {"url": "https://infoscience.epfl.ch/record/174499/files/conf28.pdf",
+        "status": null}, "fieldsOfStudy": ["Computer Science"], "s2FieldsOfStudy":
+        [{"category": "Computer Science", "source": "external"}, {"category": "Computer
+        Science", "source": "s2-fos-model"}], "publicationTypes": ["JournalArticle"],
+        "publicationDate": "2009-06-28", "journal": {"pages": "844-848", "name": "2009
+        IEEE International Symposium on Information Theory"}, "authors": [{"authorId":
+        "2103183", "name": "Eleni Drinea"}, {"authorId": "1762299", "name": "C. Fragouli"},
+        {"authorId": "2023262", "name": "L. Keller"}]}, {"paperId": "c0f643153a92fafb6a3bb31a9b0418277c53dc38",
+        "externalIds": {"CorpusId": 5708003}, "corpusId": 5708003, "publicationVenue":
+        null, "url": "https://www.semanticscholar.org/paper/c0f643153a92fafb6a3bb31a9b0418277c53dc38",
+        "title": "CS 222 Lecture 3 : September 30 , 1999 Fall", "abstract": "Pagerank
+        is computed offline (preprocessing). PageRank could be considered as a \u201d1-dimensional\u201d
+        process ( ompared to the distinction in hubs and authorities): we simply assign
+        a score to every page. Kleinberg\u2019s algorithm first invokes a text-based
+        search and then computes numerical scores for the pages in a relatively small
+        subgraph constructed from the initial search results; instead, the PageRank
+        algorithm computes ranks for all the nodes in the index of the search eng
+        in .", "venue": "", "year": 2009, "referenceCount": 0, "citationCount": 0,
+        "influentialCitationCount": 0, "isOpenAccess": false, "openAccessPdf": null,
+        "fieldsOfStudy": null, "s2FieldsOfStudy": [{"category": "Computer Science",
+        "source": "s2-fos-model"}], "publicationTypes": null, "publicationDate": null,
+        "journal": null, "authors": [{"authorId": "1745699", "name": "M. Mitzenmacher"},
+        {"authorId": "2103183", "name": "Eleni Drinea"}]}, {"paperId": "b8c9dd37746f10f466f0cf59afd29a7b7e09decd",
+        "externalIds": {"MAG": "2083123304", "DOI": "10.1109/NETCOD.2008.4476183",
+        "CorpusId": 2086372}, "corpusId": 2086372, "publicationVenue": null, "url":
+        "https://www.semanticscholar.org/paper/b8c9dd37746f10f466f0cf59afd29a7b7e09decd",
+        "title": "Online Broadcasting with Network Coding", "abstract": "Consider
+        a source broadcasting M packets to N receivers over independent erasure channels,
+        where perfect feedback is available from the receivers to the source, and
+        the source is allowed to use coding. We investigate offline and online algorithms
+        that optimize delay, both through theoretical analysis as well as simulation
+        results.", "venue": "2008 Fourth Workshop on Network Coding, Theory and Applications",
+        "year": 2008, "referenceCount": 8, "citationCount": 155, "influentialCitationCount":
+        15, "isOpenAccess": true, "openAccessPdf": {"url": "https://infoscience.epfl.ch/record/142420/files/network_30.pdf.webloc.pdf.webloc",
+        "status": null}, "fieldsOfStudy": ["Computer Science"], "s2FieldsOfStudy":
+        [{"category": "Computer Science", "source": "external"}, {"category": "Computer
+        Science", "source": "s2-fos-model"}], "publicationTypes": null, "publicationDate":
+        "2008-03-31", "journal": {"pages": "1-6", "name": "2008 Fourth Workshop on
+        Network Coding, Theory and Applications"}, "authors": [{"authorId": "2023262",
+        "name": "L. Keller"}, {"authorId": "2103183", "name": "Eleni Drinea"}, {"authorId":
+        "1762299", "name": "C. Fragouli"}]}, {"paperId": "06f9b73c9afc6171f467e9467eb1cfc8dd0f4898",
+        "externalIds": {"DBLP": "journals/tit/DrineaM07", "MAG": "2101549738", "DOI":
+        "10.1109/TIT.2007.901221", "CorpusId": 8170166}, "corpusId": 8170166, "publicationVenue":
+        {"id": "748e730b-add9-47ee-819d-8ae54e504ef9", "name": "IEEE Transactions
+        on Information Theory", "type": "journal", "alternate_names": ["IEEE Trans
+        Inf Theory"], "issn": "0018-9448", "url": "http://www.comm.utoronto.ca/trans-it/",
+        "alternate_urls": ["https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?puNumber=18",
+        "http://ieeexplore.ieee.org/servlet/opac?punumber=18"]}, "url": "https://www.semanticscholar.org/paper/06f9b73c9afc6171f467e9467eb1cfc8dd0f4898",
+        "title": "Improved Lower Bounds for the Capacity of i.i.d. Deletion and Duplication
+        Channels", "abstract": "This paper considers the capacity of binary deletion
+        channels, where bits are deleted independently with probability d. It improves
+        significantly upon the best previous framework used to obtain provable lower
+        bounds on this capacity by utilizing a stronger definition of a typical output
+        from the channel. The new results give the best known provable bounds on the
+        capacity for all values of d. Moreover, the techniques presented here extend
+        to yield lower bounds for channels with certain types of random insertions,
+        namely, duplications, or combinations of duplications and deletions. To demonstrate
+        these techniques in this context, two binary channels are analyzed: a channel
+        where each transmitted bit is copied with probability nu and a channel where
+        each transmitted bit is copied a geometrically distributed number of times.",
+        "venue": "IEEE Transactions on Information Theory", "year": 2007, "referenceCount":
+        14, "citationCount": 92, "influentialCitationCount": 19, "isOpenAccess": true,
+        "openAccessPdf": {"url": "http://www.eecs.harvard.edu/~michaelm/postscripts/toit2007a.pdf",
+        "status": null}, "fieldsOfStudy": ["Mathematics", "Computer Science"], "s2FieldsOfStudy":
+        [{"category": "Mathematics", "source": "external"}, {"category": "Computer
+        Science", "source": "external"}, {"category": "Computer Science", "source":
+        "s2-fos-model"}], "publicationTypes": ["JournalArticle"], "publicationDate":
+        "2007-08-01", "journal": {"volume": "53", "pages": "2693-2714", "name": "IEEE
+        Transactions on Information Theory"}, "authors": [{"authorId": "2103183",
+        "name": "Eleni Drinea"}, {"authorId": "1745699", "name": "M. Mitzenmacher"}]},
+        {"paperId": "64d382fb00a3677109dec9bd5d08f45452d74fe0", "externalIds": {"DBLP":
+        "conf/isit/DrineaK07", "MAG": "2052623322", "DOI": "10.1109/ISIT.2007.4557471",
+        "CorpusId": 5943132}, "corpusId": 5943132, "publicationVenue": {"id": "748e730b-add9-47ee-819d-8ae54e504ef9",
+        "name": "IEEE Transactions on Information Theory", "type": "journal", "alternate_names":
+        ["IEEE Trans Inf Theory"], "issn": "0018-9448", "url": "http://www.comm.utoronto.ca/trans-it/",
+        "alternate_urls": ["https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?puNumber=18",
+        "http://ieeexplore.ieee.org/servlet/opac?punumber=18"]}, "url": "https://www.semanticscholar.org/paper/64d382fb00a3677109dec9bd5d08f45452d74fe0",
+        "title": "Directly Lower Bounding the Information Capacity for Channels With
+        I.I.D. Deletions and Duplications", "abstract": "In this paper, we directly
+        lower bound the information capacity for channels with independent identically
+        distributed (i.i.d.) deletions and duplications. Our approach differs from
+        previous work in that we focus on the information capacity using ideas from
+        renewal theory, rather than focusing on the transmission capacity by analyzing
+        the error probability of some randomly generated code using a combinatorial
+        argument. Of course, the transmission and information capacities are equal,
+        but our change of perspective allows for a much simpler analysis that gives
+        more general theoretical results. We then apply these results to the binary
+        deletion channel to improve existing lower bounds on its capacity.", "venue":
+        "IEEE Transactions on Information Theory", "year": 2007, "referenceCount":
+        19, "citationCount": 45, "influentialCitationCount": 13, "isOpenAccess": false,
+        "openAccessPdf": null, "fieldsOfStudy": ["Mathematics", "Computer Science"],
+        "s2FieldsOfStudy": [{"category": "Mathematics", "source": "external"}, {"category":
+        "Computer Science", "source": "external"}, {"category": "Computer Science",
+        "source": "s2-fos-model"}], "publicationTypes": ["JournalArticle"], "publicationDate":
+        "2007-06-24", "journal": {"volume": "56", "pages": "86-102", "name": "IEEE
+        Transactions on Information Theory"}, "authors": [{"authorId": "2103183",
+        "name": "Eleni Drinea"}, {"authorId": "3352299", "name": "A. Kirsch"}]}, {"paperId":
+        "9845e84f4f9785ee898343b96204d0a255eb1762", "externalIds": {"MAG": "2177594196",
+        "DBLP": "journals/tit/DrineaM06", "DOI": "10.1109/TIT.2006.881832", "CorpusId":
+        11288445}, "corpusId": 11288445, "publicationVenue": {"id": "748e730b-add9-47ee-819d-8ae54e504ef9",
+        "name": "IEEE Transactions on Information Theory", "type": "journal", "alternate_names":
+        ["IEEE Trans Inf Theory"], "issn": "0018-9448", "url": "http://www.comm.utoronto.ca/trans-it/",
+        "alternate_urls": ["https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?puNumber=18",
+        "http://ieeexplore.ieee.org/servlet/opac?punumber=18"]}, "url": "https://www.semanticscholar.org/paper/9845e84f4f9785ee898343b96204d0a255eb1762",
+        "title": "On Lower Bounds for the Capacity of Deletion Channels", "abstract":
+        "This correspondence considers binary deletion channels, where bits are deleted
+        independently with probability d; it improves upon the framework used to analyze
+        the capacity of binary deletion channels established by Diggavi and Grossglauser,
+        improving on their lower bounds. Diggavi and Grossglauser considered codebooks
+        with codewords generated by a first-order Markov chain. They only consider
+        typical outputs, where an output is typical if an N bit input gives an N(1-d)(1-epsi)
+        bit output. The improvements in this correspondence arise from two considerations.
+        First, a stronger notion of a typical output from the channel is used, which
+        yields better bounds even for the codebooks studied by Diggavi and Grossglauser.
+        Second, codewords generated by more general processes than first-order Markov
+        chains are considered", "venue": "IEEE Transactions on Information Theory",
+        "year": 2006, "referenceCount": 26, "citationCount": 42, "influentialCitationCount":
+        3, "isOpenAccess": false, "openAccessPdf": null, "fieldsOfStudy": ["Computer
+        Science", "Mathematics"], "s2FieldsOfStudy": [{"category": "Computer Science",
+        "source": "external"}, {"category": "Mathematics", "source": "external"},
+        {"category": "Computer Science", "source": "s2-fos-model"}], "publicationTypes":
+        ["JournalArticle"], "publicationDate": "2006-10-01", "journal": {"volume":
+        "52", "pages": "4648-4657", "name": "IEEE Transactions on Information Theory"},
+        "authors": [{"authorId": "2103183", "name": "Eleni Drinea"}, {"authorId":
+        "1745699", "name": "M. Mitzenmacher"}]}, {"paperId": "9a267dcf9a400f9ad02c6f72b68a2a44a54985a6",
+        "externalIds": {"DBLP": "journals/tit/MitzenmacherD06", "MAG": "2103188198",
+        "DOI": "10.1109/TIT.2006.881844", "CorpusId": 15733235}, "corpusId": 15733235,
+        "publicationVenue": {"id": "748e730b-add9-47ee-819d-8ae54e504ef9", "name":
+        "IEEE Transactions on Information Theory", "type": "journal", "alternate_names":
+        ["IEEE Trans Inf Theory"], "issn": "0018-9448", "url": "http://www.comm.utoronto.ca/trans-it/",
+        "alternate_urls": ["https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?puNumber=18",
+        "http://ieeexplore.ieee.org/servlet/opac?punumber=18"]}, "url": "https://www.semanticscholar.org/paper/9a267dcf9a400f9ad02c6f72b68a2a44a54985a6",
+        "title": "A Simple Lower Bound for the Capacity of the Deletion Channel",
+        "abstract": "We present a simple proof that the capacity of the binary independent
+        and identically distributed (i.i.d.) deletion channel, where each bit is deleted
+        independently with probability d, is at least (1-d)/9, by developing a correspondence
+        between the deletion channel and an insertion/deletion channel that we call
+        a Poisson-repeat channel", "venue": "IEEE Transactions on Information Theory",
+        "year": 2006, "referenceCount": 11, "citationCount": 63, "influentialCitationCount":
+        9, "isOpenAccess": false, "openAccessPdf": null, "fieldsOfStudy": ["Mathematics",
+        "Computer Science"], "s2FieldsOfStudy": [{"category": "Mathematics", "source":
+        "external"}, {"category": "Computer Science", "source": "external"}, {"category":
+        "Computer Science", "source": "s2-fos-model"}], "publicationTypes": ["JournalArticle"],
+        "publicationDate": "2006-10-01", "journal": {"volume": "52", "pages": "4657-4660",
+        "name": "IEEE Transactions on Information Theory"}, "authors": [{"authorId":
+        "1745699", "name": "M. Mitzenmacher"}, {"authorId": "2103183", "name": "Eleni
+        Drinea"}]}, {"paperId": "c53bdd8fd9703f0ff2d8254c1d092ed68a1ecc67", "externalIds":
+        {"MAG": "2265267413", "CorpusId": 124350143}, "corpusId": 124350143, "publicationVenue":
+        null, "url": "https://www.semanticscholar.org/paper/c53bdd8fd9703f0ff2d8254c1d092ed68a1ecc67",
+        "title": "Lower bounds for the capacity of channels with i.i.d. deletions
+        and insertions", "abstract": "Consider the simplest channel which introduces
+        deletions; or binary i.i.d. deletion channel: each transmitted bit is independently
+        deleted with probability d. The capacity C del of this channel remains unknown
+        since Dobrushin''s introduction of the problem in 1967. The topic of this
+        thesis is provable lower bounds for Cdel by developping Shannon-style theorems.
+        Although this implies that the codes considered in this work are of no practical
+        interest, practical codes are not required to prove capacity bounds. Moreover,
+        existing lower bounds for the capacity of this channel arising from the study
+        of the performance of efficient codes are significantly below the theoretical
+        bounds we prove. \nPrevious theoretical approaches to lower bound C del implicitly
+        attempt typical set decoding. The improvements in our work arise in two ways.
+        First, we explicitly consider typical set decoding, thus establishing that
+        one clear way to improve capacity lower bounds is to refine the definitions
+        of the typical sets. We start by refining the definition of the typical received
+        sequence after the i.i.d. deletion channel, by observing further structural
+        properties of the received sequence. Then we refine the decoding algorithm
+        by using a more sophisticated set of received sequences jointly typical with
+        a codeword. Second, we introduce a new framework for generating codewords,
+        which allows consideration of more general codebooks, while using our new
+        definitions of typical sets; the analysis in previous frameworks was not amenable
+        to such generalizations. Our approach allows for dramatic improvements on
+        the lower bounds. Moreover, for d > 0.65, we surpass a combinatorial upper
+        bound for channels with an asymptotic fraction of d synchronization errors.
+        \nAnother advantage of our framework is that it can be applied to analyze
+        more general channels. Specifically, we consider the i.i.d. channel with deletions
+        and insertions, where insertions only occur in the form of copies. We provide
+        a general lower bound for the capacity of this channel (under the assumption
+        of geometrically decreasing tails for the insertion distribution). We then
+        use this result to show that Cdel > (1- d)/9, via a reduction argument.",
+        "venue": "", "year": 2005, "referenceCount": 0, "citationCount": 0, "influentialCitationCount":
+        0, "isOpenAccess": false, "openAccessPdf": null, "fieldsOfStudy": ["Mathematics"],
+        "s2FieldsOfStudy": [{"category": "Mathematics", "source": "external"}, {"category":
+        "Computer Science", "source": "s2-fos-model"}], "publicationTypes": null,
+        "publicationDate": null, "journal": {"volume": "", "pages": "109-109", "name":
+        ""}, "authors": [{"authorId": "1745699", "name": "M. Mitzenmacher"}, {"authorId":
+        "2103183", "name": "Eleni Drinea"}]}, {"paperId": "9f540c371bfd92c622a6321a15001b941b0b7e63",
+        "externalIds": {"DBLP": "conf/isit/DrineaM04", "MAG": "2565940731", "DOI":
+        "10.1109/ISIT.2004.1365265", "CorpusId": 47424531}, "corpusId": 47424531,
+        "publicationVenue": null, "url": "https://www.semanticscholar.org/paper/9f540c371bfd92c622a6321a15001b941b0b7e63",
+        "title": "On lower bounds for the capacity of deletion channels", "abstract":
+        "We consider binary deletion channels, where bits are deleted independently
+        with probability d. We extend the framework used to analyze the capacity of
+        binary deletion channels established by Diggavi and Grossglauser [2001], improving
+        on their lower bounds. In Diggavi and Grossglauser, the codewords are generated
+        by a first order Markov chain. Our improvements arise from two considerations.
+        First, Diggavi and Grossglauser consider typical outputs, where an output
+        is typical if an N bit input produces an output of at least N(1-d)(1-/spl
+        epsi/) bits. We provide a stronger notion of a typical output that yields
+        better bounds even for the cases studied in Diggavi and Grossglauser. Second,
+        we consider codewords generated by more general processes than first order
+        Markov chains.", "venue": "International Symposium onInformation Theory, 2004.
+        ISIT 2004. Proceedings.", "year": 2004, "referenceCount": 5, "citationCount":
+        13, "influentialCitationCount": 1, "isOpenAccess": false, "openAccessPdf":
+        null, "fieldsOfStudy": ["Computer Science", "Mathematics"], "s2FieldsOfStudy":
+        [{"category": "Computer Science", "source": "external"}, {"category": "Mathematics",
+        "source": "external"}, {"category": "Computer Science", "source": "s2-fos-model"}],
+        "publicationTypes": ["JournalArticle"], "publicationDate": "2004-06-27", "journal":
+        {"pages": "227-", "name": "International Symposium onInformation Theory, 2004.
+        ISIT 2004. Proceedings."}, "authors": [{"authorId": "2103183", "name": "Eleni
+        Drinea"}, {"authorId": "1745699", "name": "M. Mitzenmacher"}]}, {"paperId":
+        "e881439705f383468b276415b9d01d0059c1d3e5", "externalIds": {"MAG": "204133272",
+        "CorpusId": 5727723}, "corpusId": 5727723, "publicationVenue": null, "url":
+        "https://www.semanticscholar.org/paper/e881439705f383468b276415b9d01d0059c1d3e5",
+        "title": "A Randomized Singular Value Decomposition Algorithm for Image Processing
+        Applications", "abstract": "The main contribution of this paper is to demonstrate
+        that a new randomized SVD algorithm, proposed by Drineas et. al. in [4], is
+        not only of theoretical interest but also a viable and fast alternative to
+        traditional SVD algorithms in applications (e.g. image processing). This algorithm
+        samples a constant number of rows (or columns) of the matrix, scales them
+        appropriately to form a small matrix, say S, and then computes the SVD of
+        S (which is a good approximation to the SVD of the original matrix). We experimentally
+        evaluate the accuracy and speed of this algorithm for image matrices, using
+        various probability distributions to perform the sampling.", "venue": "",
+        "year": 2004, "referenceCount": 11, "citationCount": 23, "influentialCitationCount":
+        0, "isOpenAccess": false, "openAccessPdf": null, "fieldsOfStudy": ["Mathematics"],
+        "s2FieldsOfStudy": [{"category": "Mathematics", "source": "external"}, {"category":
+        "Computer Science", "source": "s2-fos-model"}], "publicationTypes": null,
+        "publicationDate": null, "journal": {"volume": "", "name": ""}, "authors":
+        [{"authorId": "2103183", "name": "Eleni Drinea"}, {"authorId": "1738441",
+        "name": "P. Drineas"}, {"authorId": "1836365", "name": "Patrick S. Huggins"}]},
+        {"paperId": "e305e18a2f42bbe01aabc44392e93b86191723df", "externalIds": {"MAG":
+        "2030438204", "DBLP": "conf/soda/DrineaFM02", "CorpusId": 8673841}, "corpusId":
+        8673841, "publicationVenue": {"id": "5545566b-c0b8-418c-83a5-a986a4657572",
+        "name": "ACM-SIAM Symposium on Discrete Algorithms", "type": "conference",
+        "alternate_names": ["Symposium on Discrete Algorithms", "ACM-SIAM Symp Discret
+        Algorithm", "Symp Discret Algorithm", "SODA"], "url": "https://en.wikipedia.org/wiki/Symposium_on_Discrete_Algorithms"},
+        "url": "https://www.semanticscholar.org/paper/e305e18a2f42bbe01aabc44392e93b86191723df",
+        "title": "Balls and bins models with feedback", "abstract": "We examine generalizations
+        of the classical balls and bins models, where the probability a ball lands
+        in a bin is proportional to the number of balls already in the bin raised
+        to some exponent p. Such systems exhibit positive or negative feedback, depending
+        on the exponent p, with a phase transition occurring at p = 1. Similar models
+        have proven useful in economics and chemistry; for example, systems with positive
+        feedback (p > 1) tend naturally toward monopoly. We provide several results
+        and useful heuristics for these models, including showing a bound on the time
+        to achieve monopoly with high probability.", "venue": "ACM-SIAM Symposium
+        on Discrete Algorithms", "year": 2002, "referenceCount": 13, "citationCount":
+        52, "influentialCitationCount": 5, "isOpenAccess": false, "openAccessPdf":
+        null, "fieldsOfStudy": ["Computer Science", "Mathematics"], "s2FieldsOfStudy":
+        [{"category": "Computer Science", "source": "external"}, {"category": "Mathematics",
+        "source": "external"}, {"category": "Mathematics", "source": "s2-fos-model"}],
+        "publicationTypes": ["JournalArticle"], "publicationDate": "2002-01-06", "journal":
+        {"pages": "308-315"}, "authors": [{"authorId": "2103183", "name": "Eleni Drinea"},
+        {"authorId": "1709874", "name": "A. Frieze"}, {"authorId": "1745699", "name":
+        "M. Mitzenmacher"}]}, {"paperId": "6700cbf389ae198190e672a3e5995b32f7a6d7c9",
+        "externalIds": {"MAG": "1568377519", "DBLP": "conf/pci/DrineasDH01", "DOI":
+        "10.1007/3-540-38076-0_19", "CorpusId": 517098}, "corpusId": 517098, "publicationVenue":
+        {"id": "02b2b52b-9d31-45e0-ad03-8519f868cf28", "name": "Panhellenic Conference
+        on Informatics", "type": "conference", "alternate_names": ["Int Conf Probl
+        Cybern Informatics", "PCI", "International Conference Problems of Cybernetics
+        and Informatics", "Panhellenic Conf Informatics"]}, "url": "https://www.semanticscholar.org/paper/6700cbf389ae198190e672a3e5995b32f7a6d7c9",
+        "title": "An Experimental Evaluation of a Monte-Carlo Algorithm for Singular
+        Value Decomposition", "abstract": null, "venue": "Panhellenic Conference on
+        Informatics", "year": 2001, "referenceCount": 15, "citationCount": 45, "influentialCitationCount":
+        4, "isOpenAccess": false, "openAccessPdf": null, "fieldsOfStudy": ["Mathematics",
+        "Computer Science"], "s2FieldsOfStudy": [{"category": "Mathematics", "source":
+        "external"}, {"category": "Computer Science", "source": "external"}, {"category":
+        "Computer Science", "source": "s2-fos-model"}], "publicationTypes": ["JournalArticle",
+        "Conference"], "publicationDate": "2001-11-08", "journal": {"pages": "279-296"},
+        "authors": [{"authorId": "1738441", "name": "P. Drineas"}, {"authorId": "2103183",
+        "name": "Eleni Drinea"}, {"authorId": "1836365", "name": "Patrick S. Huggins"}]},
+        {"paperId": "848b05952f5d9b6d5f8c364d82b84ac536dce753", "externalIds": {"MAG":
+        "207687955", "CorpusId": 8934389}, "corpusId": 8934389, "publicationVenue":
+        null, "url": "https://www.semanticscholar.org/paper/848b05952f5d9b6d5f8c364d82b84ac536dce753",
+        "title": "Variations on Random Graph Models for the Web", "abstract": null,
+        "venue": "", "year": 2001, "referenceCount": 4, "citationCount": 68, "influentialCitationCount":
+        2, "isOpenAccess": false, "openAccessPdf": null, "fieldsOfStudy": ["Computer
+        Science"], "s2FieldsOfStudy": [{"category": "Computer Science", "source":
+        "external"}, {"category": "Computer Science", "source": "s2-fos-model"}],
+        "publicationTypes": null, "publicationDate": null, "journal": {"volume": "",
+        "name": ""}, "authors": [{"authorId": "2103183", "name": "Eleni Drinea"},
+        {"authorId": "152723792", "name": "M. Enachescu"}, {"authorId": "1745699",
+        "name": "M. Mitzenmacher"}]}]}]}
+
+        '
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '30754'
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 19 Oct 2023 18:17:16 GMT
+      Via:
+      - 1.1 0a9d1f4cf41c66fe38072ba9d4053f7e.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - qE5iiY1QirUfjH5DabnR1eMl_oAFCMev_oqJJXbVwQjMXQoLwiPMVQ==
+      X-Amz-Cf-Pop:
+      - JFK52-P2
+      X-Cache:
+      - Miss from cloudfront
+      x-amz-apigw-id:
+      - ND7bDEm2PHcFVsA=
+      x-amzn-Remapped-Connection:
+      - keep-alive
+      x-amzn-Remapped-Content-Length:
+      - '30754'
+      x-amzn-Remapped-Date:
+      - Thu, 19 Oct 2023 18:17:16 GMT
+      x-amzn-Remapped-Server:
+      - gunicorn
+      x-amzn-RequestId:
+      - 9032f979-9c9b-4c70-abdc-5992a9f59218
+    status:
+      code: 200
+      message: OK
+version: 1

@@ -1,0 +1,54 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.semanticscholar.org/graph/v1/author/search?query=Brian%20Borowsky&fields=affiliations,aliases,authorId,citationCount,externalIds,hIndex,homepage,name,paperCount,papers,papers.abstract,papers.authors,papers.citationCount,papers.corpusId,papers.externalIds,papers.fieldsOfStudy,papers.influentialCitationCount,papers.isOpenAccess,papers.journal,papers.openAccessPdf,papers.paperId,papers.publicationDate,papers.publicationTypes,papers.publicationVenue,papers.referenceCount,papers.s2FieldsOfStudy,papers.title,papers.url,papers.venue,papers.year,url&offset=0&limit=1000
+  response:
+    body:
+      string: '{"total": 0, "offset": 0, "data": []}
+
+        '
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '38'
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 19 Oct 2023 18:12:29 GMT
+      Via:
+      - 1.1 0bec03027031f991ae9cc48b95f1b35c.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - axliEQwpWatr0kpNjHH2cNnNbp7aNIyS1or_2tOE6QbaGSDgBc2Naw==
+      X-Amz-Cf-Pop:
+      - JFK52-P2
+      X-Cache:
+      - Miss from cloudfront
+      x-amz-apigw-id:
+      - ND6uHEncPHcFSmQ=
+      x-amzn-Remapped-Connection:
+      - keep-alive
+      x-amzn-Remapped-Content-Length:
+      - '38'
+      x-amzn-Remapped-Date:
+      - Thu, 19 Oct 2023 18:12:29 GMT
+      x-amzn-Remapped-Server:
+      - gunicorn
+      x-amzn-RequestId:
+      - 47e4745d-66f8-4eb0-aee9-69d909a4827f
+    status:
+      code: 200
+      message: OK
+version: 1

@@ -1,0 +1,1421 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.semanticscholar.org/graph/v1/author/search?query=Nakul%20Verma&fields=affiliations,aliases,authorId,citationCount,externalIds,hIndex,homepage,name,paperCount,papers,papers.abstract,papers.authors,papers.citationCount,papers.corpusId,papers.externalIds,papers.fieldsOfStudy,papers.influentialCitationCount,papers.isOpenAccess,papers.journal,papers.openAccessPdf,papers.paperId,papers.publicationDate,papers.publicationTypes,papers.publicationVenue,papers.referenceCount,papers.s2FieldsOfStudy,papers.title,papers.url,papers.venue,papers.year,url&offset=0&limit=1000
+  response:
+    body:
+      string: '{"total": 5, "offset": 0, "data": [{"authorId": "145020563", "externalIds":
+        {}, "url": "https://www.semanticscholar.org/author/145020563", "name": "N.
+        S. Verma", "aliases": ["N. S. Verma", "Nakul Sain Verma", "Nakul S. Verma"],
+        "affiliations": [], "homepage": null, "paperCount": 5, "citationCount": 15,
+        "hIndex": 2, "papers": [{"paperId": "7486943facf52cbad24d3903ac1359b1f07418ab",
+        "externalIds": {"MAG": "2052656563", "DOI": "10.1139/T84-006", "CorpusId":
+        128623149}, "corpusId": 128623149, "publicationVenue": null, "url": "https://www.semanticscholar.org/paper/7486943facf52cbad24d3903ac1359b1f07418ab",
+        "title": "Seepage through till foundations of dams of the Eastmain \u2013
+        Opinaca \u2013 La Grande diversion", "abstract": "The EOL (Eastmain \u2013
+        Opinaca \u2013 La Grande) diversion scheme of the La Grande Complex (phase
+        I) for the James Bay Hydroelectric development in northern Quebec diverts
+        the waters of the Eastmain, Opinaca, and Petite Opinaca Rivers into the LG
+        2 reservoir. The EOL diversion consists of four dams and seven dykes about
+        half of which are founded for part of their length on overburden foundations
+        of variable thickness and consisting of heterogeneous deposits of glacial
+        till or sandy and silty alluvia. The till core of these zoned embankments
+        is either placed directly on the till strata or extended through the alluvia
+        to the underlying till by a core trench. The construction of these embankments
+        was completed in 1979 and the maximum reservoir level achieved in November
+        1980.This paper deals with the seepage and pore pressure behaviour in the
+        overburden foundations, namely, dams OA-10B and OA-11 and the dyke OA-8B,
+        during and subsequent to the reservoir filling. The results of the parametric
+        seepage analyses carried...", "venue": "", "year": 1984, "referenceCount":
+        1, "citationCount": 4, "influentialCitationCount": 0, "isOpenAccess": false,
+        "openAccessPdf": null, "fieldsOfStudy": ["Geology"], "s2FieldsOfStudy": [{"category":
+        "Geology", "source": "external"}, {"category": "Geology", "source": "s2-fos-model"}],
+        "publicationTypes": null, "publicationDate": "1984-02-01", "journal": {"volume":
+        "21", "pages": "75-91", "name": "Canadian Geotechnical Journal"}, "authors":
+        [{"authorId": "144594032", "name": "J. Par\u00e9"}, {"authorId": "145020563",
+        "name": "N. S. Verma"}, {"authorId": "32191816", "name": "A. Loiselle"}, {"authorId":
+        "107879938", "name": "S. P\u00eenzariu"}]}, {"paperId": "a653bb1a654928ef8fa04e4d1ec7f0ecc64ca496",
+        "externalIds": {"MAG": "1978622349", "DOI": "10.1139/T84-025", "CorpusId":
+        140195821}, "corpusId": 140195821, "publicationVenue": null, "url": "https://www.semanticscholar.org/paper/a653bb1a654928ef8fa04e4d1ec7f0ecc64ca496",
+        "title": "Stress-deformation predictions for the LG 4 main dam", "abstract":
+        "The LG 4 dam, the second largest structure on the La Grande Complex of the
+        James Bay hydroelectric development, is 125\u2002m high, about 4\u2002km long,
+        and is composed of 19\u2002\u00d7\u2002106\u2002m3 of fill materials.The ...",
+        "venue": "", "year": 1984, "referenceCount": 3, "citationCount": 11, "influentialCitationCount":
+        2, "isOpenAccess": false, "openAccessPdf": null, "fieldsOfStudy": ["Geology"],
+        "s2FieldsOfStudy": [{"category": "Geology", "source": "external"}, {"category":
+        "Engineering", "source": "s2-fos-model"}], "publicationTypes": null, "publicationDate":
+        "1984-05-01", "journal": {"volume": "21", "pages": "213-222", "name": "Canadian
+        Geotechnical Journal"}, "authors": [{"authorId": "144594032", "name": "J.
+        Par\u00e9"}, {"authorId": "145020563", "name": "N. S. Verma"}, {"authorId":
+        "117917910", "name": "H. M. S. Keira"}, {"authorId": "144450125", "name":
+        "A. McConnell"}]}, {"paperId": "4dbe4d91a3d188ff7586fdf3594eea76b804faf3",
+        "externalIds": {"MAG": "2294783117", "CorpusId": 112348510}, "corpusId": 112348510,
+        "publicationVenue": null, "url": "https://www.semanticscholar.org/paper/4dbe4d91a3d188ff7586fdf3594eea76b804faf3",
+        "title": "The derivation of a unit-matrix system of urban design and it''s
+        [sic] application in new town development", "abstract": null, "venue": "",
+        "year": 1973, "referenceCount": 0, "citationCount": 0, "influentialCitationCount":
+        0, "isOpenAccess": false, "openAccessPdf": null, "fieldsOfStudy": ["Engineering"],
+        "s2FieldsOfStudy": [{"category": "Engineering", "source": "external"}], "publicationTypes":
+        null, "publicationDate": null, "journal": null, "authors": [{"authorId": "145020563",
+        "name": "N. S. Verma"}]}, {"paperId": "90728d24b4ce954585e86b9062336d88c7318b61",
+        "externalIds": {"MAG": "610999908", "CorpusId": 106453652}, "corpusId": 106453652,
+        "publicationVenue": null, "url": "https://www.semanticscholar.org/paper/90728d24b4ce954585e86b9062336d88c7318b61",
+        "title": "New town planning design and development : comprehensive reference
+        materials", "abstract": null, "venue": "", "year": 1971, "referenceCount":
+        0, "citationCount": 0, "influentialCitationCount": 0, "isOpenAccess": false,
+        "openAccessPdf": null, "fieldsOfStudy": ["Engineering"], "s2FieldsOfStudy":
+        [{"category": "Engineering", "source": "external"}], "publicationTypes": null,
+        "publicationDate": null, "journal": null, "authors": [{"authorId": "121834944",
+        "name": "G. C. Peng"}, {"authorId": "145020563", "name": "N. S. Verma"}]},
+        {"paperId": "16b51b52a53375eeec2d94ae6f83eddc4dfb8d15", "externalIds": {"MAG":
+        "791896347", "CorpusId": 107076057}, "corpusId": 107076057, "publicationVenue":
+        null, "url": "https://www.semanticscholar.org/paper/16b51b52a53375eeec2d94ae6f83eddc4dfb8d15",
+        "title": "An Analysis and Proposal for Developing a New Town in Lincoln \u2013
+        Omaha Region of Nebraska", "abstract": null, "venue": "", "year": 1970, "referenceCount":
+        0, "citationCount": 0, "influentialCitationCount": 0, "isOpenAccess": false,
+        "openAccessPdf": null, "fieldsOfStudy": ["Engineering"], "s2FieldsOfStudy":
+        [{"category": "Engineering", "source": "external"}], "publicationTypes": null,
+        "publicationDate": null, "journal": null, "authors": [{"authorId": "145020563",
+        "name": "N. S. Verma"}]}]}, {"authorId": "2066062428", "externalIds": {},
+        "url": "https://www.semanticscholar.org/author/2066062428", "name": "Nakul
+        Verma", "aliases": null, "affiliations": [], "homepage": null, "paperCount":
+        5, "citationCount": 3, "hIndex": 1, "papers": [{"paperId": "669ed29e6318591f37df17c33ed1580b86760cf4",
+        "externalIds": {"DOI": "10.46610/jcie.2022.v08i02.001", "CorpusId": 250510018},
+        "corpusId": 250510018, "publicationVenue": {"id": "f9fe9c68-f9e5-4969-b6ef-4874e7036ddb",
+        "name": "Journal of Control and Instrumentation Engineering", "type": "journal",
+        "alternate_names": ["J Control Instrum Eng"], "issn": "2582-3000"}, "url":
+        "https://www.semanticscholar.org/paper/669ed29e6318591f37df17c33ed1580b86760cf4",
+        "title": "Wireless Power Transmission by Resonant Power Converters for Charging
+        of EVs", "abstract": "Wireless Power Transmission is gaining traction as a
+        versatile, safe, convenient and self-contained charging option for electric
+        vehicles and plug-in hybrids. The separation between the transmitter coil
+        and the vehicle mounted receiver coil contributes to WPT''s safety. Wireless
+        charging may also be used in extreme weather without being impacted by snow
+        or rain, and without the use of bulky cables or heavy-duty plugs. Wireless
+        power transmission is flexible and convenient not just because wires or connectors
+        are not required, but also because charging becomes completely self-contained.
+        As advances in this domain continues, it''s not impossible to imagine a vehicle
+        capable of sensing magnetic field or a parking assist capable of positioning
+        itself over a primary pad for optimal alignment and autonomous charging. By
+        incorporating WPT into EVs, the challenges of charging time, range, and cost
+        may be easily overcome. In the broad market adoption of electric vehicles,
+        battery technology is no longer significant. It is believed that the cutting-edge
+        results would inspire academics to continue developing WPT and expanding EV.",
+        "venue": "Journal of Control and Instrumentation Engineering", "year": 2022,
+        "referenceCount": 0, "citationCount": 0, "influentialCitationCount": 0, "isOpenAccess":
+        false, "openAccessPdf": null, "fieldsOfStudy": null, "s2FieldsOfStudy": [{"category":
+        "Engineering", "source": "s2-fos-model"}], "publicationTypes": null, "publicationDate":
+        "2022-06-30", "journal": {"name": "Journal of Control and Instrumentation
+        Engineering"}, "authors": [{"authorId": "145656349", "name": "K. Sharma"},
+        {"authorId": "31239940", "name": "Shashi Gandhar"}, {"authorId": "2066062428",
+        "name": "Nakul Verma"}, {"authorId": "2075784310", "name": "Divyam Goel"},
+        {"authorId": "2160639296", "name": "Yuvraj Shubham"}]}, {"paperId": "7ffe037f46fabec39dc8066b7da2ac7361db3d26",
+        "externalIds": {"DOI": "10.1080/02522667.2022.2039472", "CorpusId": 247780060},
+        "corpusId": 247780060, "publicationVenue": {"id": "a8d3f485-7623-41d7-9888-9fc7c046ccb3",
+        "name": "Journal of Information and Optimization Sciences", "type": "journal",
+        "alternate_names": ["J Inf Optim Sci"], "issn": "0252-2667", "url": "http://www.tandfonline.com/loi/tios20",
+        "alternate_urls": ["http://www.tarupublications.com/jios.html"]}, "url": "https://www.semanticscholar.org/paper/7ffe037f46fabec39dc8066b7da2ac7361db3d26",
+        "title": "Modelling of hybrid electric vehicle drive train using simulink",
+        "abstract": "Abstract Simulation of a series-parallel hybrid electric vehicle
+        is presented in this paper with practical considerations like vehicle weight,
+        air drag and road incline. This incorporates the factors which necessitate
+        the development of hybrid electric vehicles, their classification based on
+        topology (series hybrid, parallel hybrid or series-parallel hybrid), comparison
+        with internal combustion engines and fully electric vehicles. A detailed Simulink
+        model was also used to accurately understand the working of a two-mode hybrid
+        electric vehicle in a practical scenario. Also, strengths and weaknesses of
+        various types of electrical machines used for traction drive in hybrid vehicles
+        were studied.", "venue": "Journal of Information and Optimization Sciences",
+        "year": 2022, "referenceCount": 9, "citationCount": 0, "influentialCitationCount":
+        0, "isOpenAccess": false, "openAccessPdf": null, "fieldsOfStudy": null, "s2FieldsOfStudy":
+        [{"category": "Engineering", "source": "s2-fos-model"}, {"category": "Environmental
+        Science", "source": "s2-fos-model"}], "publicationTypes": null, "publicationDate":
+        "2022-01-02", "journal": {"volume": "43", "pages": "213 - 218", "name": "Journal
+        of Information and Optimization Sciences"}, "authors": [{"authorId": "31239940",
+        "name": "Shashi Gandhar"}, {"authorId": "114953529", "name": "K. Sharma"},
+        {"authorId": "2066062428", "name": "Nakul Verma"}, {"authorId": "2075784310",
+        "name": "Divyam Goel"}, {"authorId": "2160639296", "name": "Yuvraj Shubham"}]},
+        {"paperId": "dcbf771d1c7a430f6d0f25699a875c400278532a", "externalIds": {"DOI":
+        "10.1080/02522667.2022.2039460", "CorpusId": 247780040}, "corpusId": 247780040,
+        "publicationVenue": {"id": "a8d3f485-7623-41d7-9888-9fc7c046ccb3", "name":
+        "Journal of Information and Optimization Sciences", "type": "journal", "alternate_names":
+        ["J Inf Optim Sci"], "issn": "0252-2667", "url": "http://www.tandfonline.com/loi/tios20",
+        "alternate_urls": ["http://www.tarupublications.com/jios.html"]}, "url": "https://www.semanticscholar.org/paper/dcbf771d1c7a430f6d0f25699a875c400278532a",
+        "title": "A real-time solar powered fire detection system", "abstract": "Abstract
+        Fire can cause loss and harm to anyone who comes in its way. It has been found
+        that 80 percent of losses caused due to fires, whether it is household fire
+        or industrial, would have been kept away from if the fire was identified promptly.
+        In this paper, a solar- powered, real-time fire detection system is presented
+        which is significantly advantageous in comparison with conventional smoke
+        sensor-based fire alarm systems. These include an option to power the system
+        via solar energy, use of flame and temperature/humidity sensor along with
+        a smoke sensor which can transmit accurate real-time information over Wi-Fi.
+        Satellite monitoring, manual watching and aerial patrolling along with our
+        system can help authorities make decisions related to fire extinguishing and
+        fire prevention timely and rightly. A sensor-based paradigm to detect fires
+        promptly was put forward in this paper.", "venue": "Journal of Information
+        and Optimization Sciences", "year": 2022, "referenceCount": 13, "citationCount":
+        0, "influentialCitationCount": 0, "isOpenAccess": false, "openAccessPdf":
+        null, "fieldsOfStudy": null, "s2FieldsOfStudy": [{"category": "Environmental
+        Science", "source": "s2-fos-model"}, {"category": "Engineering", "source":
+        "s2-fos-model"}], "publicationTypes": null, "publicationDate": "2022-01-02",
+        "journal": {"volume": "43", "pages": "85 - 92", "name": "Journal of Information
+        and Optimization Sciences"}, "authors": [{"authorId": "31239940", "name":
+        "Shashi Gandhar"}, {"authorId": "46483836", "name": "K. Sharma"}, {"authorId":
+        "2066062428", "name": "Nakul Verma"}, {"authorId": "2075784310", "name": "Divyam
+        Goel"}, {"authorId": "2160639296", "name": "Yuvraj Shubham"}]}, {"paperId":
+        "e33c7b1ad68b08902e2efdb73d8b5706e8e2cdb7", "externalIds": {"MAG": "3010829024",
+        "DOI": "10.2118/199812-ms", "CorpusId": 216242250}, "corpusId": 216242250,
+        "publicationVenue": null, "url": "https://www.semanticscholar.org/paper/e33c7b1ad68b08902e2efdb73d8b5706e8e2cdb7",
+        "title": "Effective Wellbore Cleanup and Improvement of Injection Performance
+        and Conformance Using Coil Tubing Conveyed Tool for Waveform Dominated Fluid
+        Dispersion and Pin-Point Chemical Placement During Well Stimulation", "abstract":
+        "\n Poor conformance is a major concern of Mangala, Bhagyam & Aishwarya (MBA)
+        fields. The presence of high permeability streaks or thief layers between
+        injection and production wells typically results in pre-mature water breakthrough,
+        high water cut and deficient volumetric sweep. As a result, significant oil
+        volumes in the reservoir may not be contacted by the injection fluid. Another
+        concern is of low VRR (Voidage Replacement Ratio) in some of the layers due
+        to reduced injectivity in those sands. Consequently, it has led to poor recovery
+        from those sands. It is also a growing problem with the polymer deposition
+        taking place in the wellbore particularly Mangala (undergoing full-field polymer
+        flooding), leading to challenging wellbore cleanup operations.\n Several methods
+        have been used in the past, both mechanical and chemical to improve the treatment
+        fluids during stimulation. In this paper, we introduce a novel placement technique
+        for Conformance Improvement which is practical, effective and durable as well
+        as another tool variant that helps cleanup challenging wellbore environments.
+        Typically, prior to the tool allowing for pin-point placement, the adjustable
+        nozzle tool is run to ensure that the perforation and wellbore is cleaned
+        up thoroughly with help of advanced fluid dynamics. The dynamic injection
+        modulation (hereinafter referred to as, \"DIM\") tool for pin-point stimulation
+        placement improves the distribution of injected fluid in the reservoir matrix
+        by the process of dispersion. The tool generates an energized fluid pulse
+        that allows fluid to be diverted away from established fluid paths. The pressure
+        pulse, as it travels dilates the pore spaces thus propagating the wave further
+        into the reservoir. The pin-point accuracy of placements leads to treating
+        of reservoir layers which are left untreated during conventional stimulation
+        treatments where viscous fingering effects dominate. As a result, injection
+        fluid would divert into uncontacted layers to improve sweep efficiency. The
+        other advantage of the tool is the relatively easy integration of tool with
+        existing infrastructure. The tool is easily run with coiled tubing (\"CT\")
+        with only addition of an accumulator unit on surface.\n This paper will document
+        the tool physics, job design and Implementation technique for stimulation
+        using Fluid Modulation tool as well enhanced well cleanup. Particular attention
+        is paid to multiple injector and producer well stimulation case studies from
+        these fields, the challenges faced, the solution proposed, and finally the
+        results obtained. The results observed across the field with respect to injection
+        performance is consistently greater than 75% over conventional methods used
+        earlier. Also specifically, in scenarios of difficult fill cleanups, the advanced
+        wellbore cleanup tool variant helped in multiple polymer and sand fill environment
+        cleanouts over various wells over conventional methods of cleanup.", "venue":
+        "", "year": 2020, "referenceCount": 0, "citationCount": 1, "influentialCitationCount":
+        0, "isOpenAccess": false, "openAccessPdf": null, "fieldsOfStudy": ["Materials
+        Science"], "s2FieldsOfStudy": [{"category": "Materials Science", "source":
+        "external"}, {"category": "Geology", "source": "s2-fos-model"}], "publicationTypes":
+        null, "publicationDate": "2020-03-16", "journal": {"volume": "", "name": ""},
+        "authors": [{"authorId": "97741685", "name": "Ankesh Nagar"}, {"authorId":
+        "2055849832", "name": "B. Davidson"}, {"authorId": "1488747078", "name": "P.
+        Srivastava"}, {"authorId": "2066062428", "name": "Nakul Verma"}, {"authorId":
+        "66607782", "name": "P. Shrivastava"}, {"authorId": "100814559", "name": "Satish
+        Nekkanti"}, {"authorId": "12725689", "name": "A. Bohra"}, {"authorId": "98049848",
+        "name": "S. Vermani"}]}, {"paperId": "70aea6b0ab62e08ff153bd4000bd0bab159a5e70",
+        "externalIds": {"MAG": "2153375347", "CorpusId": 138160664}, "corpusId": 138160664,
+        "publicationVenue": null, "url": "https://www.semanticscholar.org/paper/70aea6b0ab62e08ff153bd4000bd0bab159a5e70",
+        "title": "Electromagnetic control of elastomer ferromagnet composite components
+        for automotive vibration damping", "abstract": "The use of semi-active magnetorheological
+        elastomer bushings in automobiles is one of many strategies to reduce vibration
+        inside vehicles caused by structure-borne noise. However, several practical
+        engineering challenges must be addressed before magnetorheological bushings
+        can be seamlessly incorporated into vehicles. This thesis comprises two projects
+        that address some of the engineering challenges associated with practical
+        implementation of magnetorheological bushings in cars. The first project investigates
+        the dynamic vibration damping range of an elastomer ferromagnet composite
+        damper, a type of magnetorheological material, under realizable electromagnetic
+        control. The dynamic vibration damping range of the elastomer ferromagnet
+        damper is acquired from the resonant frequency change of a vibrated proof
+        mass comprising the elastomer ferromagnet component and a pair of off-the-shelf
+        industrial electromagnets. The second project in this thesis models power
+        amplifiers that are needed to power electromagnets coupled to magnetorheological
+        bushings in an automobile.", "venue": "", "year": 2006, "referenceCount":
+        53, "citationCount": 2, "influentialCitationCount": 0, "isOpenAccess": false,
+        "openAccessPdf": null, "fieldsOfStudy": ["Materials Science"], "s2FieldsOfStudy":
+        [{"category": "Materials Science", "source": "external"}, {"category": "Engineering",
+        "source": "s2-fos-model"}], "publicationTypes": null, "publicationDate": null,
+        "journal": {"volume": "", "name": ""}, "authors": [{"authorId": "2066062428",
+        "name": "Nakul Verma"}]}]}, {"authorId": "39706047", "externalIds": {"DBLP":
+        ["Nakul Verma"]}, "url": "https://www.semanticscholar.org/author/39706047",
+        "name": "Nakul Verma", "aliases": null, "affiliations": [], "homepage": null,
+        "paperCount": 29, "citationCount": 834, "hIndex": 13, "papers": [{"paperId":
+        "58d225fc5c13db9328c573209b51a2a7bf1340c8", "externalIds": {"DBLP": "conf/aaai/DroriZCSLCBHLTH23",
+        "DOI": "10.1609/aaai.v37i13.27091", "CorpusId": 259665073}, "corpusId": 259665073,
+        "publicationVenue": {"id": "bdc2e585-4e48-4e36-8af1-6d859763d405", "name":
+        "AAAI Conference on Artificial Intelligence", "type": "conference", "alternate_names":
+        ["National Conference on Artificial Intelligence", "National Conf Artif Intell",
+        "AAAI Conf Artif Intell", "AAAI"], "url": "http://www.aaai.org/"}, "url":
+        "https://www.semanticscholar.org/paper/58d225fc5c13db9328c573209b51a2a7bf1340c8",
+        "title": "A Dataset for Learning University STEM Courses at Scale and Generating
+        Questions at a Human Level", "abstract": "We present a new dataset for learning
+        to solve, explain, and generate university-level STEM questions from 27 courses
+        across a dozen departments in seven universities. We scale up previous approaches
+        to questions from courses in the departments of Mechanical Engineering, Materials
+        Science and Engineering, Chemistry, Electrical Engineering, Computer Science,
+        Physics, Earth Atmospheric and Planetary Sciences, Economics, Mathematics,
+        Biological Engineering, Data Systems, and Society, and Statistics. We visualize
+        similarities and differences between questions across courses. We demonstrate
+        that a large foundation model is able to generate questions that are as appropriate
+        and at the same difficulty level as human-written questions.", "venue": "AAAI
+        Conference on Artificial Intelligence", "year": 2023, "referenceCount": 46,
+        "citationCount": 0, "influentialCitationCount": 0, "isOpenAccess": true, "openAccessPdf":
+        {"url": "https://ojs.aaai.org/index.php/AAAI/article/download/27091/26864",
+        "status": null}, "fieldsOfStudy": ["Computer Science"], "s2FieldsOfStudy":
+        [{"category": "Computer Science", "source": "external"}, {"category": "Physics",
+        "source": "s2-fos-model"}], "publicationTypes": ["JournalArticle", "Conference"],
+        "publicationDate": "2023-06-26", "journal": {"pages": "15921-15929"}, "authors":
+        [{"authorId": "2861627", "name": "Iddo Drori"}, {"authorId": "2161720923",
+        "name": "Sarah J. Zhang"}, {"authorId": "2220094387", "name": "Zad Chin"},
+        {"authorId": "2161564675", "name": "Reece Shuttleworth"}, {"authorId": "2208657585",
+        "name": "Albert Lu"}, {"authorId": "2161710324", "name": "Linda Chen"}, {"authorId":
+        "2132393745", "name": "Bereket Birbo"}, {"authorId": "2222693677", "name":
+        "Michele He"}, {"authorId": "2220095778", "name": "Pedro Lantigua"}, {"authorId":
+        "2117589083", "name": "Sunny Tran"}, {"authorId": "2220094403", "name": "Gregory
+        Hunter"}, {"authorId": "2150041719", "name": "Bo Feng"}, {"authorId": "2135261880",
+        "name": "Newman Cheng"}, {"authorId": "2155888177", "name": "Roman Wang"},
+        {"authorId": "2170071419", "name": "Yann Hicke"}, {"authorId": "2220094414",
+        "name": "Saisamrit Surbehera"}, {"authorId": "50280176", "name": "A. Raghavan"},
+        {"authorId": "2045775231", "name": "Alexander E. Siemenn"}, {"authorId": "2110097630",
+        "name": "Nikhil Singh"}, {"authorId": "2113673646", "name": "Jayson Lynch"},
+        {"authorId": "2142463930", "name": "A. Shporer"}, {"authorId": "39706047",
+        "name": "Nakul Verma"}, {"authorId": "6018731", "name": "T. Buonassisi"},
+        {"authorId": "1389870240", "name": "Armando Solar-Lezama"}]}, {"paperId":
+        "abdc56442fdf09a08b8495d57a1e5a22840c3f8c", "externalIds": {"DBLP": "conf/rep4nlp/RiLV23",
+        "ACL": "2023.repl4nlp-1.14", "ArXiv": "2306.08221", "DOI": "10.48550/arXiv.2306.08221",
+        "CorpusId": 259164545}, "corpusId": 259164545, "publicationVenue": {"id":
+        "8b169440-4c13-4cf4-b3f9-1dc7c39dc888", "name": "Workshop on Representation
+        Learning for NLP", "type": "conference", "alternate_names": ["RepL4NLP", "Workshop
+        Represent Learn NLP"]}, "url": "https://www.semanticscholar.org/paper/abdc56442fdf09a08b8495d57a1e5a22840c3f8c",
+        "title": "Contrastive Loss is All You Need to Recover Analogies as Parallel
+        Lines", "abstract": "While static word embedding models are known to represent
+        linguistic analogies as parallel lines in high-dimensional space, the underlying
+        mechanism as to why they result in such geometric structures remains obscure.
+        We find that an elementary contrastive-style method employed over distributional
+        information performs competitively with popular word embedding models on analogy
+        recovery tasks, while achieving dramatic speedups in training time. Further,
+        we demonstrate that a contrastive loss is sufficient to create these parallel
+        structures in word embeddings, and establish a precise relationship between
+        the co-occurrence statistics and the geometric structure of the resulting
+        word embeddings.", "venue": "Workshop on Representation Learning for NLP",
+        "year": 2023, "referenceCount": 20, "citationCount": 0, "influentialCitationCount":
+        0, "isOpenAccess": false, "openAccessPdf": null, "fieldsOfStudy": ["Computer
+        Science"], "s2FieldsOfStudy": [{"category": "Computer Science", "source":
+        "external"}, {"category": "Computer Science", "source": "s2-fos-model"}],
+        "publicationTypes": ["JournalArticle"], "publicationDate": "2023-06-14", "journal":
+        {"volume": "abs/2306.08221", "name": "ArXiv"}, "authors": [{"authorId": "2218040104",
+        "name": "Narutatsu Ri"}, {"authorId": "51151630", "name": "Fei-Tzin Lee"},
+        {"authorId": "39706047", "name": "Nakul Verma"}]}, {"paperId": "bf2755f9014befbc3c02262f6770ab7605aac86d",
+        "externalIds": {"ArXiv": "2209.04528", "DBLP": "journals/corr/abs-2209-04528",
+        "DOI": "10.48550/arXiv.2209.04528", "CorpusId": 252199950}, "corpusId": 252199950,
+        "publicationVenue": {"id": "1901e811-ee72-4b20-8f7e-de08cd395a10", "name":
+        "arXiv.org", "alternate_names": ["ArXiv"], "issn": "2331-8422", "url": "https://arxiv.org"},
+        "url": "https://www.semanticscholar.org/paper/bf2755f9014befbc3c02262f6770ab7605aac86d",
+        "title": "Improving Model Training via Self-learned Label Representations",
+        "abstract": "Modern neural network architectures have shown remarkable success
+        in several large-scale classification and prediction tasks. Part of the success
+        of these architectures is their flexibility to transform the data from the
+        raw input representations (e.g. pixels for vision tasks, or text for natural
+        language processing tasks) to one-hot output encoding. While much of the work
+        has focused on studying how the input gets transformed to the one-hot encoding,
+        very little work has examined the effectiveness of these one-hot labels. In
+        this work, we demonstrate that more sophisticated label representations are
+        better for classification than the usual one-hot encoding. We propose Learning
+        with Adaptive Labels (LwAL) algorithm, which simultaneously learns the label
+        representation while training for the classification task. These learned labels
+        can significantly cut down on the training time (usually by more than 50%)
+        while often achieving better test accuracies. Our algorithm introduces negligible
+        additional parameters and has a minimal computational overhead. Along with
+        improved training times, our learned labels are semantically meaningful and
+        can reveal hierarchical relationships that may be present in the data.", "venue":
+        "arXiv.org", "year": 2022, "referenceCount": 29, "citationCount": 0, "influentialCitationCount":
+        0, "isOpenAccess": false, "openAccessPdf": null, "fieldsOfStudy": ["Computer
+        Science"], "s2FieldsOfStudy": [{"category": "Computer Science", "source":
+        "external"}, {"category": "Computer Science", "source": "s2-fos-model"}],
+        "publicationTypes": ["JournalArticle"], "publicationDate": "2022-09-09", "journal":
+        {"volume": "abs/2209.04528", "name": "ArXiv"}, "authors": [{"authorId": "2193279092",
+        "name": "Xiao Yu"}, {"authorId": "39706047", "name": "Nakul Verma"}]}, {"paperId":
+        "166b64f2ae8e52f5779682fab756cbd617a6e74b", "externalIds": {"ArXiv": "2112.15594",
+        "PubMedCentral": "9371704", "DOI": "10.1073/pnas.2123433119", "CorpusId":
+        247997008, "PubMed": "35917350"}, "corpusId": 247997008, "publicationVenue":
+        {"id": "bb95bf2e-8383-4748-bf9d-d6906d091085", "name": "Proceedings of the
+        National Academy of Sciences of the United States of America", "type": "journal",
+        "alternate_names": ["PNAS", "PNAS online", "Proceedings of the National Academy
+        of Sciences of the United States of America.", "Proc National Acad Sci", "Proceedings
+        of the National Academy of Sciences", "Proc National Acad Sci u s Am"], "issn":
+        "0027-8424", "alternate_issns": ["1091-6490"], "url": "https://www.jstor.org/journal/procnatiacadscie",
+        "alternate_urls": ["http://www.pnas.org/", "https://www.pnas.org/", "http://www.jstor.org/journals/00278424.html",
+        "www.pnas.org/"]}, "url": "https://www.semanticscholar.org/paper/166b64f2ae8e52f5779682fab756cbd617a6e74b",
+        "title": "A neural network solves, explains, and generates university math
+        problems by program synthesis and few-shot learning at human level", "abstract":
+        "Significance We demonstrate that a neural network automatically solves, explains,
+        and generates university-level problems from the largest Massachusetts Institute
+        of Technology (MIT) mathematics courses at a human level. Our methods combine
+        three innovations: 1) using recent neural networks pretrained on text and
+        fine-tuned on code rather than pretrained on text; 2) few-shot learning synthesizing
+        programs that correctly solve course problems automatically; and 3) a pipeline
+        to solve questions, explain solutions, and generate new questions indistinguishable
+        by students from course questions. Our work solves university-level mathematics
+        courses and improves upon state-of-the-art, increasing automatic accuracy
+        on randomly sampled questions on a benchmark by order of magnitude. Implications
+        for higher education include roles of artificial intelligence (AI) in automated
+        course evaluation and content generation.", "venue": "Proceedings of the National
+        Academy of Sciences of the United States of America", "year": 2021, "referenceCount":
+        8, "citationCount": 77, "influentialCitationCount": 6, "isOpenAccess": true,
+        "openAccessPdf": null, "fieldsOfStudy": ["Computer Science", "Medicine"],
+        "s2FieldsOfStudy": [{"category": "Computer Science", "source": "external"},
+        {"category": "Medicine", "source": "external"}, {"category": "Computer Science",
+        "source": "s2-fos-model"}], "publicationTypes": ["JournalArticle"], "publicationDate":
+        "2021-12-31", "journal": {"volume": "119", "name": "Proceedings of the National
+        Academy of Sciences of the United States of America"}, "authors": [{"authorId":
+        "2861627", "name": "Iddo Drori"}, {"authorId": "2161720923", "name": "Sarah
+        J. Zhang"}, {"authorId": "2161564675", "name": "Reece Shuttleworth"}, {"authorId":
+        "2144484107", "name": "Leonard Tang"}, {"authorId": "2208657585", "name":
+        "Albert Lu"}, {"authorId": "2140579905", "name": "Elizabeth Ke"}, {"authorId":
+        "2152352414", "name": "Kevin Liu"}, {"authorId": "2161710324", "name": "Linda
+        Chen"}, {"authorId": "2117589083", "name": "Sunny Tran"}, {"authorId": "2135261880",
+        "name": "Newman Cheng"}, {"authorId": "2155888177", "name": "Roman Wang"},
+        {"authorId": "2110097630", "name": "Nikhil Singh"}, {"authorId": "50788389",
+        "name": "T. Patti"}, {"authorId": "40382542", "name": "J. Lynch"}, {"authorId":
+        "2142463930", "name": "A. Shporer"}, {"authorId": "39706047", "name": "Nakul
+        Verma"}, {"authorId": "2149474618", "name": "Eugene Wu"}, {"authorId": "1986184",
+        "name": "G. Strang"}]}, {"paperId": "4e40595d6ecba027cebb4f2e3b43ae44bcf51daf",
+        "externalIds": {"DBLP": "journals/corr/abs-2111-08171", "ArXiv": "2111.08171",
+        "CorpusId": 244130066}, "corpusId": 244130066, "publicationVenue": {"id":
+        "1901e811-ee72-4b20-8f7e-de08cd395a10", "name": "arXiv.org", "alternate_names":
+        ["ArXiv"], "issn": "2331-8422", "url": "https://arxiv.org"}, "url": "https://www.semanticscholar.org/paper/4e40595d6ecba027cebb4f2e3b43ae44bcf51daf",
+        "title": "Solving Linear Algebra by Program Synthesis", "abstract": "We solve
+        MIT''s Linear Algebra 18.06 course and Columbia University''s Computational
+        Linear Algebra COMS3251 courses with perfect accuracy by interactive program
+        synthesis. This surprisingly strong result is achieved by turning the course
+        questions into programming tasks and then running the programs to produce
+        the correct answers. We use OpenAI Codex with zero-shot learning, without
+        providing any examples in the prompts, to synthesize code from questions.
+        We quantify the difference between the original question text and the transformed
+        question text that yields a correct answer. Since all COMS3251 questions are
+        not available online the model is not overfitting. We go beyond just generating
+        code for questions with numerical answers by interactively generating code
+        that also results visually pleasing plots as output. Finally, we automatically
+        generate new questions given a few sample questions which may be used as new
+        course content. This work is a significant step forward in solving quantitative
+        math problems and opens the door for solving many university level STEM courses
+        by machine.", "venue": "arXiv.org", "year": 2021, "referenceCount": 16, "citationCount":
+        15, "influentialCitationCount": 2, "isOpenAccess": false, "openAccessPdf":
+        null, "fieldsOfStudy": ["Computer Science"], "s2FieldsOfStudy": [{"category":
+        "Computer Science", "source": "external"}, {"category": "Computer Science",
+        "source": "s2-fos-model"}], "publicationTypes": ["JournalArticle"], "publicationDate":
+        "2021-11-16", "journal": {"volume": "abs/2111.08171", "name": "ArXiv"}, "authors":
+        [{"authorId": "2861627", "name": "Iddo Drori"}, {"authorId": "39706047", "name":
+        "Nakul Verma"}]}, {"paperId": "6806b0d1e425639a42da4763f170569b86448c87",
+        "externalIds": {"DBLP": "journals/corr/abs-2112-15594", "CorpusId": 245634630},
+        "corpusId": 245634630, "publicationVenue": {"id": "1901e811-ee72-4b20-8f7e-de08cd395a10",
+        "name": "arXiv.org", "alternate_names": ["ArXiv"], "issn": "2331-8422", "url":
+        "https://arxiv.org"}, "url": "https://www.semanticscholar.org/paper/6806b0d1e425639a42da4763f170569b86448c87",
+        "title": "A Neural Network Solves and Generates Mathematics Problems by Program
+        Synthesis: Calculus, Differential Equations, Linear Algebra, and More", "abstract":
+        null, "venue": "arXiv.org", "year": 2021, "referenceCount": 0, "citationCount":
+        16, "influentialCitationCount": 0, "isOpenAccess": false, "openAccessPdf":
+        null, "fieldsOfStudy": ["Computer Science"], "s2FieldsOfStudy": [{"category":
+        "Computer Science", "source": "external"}, {"category": "Computer Science",
+        "source": "s2-fos-model"}, {"category": "Mathematics", "source": "s2-fos-model"}],
+        "publicationTypes": ["JournalArticle"], "publicationDate": null, "journal":
+        {"volume": "abs/2112.15594", "name": "ArXiv"}, "authors": [{"authorId": "2861627",
+        "name": "Iddo Drori"}, {"authorId": "2117589083", "name": "Sunny Tran"}, {"authorId":
+        "2155888177", "name": "Roman Wang"}, {"authorId": "2135261880", "name": "Newman
+        Cheng"}, {"authorId": "2152352414", "name": "Kevin Liu"}, {"authorId": "2144484107",
+        "name": "Leonard Tang"}, {"authorId": "2140579905", "name": "Elizabeth Ke"},
+        {"authorId": "2110097630", "name": "Nikhil Singh"}, {"authorId": "50788389",
+        "name": "T. Patti"}, {"authorId": "40382542", "name": "J. Lynch"}, {"authorId":
+        "2142463930", "name": "A. Shporer"}, {"authorId": "39706047", "name": "Nakul
+        Verma"}, {"authorId": "2149474618", "name": "Eugene Wu"}, {"authorId": "1986184",
+        "name": "G. Strang"}]}, {"paperId": "8951402483e58f6279266ac836a88ad1e445eda6",
+        "externalIds": {"DBLP": "conf/aaai/XingSV21", "DOI": "10.1609/aaai.v35i1.16146",
+        "CorpusId": 235306545}, "corpusId": 235306545, "publicationVenue": {"id":
+        "bdc2e585-4e48-4e36-8af1-6d859763d405", "name": "AAAI Conference on Artificial
+        Intelligence", "type": "conference", "alternate_names": ["National Conference
+        on Artificial Intelligence", "National Conf Artif Intell", "AAAI Conf Artif
+        Intell", "AAAI"], "url": "http://www.aaai.org/"}, "url": "https://www.semanticscholar.org/paper/8951402483e58f6279266ac836a88ad1e445eda6",
+        "title": "Automated Symbolic Law Discovery: A Computer Vision Approach", "abstract":
+        "One of the most exciting applications of modern artificial intelligence is
+        to automatically discover scientific laws from experimental data. This is
+        not a trivial problem as it involves searching for a complex mathematical
+        relationship over a large set of explanatory variables and operators that
+        can be combined in an infinite number of ways.\n\nInspired by the incredible
+        success of deep learning in computer vision, we tackle this problem by adapting
+        various successful network architectures into the symbolic law discovery pipeline.
+        The novelty of our approach is in (1) encoding the input data as an image
+        with super-resolution, (2) developing an appropriate deep network pipeline,
+        and (3) predicting the importance of each mathematical operator from the relationship
+        image. This allows us to prior the exponentially large search with the predicted
+        importance of the symbolic operators, which can significantly accelerate the
+        discovery process.\n\nWe apply our model to a variety of plausible relationships---both
+        simulated and from physics and mathematics domains---involving different dimensions
+        and constituents. We show that our model is able to identify the underlying
+        operators from data, achieving a high accuracy and AUC (91% and 0.96 on average
+        resp.) for systems with as many as ten independent variables. Our method significantly
+        outperforms the current state of the art in terms of data fitting (R^2), discovery
+        rate (recovering the true relationship), and succinctness (output formula
+        complexity). The discovered equations can be seen as first drafts of scientific
+        laws that can be helpful to the scientists for (1) hypothesis building, and
+        (2) understanding the complex underlying structure of the studied phenomena.
+        Our approach holds a real promise to help speed up the rate of scientific
+        discovery.", "venue": "AAAI Conference on Artificial Intelligence", "year":
+        2021, "referenceCount": 24, "citationCount": 6, "influentialCitationCount":
+        0, "isOpenAccess": true, "openAccessPdf": {"url": "https://ojs.aaai.org/index.php/AAAI/article/download/16146/15953",
+        "status": null}, "fieldsOfStudy": ["Computer Science"], "s2FieldsOfStudy":
+        [{"category": "Computer Science", "source": "external"}, {"category": "Computer
+        Science", "source": "s2-fos-model"}], "publicationTypes": ["JournalArticle",
+        "Conference"], "publicationDate": "2021-05-18", "journal": {"pages": "660-668"},
+        "authors": [{"authorId": "103849909", "name": "Hengrui Xing"}, {"authorId":
+        "1403192347", "name": "Ansaf Salleb-Aouissi"}, {"authorId": "39706047", "name":
+        "Nakul Verma"}]}, {"paperId": "a6d91db7ec0c3c4c48e66dbf679f7f98386349a4",
+        "externalIds": {"DBLP": "journals/corr/abs-2111-13993", "ArXiv": "2111.13993",
+        "CorpusId": 244715177}, "corpusId": 244715177, "publicationVenue": {"id":
+        "1901e811-ee72-4b20-8f7e-de08cd395a10", "name": "arXiv.org", "alternate_names":
+        ["ArXiv"], "issn": "2331-8422", "url": "https://arxiv.org"}, "url": "https://www.semanticscholar.org/paper/a6d91db7ec0c3c4c48e66dbf679f7f98386349a4",
+        "title": "An analysis of document graph construction methods for AMR summarization",
+        "abstract": "Meaning Representation (AMR) is a graph-based semantic representation
+        for sentences, composed of collections of concepts linked by semantic relations.
+        AMR-based approaches have found success in a variety of applications, but
+        a challenge to using it in tasks that require document-level context is that
+        it only represents individual sentences. Prior work in AMR-based summarization
+        has automatically merged the individual sentence graphs into a document graph,
+        but the method of merging and its effects on summary content selection have
+        not been independently evaluated. In this paper, we present a novel dataset
+        consisting of human-annotated alignments between the nodes of paired documents
+        and summaries which may be used to evaluate (1) merge strategies; and (2)
+        the performance of content selection methods over nodes of a merged or unmerged
+        AMR graph. We apply these two forms of evaluation to prior work as well as
+        a new method for node merging and show that our new method has significantly
+        better performance than prior work.", "venue": "arXiv.org", "year": 2021,
+        "referenceCount": 25, "citationCount": 4, "influentialCitationCount": 0, "isOpenAccess":
+        false, "openAccessPdf": null, "fieldsOfStudy": ["Computer Science"], "s2FieldsOfStudy":
+        [{"category": "Computer Science", "source": "external"}, {"category": "Computer
+        Science", "source": "s2-fos-model"}], "publicationTypes": ["JournalArticle"],
+        "publicationDate": "2021-11-27", "journal": {"volume": "abs/2111.13993", "name":
+        "ArXiv"}, "authors": [{"authorId": "51151630", "name": "Fei-Tzin Lee"}, {"authorId":
+        "98736546", "name": "C. Kedzie"}, {"authorId": "39706047", "name": "Nakul
+        Verma"}, {"authorId": "145590324", "name": "K. McKeown"}]}, {"paperId": "f7987fa2aadc0b368c185dc4d2fdb1337a202c32",
+        "externalIds": {"ArXiv": "2111.08267", "DBLP": "journals/corr/abs-2111-08267",
+        "CorpusId": 244130242}, "corpusId": 244130242, "publicationVenue": {"id":
+        "1901e811-ee72-4b20-8f7e-de08cd395a10", "name": "arXiv.org", "alternate_names":
+        ["ArXiv"], "issn": "2331-8422", "url": "https://arxiv.org"}, "url": "https://www.semanticscholar.org/paper/f7987fa2aadc0b368c185dc4d2fdb1337a202c32",
+        "title": "Solving Probability and Statistics Problems by Program Synthesis",
+        "abstract": "We solve university level probability and statistics questions
+        by program synthesis using OpenAI''s Codex, a Transformer trained on text
+        and fine-tuned on code. We transform course problems from MIT''s 18.05 Introduction
+        to Probability and Statistics and Harvard''s STAT110 Probability into programming
+        tasks. We then execute the generated code to get a solution. Since these course
+        questions are grounded in probability, we often aim to have Codex generate
+        probabilistic programs that simulate a large number of probabilistic dependencies
+        to compute its solution. Our approach requires prompt engineering to transform
+        the question from its original form to an explicit, tractable form that results
+        in a correct program and solution. To estimate the amount of work needed to
+        translate an original question into its tractable form, we measure the similarity
+        between original and transformed questions. Our work is the first to introduce
+        a new dataset of university-level probability and statistics problems and
+        solve these problems in a scalable fashion using the program synthesis capabilities
+        of large language models.", "venue": "arXiv.org", "year": 2021, "referenceCount":
+        14, "citationCount": 12, "influentialCitationCount": 1, "isOpenAccess": false,
+        "openAccessPdf": null, "fieldsOfStudy": ["Computer Science"], "s2FieldsOfStudy":
+        [{"category": "Computer Science", "source": "external"}, {"category": "Computer
+        Science", "source": "s2-fos-model"}], "publicationTypes": ["JournalArticle"],
+        "publicationDate": "2021-11-16", "journal": {"volume": "abs/2111.08267", "name":
+        "ArXiv"}, "authors": [{"authorId": "2144484107", "name": "Leonard Tang"},
+        {"authorId": "2140579905", "name": "Elizabeth Ke"}, {"authorId": "2110097630",
+        "name": "Nikhil Singh"}, {"authorId": "39706047", "name": "Nakul Verma"},
+        {"authorId": "2861627", "name": "Iddo Drori"}]}, {"paperId": "4ab0129dd9d579bc8e9cbd46325559fa9e06e44d",
+        "externalIds": {"ArXiv": "1902.01738", "MAG": "2913190547", "DBLP": "journals/corr/abs-1902-01738",
+        "CorpusId": 59604432}, "corpusId": 59604432, "publicationVenue": {"id": "1901e811-ee72-4b20-8f7e-de08cd395a10",
+        "name": "arXiv.org", "alternate_names": ["ArXiv"], "issn": "2331-8422", "url":
+        "https://arxiv.org"}, "url": "https://www.semanticscholar.org/paper/4ab0129dd9d579bc8e9cbd46325559fa9e06e44d",
+        "title": "Metric Learning on Manifolds", "abstract": "Recent literature has
+        shown that symbolic data, such as text and graphs, is often better represented
+        by points on a curved manifold, rather than in Euclidean space. However, geometrical
+        operations on manifolds are generally more complicated than in Euclidean space,
+        and thus many techniques for processing and analysis taken for granted in
+        Euclidean space are difficult on manifolds. A priori, it is not obvious how
+        we may generalize such methods to manifolds. We consider specifically the
+        problem of distance metric learning, and present a framework that solves it
+        on a large class of manifolds, such that similar data are located in closer
+        proximity with respect to the manifold distance function. In particular, we
+        extend the existing metric learning algorithms, and derive the corresponding
+        sample complexity rates for the case of manifolds. Additionally, we demonstrate
+        an improvement of performance in $k$-means clustering and $k$-nearest neighbor
+        classification on real-world complex networks using our methods.", "venue":
+        "arXiv.org", "year": 2019, "referenceCount": 21, "citationCount": 4, "influentialCitationCount":
+        1, "isOpenAccess": false, "openAccessPdf": null, "fieldsOfStudy": ["Computer
+        Science", "Mathematics"], "s2FieldsOfStudy": [{"category": "Computer Science",
+        "source": "external"}, {"category": "Mathematics", "source": "external"},
+        {"category": "Computer Science", "source": "s2-fos-model"}, {"category": "Mathematics",
+        "source": "s2-fos-model"}], "publicationTypes": ["JournalArticle"], "publicationDate":
+        "2019-02-05", "journal": {"volume": "abs/1902.01738", "name": "ArXiv"}, "authors":
+        [{"authorId": "49035744", "name": "Max Aalto"}, {"authorId": "39706047", "name":
+        "Nakul Verma"}]}, {"paperId": "77868d73295d92fa21d64b424ff4359efa0e68ba",
+        "externalIds": {"ArXiv": "1910.14134", "DBLP": "journals/corr/abs-1910-14134",
+        "MAG": "2982662204", "CorpusId": 207758926}, "corpusId": 207758926, "publicationVenue":
+        {"id": "1901e811-ee72-4b20-8f7e-de08cd395a10", "name": "arXiv.org", "alternate_names":
+        ["ArXiv"], "issn": "2331-8422", "url": "https://arxiv.org"}, "url": "https://www.semanticscholar.org/paper/77868d73295d92fa21d64b424ff4359efa0e68ba",
+        "title": "Meta-Learning to Cluster", "abstract": "Clustering is one of the
+        most fundamental and wide-spread techniques in exploratory data analysis.
+        Yet, the basic approach to clustering has not really changed: a practitioner
+        hand-picks a task-specific clustering loss to optimize and fit the given data
+        to reveal the underlying cluster structure. Some types of losses---such as
+        k-means, or its non-linear version: kernelized k-means (centroid based), and
+        DBSCAN (density based)---are popular choices due to their good empirical performance
+        on a range of applications. Although every so often the clustering output
+        using these standard losses fails to reveal the underlying structure, and
+        the practitioner has to custom-design their own variation. In this work we
+        take an intrinsically different approach to clustering: rather than fitting
+        a dataset to a specific clustering loss, we train a recurrent model that learns
+        how to cluster. The model uses as training pairs examples of datasets (as
+        input) and its corresponding cluster identities (as output). By providing
+        multiple types of training datasets as inputs, our model has the ability to
+        generalize well on unseen datasets (new clustering tasks). Our experiments
+        reveal that by training on simple synthetically generated datasets or on existing
+        real datasets, we can achieve better clustering performance on unseen real-world
+        datasets when compared with standard benchmark clustering techniques. Our
+        meta clustering model works well even for small datasets where the usual deep
+        learning models tend to perform worse.", "venue": "arXiv.org", "year": 2019,
+        "referenceCount": 33, "citationCount": 6, "influentialCitationCount": 0, "isOpenAccess":
+        false, "openAccessPdf": null, "fieldsOfStudy": ["Mathematics", "Computer Science"],
+        "s2FieldsOfStudy": [{"category": "Mathematics", "source": "external"}, {"category":
+        "Computer Science", "source": "external"}, {"category": "Computer Science",
+        "source": "s2-fos-model"}], "publicationTypes": ["JournalArticle"], "publicationDate":
+        "2019-10-30", "journal": {"volume": "abs/1910.14134", "name": "ArXiv"}, "authors":
+        [{"authorId": "116503613", "name": "Yibo Jiang"}, {"authorId": "39706047",
+        "name": "Nakul Verma"}]}, {"paperId": "b2fe8068465a01c9d030869ad3576a2760b6110f",
+        "externalIds": {"DBLP": "journals/corr/abs-1910-07368", "ArXiv": "1910.07368",
+        "MAG": "2980540083", "CorpusId": 204734118}, "corpusId": 204734118, "publicationVenue":
+        {"id": "1901e811-ee72-4b20-8f7e-de08cd395a10", "name": "arXiv.org", "alternate_names":
+        ["ArXiv"], "issn": "2331-8422", "url": "https://arxiv.org"}, "url": "https://www.semanticscholar.org/paper/b2fe8068465a01c9d030869ad3576a2760b6110f",
+        "title": "Model-Agnostic Meta-Learning using Runge-Kutta Methods", "abstract":
+        "Meta-learning has emerged as an important framework for learning new tasks
+        from just a few examples. The success of any meta-learning model depends on
+        (i) its fast adaptation to new tasks, as well as (ii) having a shared representation
+        across similar tasks. Here we extend the model-agnostic meta-learning (MAML)
+        framework introduced by Finn et al. (2017) to achieve improved performance
+        by analyzing the temporal dynamics of the optimization procedure via the Runge-Kutta
+        method. This method enables us to gain fine-grained control over the optimization
+        and helps us achieve both the adaptation and representation goals across tasks.
+        By leveraging this refined control, we demonstrate that there are multiple
+        principled ways to update MAML and show that the classic MAML optimization
+        is simply a special case of second-order Runge-Kutta method that mainly focuses
+        on fast-adaptation. Experiments on benchmark classification, regression and
+        reinforcement learning tasks show that this refined control helps attain improved
+        results.", "venue": "arXiv.org", "year": 2019, "referenceCount": 35, "citationCount":
+        4, "influentialCitationCount": 0, "isOpenAccess": false, "openAccessPdf":
+        null, "fieldsOfStudy": ["Computer Science", "Mathematics"], "s2FieldsOfStudy":
+        [{"category": "Computer Science", "source": "external"}, {"category": "Mathematics",
+        "source": "external"}, {"category": "Computer Science", "source": "s2-fos-model"}],
+        "publicationTypes": ["JournalArticle"], "publicationDate": "2019-10-16", "journal":
+        {"volume": "abs/1910.07368", "name": "ArXiv"}, "authors": [{"authorId": "2903841",
+        "name": "Daniel Jiwoong Im"}, {"authorId": "116503613", "name": "Yibo Jiang"},
+        {"authorId": "39706047", "name": "Nakul Verma"}]}, {"paperId": "c4ac496bf57410638260196a25d8ae3366ea03c7",
+        "externalIds": {"ArXiv": "1901.10837", "MAG": "2918374197", "DBLP": "journals/corr/abs-1901-10837",
+        "CorpusId": 59413815}, "corpusId": 59413815, "publicationVenue": {"id": "d9720b90-d60b-48bc-9df8-87a30b9a60dd",
+        "name": "Neural Information Processing Systems", "type": "conference", "alternate_names":
+        ["Neural Inf Process Syst", "NeurIPS", "NIPS"], "url": "http://neurips.cc/"},
+        "url": "https://www.semanticscholar.org/paper/c4ac496bf57410638260196a25d8ae3366ea03c7",
+        "title": "Noise-tolerant fair classification", "abstract": "Fairness-aware
+        learning involves designing algorithms that do not discriminate with respect
+        to some sensitive feature (e.g., race or gender). Existing work on the problem
+        operates under the assumption that the sensitive feature available in one''s
+        training sample is perfectly reliable. This assumption may be violated in
+        many real-world cases: for example, respondents to a survey may choose to
+        conceal or obfuscate their group identity out of fear of potential discrimination.
+        This poses the question of whether one can still learn fair classifiers given
+        noisy sensitive features. In this paper, we answer the question in the affirmative:
+        we show that if one measures fairness using the mean-difference score, and
+        sensitive features are subject to noise from the mutually contaminated learning
+        model, then owing to a simple identity we only need to change the desired
+        fairness-tolerance. The requisite tolerance can be estimated by leveraging
+        existing noise-rate estimators from the label noise literature. We finally
+        show that our procedure is empirically effective on two case-studies involving
+        sensitive feature censoring.", "venue": "Neural Information Processing Systems",
+        "year": 2019, "referenceCount": 65, "citationCount": 62, "influentialCitationCount":
+        8, "isOpenAccess": false, "openAccessPdf": null, "fieldsOfStudy": ["Computer
+        Science", "Mathematics"], "s2FieldsOfStudy": [{"category": "Computer Science",
+        "source": "external"}, {"category": "Mathematics", "source": "external"},
+        {"category": "Computer Science", "source": "s2-fos-model"}], "publicationTypes":
+        ["JournalArticle", "Review"], "publicationDate": "2019-01-30", "journal":
+        {"volume": "abs/1901.10837", "name": "ArXiv"}, "authors": [{"authorId": "49076868",
+        "name": "A. Lamy"}, {"authorId": "30188141", "name": "Ziyuan Zhong"}, {"authorId":
+        "2844480", "name": "A. Menon"}, {"authorId": "39706047", "name": "Nakul Verma"}]},
+        {"paperId": "bd1bab3535fb8f66e54a8a8d94f063f95dbe221b", "externalIds": {"CorpusId":
+        53003345}, "corpusId": 53003345, "publicationVenue": null, "url": "https://www.semanticscholar.org/paper/bd1bab3535fb8f66e54a8a8d94f063f95dbe221b",
+        "title": "Lecture 8 \u2013 t-Distributed Stochastic Neighbor Embedding", "abstract":
+        "Year Method Author Summary 1901 PCA Karl Pearson First dimensionality reduction
+        technique 2000 Isomap Tenenbaum, de Silva, and Langford First non-linear dimensionality
+        reduction technique 2002 SNE Hinton and Roweis Original SNE algorithm 2008
+        tSNE Maaten and Hinton Addressed the crowding issue of SNE, O(N2) 2014 BHt-SNE
+        Maaten Using BarnesHut approximation to achieve O(N log(N)) 2017 Linderman
+        and Steinerberger First step towards theoretical guarantee for t-SNE 2017
+        Fit-SNE Linderman et al. Acceleration to O(N) 2018 Arora et al. Theoretical
+        guarantee for tSNE 2018 Verma et al. Generalization of t-SNE to manifold",
+        "venue": "", "year": 2018, "referenceCount": 8, "citationCount": 0, "influentialCitationCount":
+        0, "isOpenAccess": false, "openAccessPdf": null, "fieldsOfStudy": null, "s2FieldsOfStudy":
+        [{"category": "Computer Science", "source": "s2-fos-model"}], "publicationTypes":
+        null, "publicationDate": null, "journal": null, "authors": [{"authorId": "30188141",
+        "name": "Ziyuan Zhong"}, {"authorId": "39706047", "name": "Nakul Verma"}]},
+        {"paperId": "c15038da6acbc23df3c21ccf7f890c2c46b25322", "externalIds": {"ArXiv":
+        "1811.01247", "DBLP": "journals/corr/abs-1811-01247", "MAG": "2899353896",
+        "CorpusId": 53221123}, "corpusId": 53221123, "publicationVenue": {"id": "1901e811-ee72-4b20-8f7e-de08cd395a10",
+        "name": "arXiv.org", "alternate_names": ["ArXiv"], "issn": "2331-8422", "url":
+        "https://arxiv.org"}, "url": "https://www.semanticscholar.org/paper/c15038da6acbc23df3c21ccf7f890c2c46b25322",
+        "title": "Stochastic Neighbor Embedding under f-divergences", "abstract":
+        "The t-distributed Stochastic Neighbor Embedding (t-SNE) is a powerful and
+        popular method for visualizing high-dimensional data. It minimizes the Kullback-Leibler
+        (KL) divergence between the original and embedded data distributions. In this
+        work, we propose extending this method to other f-divergences. We analytically
+        and empirically evaluate the types of latent structure-manifold, cluster,
+        and hierarchical-that are well-captured using both the original KL-divergence
+        as well as the proposed f-divergence generalization, and find that different
+        divergences perform better for different types of structure. \nA common concern
+        with $t$-SNE criterion is that it is optimized using gradient descent, and
+        can become stuck in poor local minima. We propose optimizing the f-divergence
+        based loss criteria by minimizing a variational bound. This typically performs
+        better than optimizing the primal form, and our experiments show that it can
+        improve upon the embedding results obtained from the original $t$-SNE criterion
+        as well.", "venue": "arXiv.org", "year": 2018, "referenceCount": 24, "citationCount":
+        17, "influentialCitationCount": 0, "isOpenAccess": false, "openAccessPdf":
+        null, "fieldsOfStudy": ["Computer Science", "Mathematics"], "s2FieldsOfStudy":
+        [{"category": "Computer Science", "source": "external"}, {"category": "Mathematics",
+        "source": "external"}, {"category": "Computer Science", "source": "s2-fos-model"}],
+        "publicationTypes": ["JournalArticle"], "publicationDate": "2018-11-03", "journal":
+        {"volume": "abs/1811.01247", "name": "ArXiv"}, "authors": [{"authorId": "2903841",
+        "name": "Daniel Jiwoong Im"}, {"authorId": "39706047", "name": "Nakul Verma"},
+        {"authorId": "2424812", "name": "K. Branson"}]}, {"paperId": "f68f682f9bf329dbba8c228989162ac7b4855e2c",
+        "externalIds": {"DBLP": "journals/jmlr/KpotufeV17", "MAG": "2614865032", "CorpusId":
+        19594539}, "corpusId": 19594539, "publicationVenue": {"id": "c22e7c36-3bfa-43e1-bb7b-edccdea2a780",
+        "name": "Journal of machine learning research", "type": "journal", "alternate_names":
+        ["Journal of Machine Learning Research", "J mach learn res", "J Mach Learn
+        Res"], "issn": "1532-4435", "alternate_issns": ["1533-7928"], "url": "http://www.ai.mit.edu/projects/jmlr/",
+        "alternate_urls": ["http://jmlr.csail.mit.edu/", "http://www.jmlr.org/", "http://portal.acm.org/affiliated/jmlr"]},
+        "url": "https://www.semanticscholar.org/paper/f68f682f9bf329dbba8c228989162ac7b4855e2c",
+        "title": "Time-Accuracy Tradeoffs in Kernel Prediction: Controlling Prediction
+        Quality", "abstract": "Kernel regression or classification (also referred
+        to as weighted e-NN methods in Machine Learning) are appealing for their simplicity
+        and therefore ubiquitous in data analysis. However, practical implementations
+        of kernel regression or classification consist of quantizing or sub-sampling
+        data for improving time efficiency, often at the cost of prediction quality.
+        While such tradeoffs are necessary in practice, their statistical implications
+        are generally not well understood, hence practical implementations come with
+        few performance guarantees. In particular, it is unclear whether it is possible
+        to maintain the statistical accuracy of kernel prediction--crucial in some
+        applications--while improving prediction time. \n \nThe present work provides
+        guiding principles for combining kernel prediction with data-quantization
+        so as to guarantee good tradeoffs between prediction time and accuracy, and
+        in particular so as to approximately maintain the good accuracy of vanilla
+        kernel prediction. Furthermore, our tradeoff guarantees are worked out explicitly
+        in terms of a tuning parameter which acts as a knob that favors either time
+        or accuracy depending on practical needs. On one end of the knob, prediction
+        time is of the same order as that of single-nearestneighbor prediction (which
+        is statistically inconsistent) while maintaining consistency; on the other
+        end of the knob, the prediction risk is nearly minimax-optimal (in terms of
+        the original data size) while still reducing time complexity. The analysis
+        thus reveals the interaction between the data-quantization approach and the
+        kernel prediction method, and most importantly gives explicit control of the
+        tradeoff to the practitioner rather than fixing the tradeoff in advance or
+        leaving it opaque. \n \nThe theoretical results are validated on data from
+        a range of real-world application domains; in particular we demonstrate that
+        the theoretical knob performs as expected.", "venue": "Journal of machine
+        learning research", "year": 2017, "referenceCount": 42, "citationCount": 10,
+        "influentialCitationCount": 1, "isOpenAccess": false, "openAccessPdf": null,
+        "fieldsOfStudy": ["Computer Science"], "s2FieldsOfStudy": [{"category": "Computer
+        Science", "source": "external"}, {"category": "Computer Science", "source":
+        "s2-fos-model"}], "publicationTypes": ["JournalArticle"], "publicationDate":
+        null, "journal": {"volume": "18", "pages": "44:1-44:29", "name": "J. Mach.
+        Learn. Res."}, "authors": [{"authorId": "2248336", "name": "Samory Kpotufe"},
+        {"authorId": "39706047", "name": "Nakul Verma"}]}, {"paperId": "5872d29e682b5ffa9b09de44b4fa3d19279f15f1",
+        "externalIds": {"MAG": "2949709594", "ArXiv": "1505.02729", "DBLP": "conf/nips/VermaB15",
+        "CorpusId": 5061858}, "corpusId": 5061858, "publicationVenue": {"id": "d9720b90-d60b-48bc-9df8-87a30b9a60dd",
+        "name": "Neural Information Processing Systems", "type": "conference", "alternate_names":
+        ["Neural Inf Process Syst", "NeurIPS", "NIPS"], "url": "http://neurips.cc/"},
+        "url": "https://www.semanticscholar.org/paper/5872d29e682b5ffa9b09de44b4fa3d19279f15f1",
+        "title": "Sample Complexity of Learning Mahalanobis Distance Metrics", "abstract":
+        "Metric learning seeks a transformation of the feature space that enhances
+        prediction quality for the given task at hand. In this work we provide PAC-style
+        sample complexity rates for supervised metric learning. We give matching lower-
+        and upper-bounds showing that the sample complexity scales with the representation
+        dimension when no assumptions are made about the underlying data distribution.
+        However, by leveraging the structure of the data distribution, we show that
+        one can achieve rates that are fine-tuned to a specific notion of intrinsic
+        complexity for a given dataset. Our analysis reveals that augmenting the metric
+        learning optimization criterion with a simple norm-based regularization can
+        help adapt to a dataset''s intrinsic complexity, yielding better generalization.
+        Experiments on benchmark datasets validate our analysis and show that regularizing
+        the metric can help discern the signal even when the data contains high amounts
+        of noise.", "venue": "Neural Information Processing Systems", "year": 2015,
+        "referenceCount": 27, "citationCount": 29, "influentialCitationCount": 6,
+        "isOpenAccess": false, "openAccessPdf": null, "fieldsOfStudy": ["Computer
+        Science", "Mathematics"], "s2FieldsOfStudy": [{"category": "Computer Science",
+        "source": "external"}, {"category": "Mathematics", "source": "external"},
+        {"category": "Computer Science", "source": "s2-fos-model"}], "publicationTypes":
+        ["JournalArticle", "Conference"], "publicationDate": "2015-05-11", "journal":
+        {"pages": "2584-2592"}, "authors": [{"authorId": "39706047", "name": "Nakul
+        Verma"}, {"authorId": "2424812", "name": "K. Branson"}]}, {"paperId": "118d0304b459b4c338f5c7368187f0d7c8638a62",
+        "externalIds": {"DBLP": "conf/mswim/MilosevicYVTZFBR13", "MAG": "2041464734",
+        "DOI": "10.1145/2507924.2507953", "CorpusId": 15726257}, "corpusId": 15726257,
+        "publicationVenue": {"id": "44b6beea-2ef8-49da-a252-480ddd37cc16", "name":
+        "International Conference on Modeling, Analysis and Simulation of Wireless
+        and Mobile Systems", "type": "conference", "alternate_names": ["MSWiM", "Model
+        Anal Simul Wirel Mob Syst", "Int Conf Model Anal Simul Wirel Mob Syst", "Modeling
+        Analysis and Simulation of Wireless and Mobile Systems"], "url": "https://dl.acm.org/conference/mswim/proceedings"},
+        "url": "https://www.semanticscholar.org/paper/118d0304b459b4c338f5c7368187f0d7c8638a62",
+        "title": "Efficient energy management and data recovery in sensor networks
+        using latent variables based tensor factorization", "abstract": "A key factor
+        in a successful sensor network deployment is finding a good balance between
+        maximizing the number of measurements taken (to maintain a good sampling rate)
+        and minimizing the overall energy consumption (to extend the network lifetime).
+        In this work, we present a data-driven statistical model to optimize this
+        tradeoff. Our approach takes advantage of the multivariate nature of the data
+        collected by a heterogeneous sensor network to learn spatio-temporal patterns.
+        These patterns enable us to employ an aggressive duty cycling policy on the
+        individual sensor nodes, thereby reducing the overall energy consumption.
+        Our experiments with the OMNeT++ network simulator using realistic wireless
+        channel conditions, on data collected from two real-world sensor networks,
+        show that we can sample just 20% of the data and can reconstruct the remaining
+        80% of the data with less than 9% mean error, outperforming similar techniques
+        such is distributed compressive sampling. In addition, energy savings ranging
+        up to 76%, depending on the sampling rate and the hardware configuration of
+        the node.", "venue": "International Conference on Modeling, Analysis and Simulation
+        of Wireless and Mobile Systems", "year": 2013, "referenceCount": 24, "citationCount":
+        7, "influentialCitationCount": 2, "isOpenAccess": false, "openAccessPdf":
+        null, "fieldsOfStudy": ["Computer Science"], "s2FieldsOfStudy": [{"category":
+        "Computer Science", "source": "external"}, {"category": "Computer Science",
+        "source": "s2-fos-model"}], "publicationTypes": ["Book", "JournalArticle",
+        "Conference"], "publicationDate": "2013-11-03", "journal": {"name": "Proceedings
+        of the 16th ACM international conference on Modeling, analysis & simulation
+        of wireless and mobile systems"}, "authors": [{"authorId": "2296810", "name":
+        "B. Milosevic"}, {"authorId": "144288016", "name": "Jinseok Yang"}, {"authorId":
+        "39706047", "name": "Nakul Verma"}, {"authorId": "144857278", "name": "S.
+        Tilak"}, {"authorId": "1730919", "name": "P. Zappi"}, {"authorId": "1777488",
+        "name": "Elisabetta Farella"}, {"authorId": "1710649", "name": "L. Benini"},
+        {"authorId": "3560620", "name": "T. Simunic"}]}, {"paperId": "68762c51b68ef689e9809bbc42f1b9abf141fa5e",
+        "externalIds": {"MAG": "2153072115", "DBLP": "journals/jmlr/Verma13", "DOI":
+        "10.5555/2567709.2567739", "CorpusId": 10227976}, "corpusId": 10227976, "publicationVenue":
+        {"id": "24b0721b-0592-414a-ac79-7271515aaab0", "name": "Annual Conference
+        Computational Learning Theory", "type": "conference", "alternate_names": ["Conf
+        Learn Theory", "COLT", "Conference on Learning Theory", "Annu Conf Comput
+        Learn Theory"], "url": "http://www.wikicfp.com/cfp/program?id=536"}, "url":
+        "https://www.semanticscholar.org/paper/68762c51b68ef689e9809bbc42f1b9abf141fa5e",
+        "title": "Distance Preserving Embeddings for General n-Dimensional Manifolds",
+        "abstract": "Low dimensional embeddings of manifold data have gained popularity
+        in the last decade. However, a systematic finite sample analysis of manifold
+        embedding algorithms largely eludes researchers. Here we present two algorithms
+        that embed a general n-dimensionalmanifold into Rd (where d only depends on
+        some key manifold properties such as its intrinsic dimension, volume and curvature)
+        that guarantee to approximately preserve all interpoint geodesic distances.",
+        "venue": "Annual Conference Computational Learning Theory", "year": 2012,
+        "referenceCount": 16, "citationCount": 34, "influentialCitationCount": 0,
+        "isOpenAccess": false, "openAccessPdf": null, "fieldsOfStudy": ["Computer
+        Science", "Mathematics"], "s2FieldsOfStudy": [{"category": "Computer Science",
+        "source": "external"}, {"category": "Mathematics", "source": "external"},
+        {"category": "Computer Science", "source": "s2-fos-model"}, {"category": "Mathematics",
+        "source": "s2-fos-model"}], "publicationTypes": ["JournalArticle", "Conference"],
+        "publicationDate": "2012-06-16", "journal": {"volume": "14", "pages": "2415-2448",
+        "name": "J. Mach. Learn. Res."}, "authors": [{"authorId": "39706047", "name":
+        "Nakul Verma"}]}, {"paperId": "75eb613a3cbaa25d5fb2f7afd084d07d20af103e",
+        "externalIds": {"DBLP": "conf/wh/NikzadVZBQZPDKRG12", "MAG": "1998504821",
+        "DOI": "10.1145/2448096.2448107", "CorpusId": 35344481}, "corpusId": 35344481,
+        "publicationVenue": {"id": "01cc68ec-c03e-4bf6-87dd-deec3013c349", "name":
+        "Wireless Health", "type": "conference", "alternate_names": ["Wirel Health",
+        "WH"], "url": "http://www.wikicfp.com/cfp/program?id=3058"}, "url": "https://www.semanticscholar.org/paper/75eb613a3cbaa25d5fb2f7afd084d07d20af103e",
+        "title": "CitiSense: improving geospatial environmental assessment of air
+        quality using a wireless personal exposure monitoring system", "abstract":
+        "Environmental exposures are a critical component in the development of chronic
+        conditions such as asthma and cancer. Yet, medical and public health practitioners
+        typically must depend on sparse regional measurements of the environment that
+        provide macro-scale summaries. Recent projects have begun to measure an individual''s
+        exposure to these factors, often utilizing body-worn sensors and mobile phones
+        to visualize the data. Such data, collected from many individuals and analyzed
+        across an entire geographic region, holds the potential to revolutionize the
+        practice of public health.\n We present CitiSense, a participatory air quality
+        sensing system that bridges the gap between personal sensing and regional
+        measurement to provide micro-level detail at a regional scale. In a user study
+        of 16 commuters using CitiSense, measurements were found to vary significantly
+        from those provided by official regional pollution monitoring stations. Moreover,
+        applying geostatistical kriging techniques to our data allows CitiSense to
+        infer a regional map that contains considerably greater detail than official
+        regional summaries. These results suggest that the cumulative impact of many
+        individuals using personal sensing devices may have an important role to play
+        in the future of environmental measurement for public health.", "venue": "Wireless
+        Health", "year": 2012, "referenceCount": 29, "citationCount": 93, "influentialCitationCount":
+        6, "isOpenAccess": false, "openAccessPdf": null, "fieldsOfStudy": ["Computer
+        Science", "Geography"], "s2FieldsOfStudy": [{"category": "Computer Science",
+        "source": "external"}, {"category": "Geography", "source": "external"}, {"category":
+        "Environmental Science", "source": "s2-fos-model"}], "publicationTypes": ["JournalArticle"],
+        "publicationDate": "2012-10-23", "journal": {"pages": "11:1-11:8"}, "authors":
+        [{"authorId": "2612701", "name": "Nima Nikzad"}, {"authorId": "39706047",
+        "name": "Nakul Verma"}, {"authorId": "3016442", "name": "Celal Ziftci"}, {"authorId":
+        "145499200", "name": "Elizabeth S. Bales"}, {"authorId": "30695486", "name":
+        "Nichole Quick"}, {"authorId": "1730919", "name": "P. Zappi"}, {"authorId":
+        "144772905", "name": "K. Patrick"}, {"authorId": "1880237", "name": "S. Dasgupta"},
+        {"authorId": "145448058", "name": "Ingolf Kr\u00fcger"}, {"authorId": "3560620",
+        "name": "T. Simunic"}, {"authorId": "1733025", "name": "W. Griswold"}]}, {"paperId":
+        "ba99792c31e0cd897eebbeec7f7101c57e1feb16", "externalIds": {"DBLP": "phd/basesearch/Verma12",
+        "MAG": "236116763", "CorpusId": 35636282}, "corpusId": 35636282, "publicationVenue":
+        null, "url": "https://www.semanticscholar.org/paper/ba99792c31e0cd897eebbeec7f7101c57e1feb16",
+        "title": "Learning from data with low intrinsic dimension", "abstract": "The
+        information explosion of the past few decades has created tremendous opportunities
+        for Machine Learning-based data analysis. Modern data typically possesses
+        a large number of features. Consider the task of predicting the effectiveness
+        of a particular treatment by analyzing a patient''s genome. One hopes that
+        by measuring several gene expression levels one can capture relevant information,
+        leading to better predictions. However, the presence of a large number of
+        irrelevant features adds to the statistical and computational complexity of
+        the learning algorithm, without helping the practitioner to solve the task
+        at hand. Indeed, conventional statistical wisdom suggests that in a general
+        setting the learning task becomes significantly more difficult with an increase
+        in the number of features, making it especially difficult to design and analyze
+        learning algorithms for modern, high-dimensional data. \nThis dissertation
+        explores a specific way one can cope with this curse of dimension. The key
+        observation is that while modern datasets are represented in high dimensions,
+        they often adhere to some low-dimensional intrinsic structure. This intrinsic
+        structure can manifest itself in several forms: some datasets such as text
+        data have a sparse structure; other datasets such as speech and image articulation
+        data follow a manifold structure. If this intrinsic structure is in fact low-dimensional
+        (that is, has few degrees of freedom), then the complexity of learning algorithms
+        should scale only with data''s intrinsic dimensionality. \nIn the first part
+        of this dissertation we study how the performance of learning algorithms is
+        affected when the data have a low-dimensional manifold structure. We provide
+        sharp bounds for unsupervised dimensionality reduction, and an improved PAC-learning
+        framework for multiple instance learning in this setting. \nThe second part
+        of this dissertation focuses on understanding and formalizing the general
+        phenomenon of low intrinsic dimension. We explore a few notions that can effectively
+        quantify low-dimensional geometric structure in data. We show that unlike
+        traditional notions, some of the new notions are algorithmically verifiable.
+        We can thus test a given dataset and guarantee a learning rate that scales
+        only with its intrinsic dimension.", "venue": "", "year": 2012, "referenceCount":
+        38, "citationCount": 4, "influentialCitationCount": 0, "isOpenAccess": false,
+        "openAccessPdf": null, "fieldsOfStudy": ["Computer Science"], "s2FieldsOfStudy":
+        [{"category": "Computer Science", "source": "external"}, {"category": "Computer
+        Science", "source": "s2-fos-model"}], "publicationTypes": null, "publicationDate":
+        null, "journal": {"volume": "", "name": ""}, "authors": [{"authorId": "39706047",
+        "name": "Nakul Verma"}]}, {"paperId": "ed3d28a6015937a282e4f9c273307fb4a732f8ff",
+        "externalIds": {"DBLP": "conf/cvpr/VermaMSN12", "MAG": "2061851712", "DOI":
+        "10.1109/CVPR.2012.6247938", "CorpusId": 7353092}, "corpusId": 7353092, "publicationVenue":
+        null, "url": "https://www.semanticscholar.org/paper/ed3d28a6015937a282e4f9c273307fb4a732f8ff",
+        "title": "Learning hierarchical similarity metrics", "abstract": "Categories
+        in multi-class data are often part of an underlying semantic taxonomy. Recent
+        work in object classification has found interesting ways to use this taxonomy
+        structure to develop better recognition algorithms. Here we propose a novel
+        framework to learn similarity metrics using the class taxonomy. We show that
+        a nearest neighbor classifier using the learned metrics gets improved performance
+        over the best discriminative methods. Moreover, by incorporating the taxonomy,
+        our learned metrics can also help in some taxonomy specific applications.
+        We show that the metrics can help determine the correct placement of a new
+        category that was not part of the original taxonomy, and can provide effective
+        classification amongst categories local to specific subtrees of the taxonomy.",
+        "venue": "2012 IEEE Conference on Computer Vision and Pattern Recognition",
+        "year": 2012, "referenceCount": 24, "citationCount": 118, "influentialCitationCount":
+        5, "isOpenAccess": false, "openAccessPdf": null, "fieldsOfStudy": ["Computer
+        Science"], "s2FieldsOfStudy": [{"category": "Computer Science", "source":
+        "external"}, {"category": "Computer Science", "source": "s2-fos-model"}],
+        "publicationTypes": ["JournalArticle", "Conference"], "publicationDate": "2012-06-16",
+        "journal": {"pages": "2280-2287", "name": "2012 IEEE Conference on Computer
+        Vision and Pattern Recognition"}, "authors": [{"authorId": "39706047", "name":
+        "Nakul Verma"}, {"authorId": "144542135", "name": "D. Mahajan"}, {"authorId":
+        "1779926", "name": "Sundararajan Sellamanickam"}, {"authorId": "2073603971",
+        "name": "Vinod Nair"}]}, {"paperId": "097968d3115689d1df054b8678bc290df5d63bc5",
+        "externalIds": {"MAG": "2222844749", "DBLP": "conf/icml/BabenkoVDB11", "CorpusId":
+        465757}, "corpusId": 465757, "publicationVenue": {"id": "fc0a208c-acb7-47dc-a0d4-af8190e21d29",
+        "name": "International Conference on Machine Learning", "type": "conference",
+        "alternate_names": ["ICML", "Int Conf Mach Learn"], "url": "https://icml.cc/"},
+        "url": "https://www.semanticscholar.org/paper/097968d3115689d1df054b8678bc290df5d63bc5",
+        "title": "Multiple Instance Learning with Manifold Bags", "abstract": "In
+        many machine learning applications, labeling every instance of data is burdensome.
+        Multiple Instance Learning (MIL), in which training data is provided in the
+        form of labeled bags rather than labeled instances, is one approach for a
+        more relaxed form of supervised learning. Though much progress has been made
+        in analyzing MIL problems, existing work considers bags that have a finite
+        number of instances. In this paper we argue that in many applications of MIL
+        (e.g. image, audio, etc.) the bags are better modeled as low dimensional manifolds
+        in high dimensional feature space. We show that the geometric structure of
+        such manifold bags affects PAC-learnability. We discuss how a learning algorithm
+        that is designed for finite sized bags can be adapted to learn from manifold
+        bags. Furthermore, we propose a simple heuristic that reduces the memory requirements
+        of such algorithms. Our experiments on real-world data validate our analysis
+        and show that our approach works well.", "venue": "International Conference
+        on Machine Learning", "year": 2011, "referenceCount": 27, "citationCount":
+        47, "influentialCitationCount": 3, "isOpenAccess": false, "openAccessPdf":
+        null, "fieldsOfStudy": ["Computer Science"], "s2FieldsOfStudy": [{"category":
+        "Computer Science", "source": "external"}, {"category": "Computer Science",
+        "source": "s2-fos-model"}], "publicationTypes": ["JournalArticle", "Conference"],
+        "publicationDate": "2011-06-28", "journal": {"pages": "81-88"}, "authors":
+        [{"authorId": "2490700", "name": "Boris Babenko"}, {"authorId": "39706047",
+        "name": "Nakul Verma"}, {"authorId": "3127283", "name": "Piotr Doll\u00e1r"},
+        {"authorId": "50172592", "name": "Serge J. Belongie"}]}, {"paperId": "c43ec6a8ddefb32a703a71eb4316ad64476d59ec",
+        "externalIds": {"MAG": "2072765980", "DOI": "10.1109/ISSNIP.2011.6146590",
+        "CorpusId": 856815}, "corpusId": 856815, "publicationVenue": null, "url":
+        "https://www.semanticscholar.org/paper/c43ec6a8ddefb32a703a71eb4316ad64476d59ec",
+        "title": "Latent variables based data estimation for sensing applications",
+        "abstract": "Recovering missing sensor data is a critical problem for sensor
+        networks, especially when nodes duty cycle their activity or may experience
+        periodic downtimes due to limited energy. Fortunately, sensor readings are
+        often correlated across different nodes and sensor types. Among state-of-the-art
+        statistical data estimation techniques, latent variable based factor models
+        have emerged as a powerful framework for recovering missing data. In this
+        paper we propose the use of latent variable models to estimate missing data
+        in heterogeneous sensor networks. Our model not only correlates data across
+        different sensor locations and types, but also takes advantage of the temporal
+        structure that is often present in sensor readings. We analyze how this model
+        can effectively reconstruct missing sensor data when the individual sensor
+        nodes have to duty-cycle their activity in order to extend network lifetime.
+        We evaluate our model on a real life sensor network consisting of 122 environmental
+        monitoring stations that periodically collect data from 13 different sensors.
+        Results show that our proposed model can effectively reconstruct over 50%
+        of missing data with less than 10% error.", "venue": "2011 Seventh International
+        Conference on Intelligent Sensors, Sensor Networks and Information Processing",
+        "year": 2011, "referenceCount": 21, "citationCount": 8, "influentialCitationCount":
+        2, "isOpenAccess": true, "openAccessPdf": {"url": "http://seelab.ucsd.edu/papers/Verma_ISSNIP11.pdf",
+        "status": null}, "fieldsOfStudy": ["Computer Science"], "s2FieldsOfStudy":
+        [{"category": "Computer Science", "source": "external"}, {"category": "Computer
+        Science", "source": "s2-fos-model"}], "publicationTypes": ["Conference"],
+        "publicationDate": "2011-12-01", "journal": {"pages": "335-340", "name": "2011
+        Seventh International Conference on Intelligent Sensors, Sensor Networks and
+        Information Processing"}, "authors": [{"authorId": "39706047", "name": "Nakul
+        Verma"}, {"authorId": "1730919", "name": "P. Zappi"}, {"authorId": "1728828",
+        "name": "T. Rosing"}]}, {"paperId": "29842e4f36b3e57f856b10d68e81d8971b2726b4",
+        "externalIds": {"CorpusId": 15718056}, "corpusId": 15718056, "publicationVenue":
+        null, "url": "https://www.semanticscholar.org/paper/29842e4f36b3e57f856b10d68e81d8971b2726b4",
+        "title": "CitiSense \u00b1 Adaptive Services for Community-Driven Behavioral
+        and Environmental Monitoring to Induce Change", "abstract": "In this work
+        we present CitiSense, a new kind RI 3FLWL]HQ LQIUDVWUXFWXUH \u0301 for the
+        monitoring of pollution and environmental conditions that users are exposed
+        to. By utilizing mobile phones and affordable, small sensors placed in the
+        environment and carried by users, data about pollutants such as ozone and
+        carbon monoxide is collected and used to provide real-time feedback to users
+        and enable them to make healthy changes in their behavior. Results can be
+        reported to a back-end server for further processing and learning, allowing
+        other stakeholders to better understand how diseases such as asthma develop
+        and to help coordinate efforts within a user''s community to improve conditions.
+        What differentiates CitiSense from previous projects of this sort is the design
+        of a complete system that addresses issues of mobile power management, data
+        security, privacy, inference with commodity sensors, and integration into
+        a highly extensible and adaptive infrastructure comprising of Open Rich Services
+        (ORS). We discuss the design goals of the CitiSense project, our progress
+        towards the vision of ubiquitous environmental sensing in San Diego, and preliminary
+        results for energy management policies for sensor nodes and mobile phones.",
+        "venue": "", "year": 2010, "referenceCount": 20, "citationCount": 10, "influentialCitationCount":
+        1, "isOpenAccess": false, "openAccessPdf": null, "fieldsOfStudy": null, "s2FieldsOfStudy":
+        [{"category": "Computer Science", "source": "s2-fos-model"}], "publicationTypes":
+        null, "publicationDate": null, "journal": null, "authors": [{"authorId": "2612701",
+        "name": "Nima Nikzad"}, {"authorId": "3016442", "name": "Celal Ziftci"}, {"authorId":
+        "1730919", "name": "P. Zappi"}, {"authorId": "30695486", "name": "Nichole
+        Quick"}, {"authorId": "1919206", "name": "P. Aghera"}, {"authorId": "39706047",
+        "name": "Nakul Verma"}, {"authorId": "1683990", "name": "Barry Demchak"},
+        {"authorId": "144772905", "name": "K. Patrick"}, {"authorId": "1786752", "name":
+        "H. Shacham"}, {"authorId": "1728828", "name": "T. Rosing"}, {"authorId":
+        "2085760694", "name": "I. Krueger"}, {"authorId": "1733025", "name": "W. Griswold"},
+        {"authorId": "1880237", "name": "S. Dasgupta"}]}, {"paperId": "6782ca4b600d823ef5734f11779f7b8a41dc4812",
+        "externalIds": {"ArXiv": "1205.2609", "MAG": "2952921050", "DBLP": "journals/corr/abs-1205-2609",
+        "CorpusId": 1650670}, "corpusId": 1650670, "publicationVenue": {"id": "f9af8000-42f8-410d-a622-e8811e41660a",
+        "name": "Conference on Uncertainty in Artificial Intelligence", "type": "conference",
+        "alternate_names": ["Uncertainty in Artificial Intelligence", "UAI", "Conf
+        Uncertain Artif Intell", "Uncertain Artif Intell"], "url": "http://www.auai.org/"},
+        "url": "https://www.semanticscholar.org/paper/6782ca4b600d823ef5734f11779f7b8a41dc4812",
+        "title": "Which Spatial Partition Trees are Adaptive to Intrinsic Dimension?",
+        "abstract": "Recent theory work has found that a special type of spatial partition
+        tree -- called a random projection tree -- is adaptive to the intrinsic dimension
+        of the data from which it is built. Here we examine this same question, with
+        a combination of theory and experiments, for a broader class of trees that
+        includes k-d trees, dyadic trees, and PCA trees. Our motivation is to get
+        a feel for (i) the kind of intrinsic low dimensional structure that can be
+        empirically verified, (ii) the extent to which a spatial partition can exploit
+        such structure, and (iii) the implications for standard statistical tasks
+        such as regression, vector quantization, and nearest neighbor search.", "venue":
+        "Conference on Uncertainty in Artificial Intelligence", "year": 2009, "referenceCount":
+        10, "citationCount": 83, "influentialCitationCount": 8, "isOpenAccess": false,
+        "openAccessPdf": null, "fieldsOfStudy": ["Computer Science", "Mathematics"],
+        "s2FieldsOfStudy": [{"category": "Computer Science", "source": "external"},
+        {"category": "Mathematics", "source": "external"}, {"category": "Computer
+        Science", "source": "s2-fos-model"}], "publicationTypes": ["JournalArticle",
+        "Conference"], "publicationDate": "2009-06-18", "journal": {"pages": "565-574"},
+        "authors": [{"authorId": "39706047", "name": "Nakul Verma"}, {"authorId":
+        "2248336", "name": "Samory Kpotufe"}, {"authorId": "1880237", "name": "S.
+        Dasgupta"}]}, {"paperId": "8ac9c17dc8e7fb6ffdf47ae3a1b5efd36668d999", "externalIds":
+        {"CorpusId": 18861754}, "corpusId": 18861754, "publicationVenue": null, "url":
+        "https://www.semanticscholar.org/paper/8ac9c17dc8e7fb6ffdf47ae3a1b5efd36668d999",
+        "title": "Mathematical Advances in Manifold Learning", "abstract": "Manifold
+        learning has recently gained a lot of interest by machine learning practitioners.
+        Here we provide a mathematically rigorous treatment of some of the techniques
+        in unsupervised learning in context of manifolds. We will study the problems
+        of dimension reduction and density estimation and present some recent results
+        in terms of fast convergence rates when the data lie on a manifold.", "venue":
+        "", "year": 2008, "referenceCount": 31, "citationCount": 3, "influentialCitationCount":
+        0, "isOpenAccess": false, "openAccessPdf": null, "fieldsOfStudy": null, "s2FieldsOfStudy":
+        [{"category": "Computer Science", "source": "s2-fos-model"}], "publicationTypes":
+        null, "publicationDate": null, "journal": null, "authors": [{"authorId": "39706047",
+        "name": "Nakul Verma"}]}, {"paperId": "ba0ef595dd32c6d770bc7bc1c155061512f9389b",
+        "externalIds": {"DBLP": "conf/nips/FreundDKV07", "MAG": "2165888865", "CorpusId":
+        9863320}, "corpusId": 9863320, "publicationVenue": {"id": "d9720b90-d60b-48bc-9df8-87a30b9a60dd",
+        "name": "Neural Information Processing Systems", "type": "conference", "alternate_names":
+        ["Neural Inf Process Syst", "NeurIPS", "NIPS"], "url": "http://neurips.cc/"},
+        "url": "https://www.semanticscholar.org/paper/ba0ef595dd32c6d770bc7bc1c155061512f9389b",
+        "title": "Learning the structure of manifolds using random projections", "abstract":
+        "We present a simple variant of the k-d tree which automatically adapts to
+        intrinsic low dimensional structure in data.", "venue": "Neural Information
+        Processing Systems", "year": 2007, "referenceCount": 13, "citationCount":
+        130, "influentialCitationCount": 13, "isOpenAccess": false, "openAccessPdf":
+        null, "fieldsOfStudy": ["Computer Science", "Mathematics"], "s2FieldsOfStudy":
+        [{"category": "Computer Science", "source": "external"}, {"category": "Mathematics",
+        "source": "external"}, {"category": "Computer Science", "source": "s2-fos-model"}],
+        "publicationTypes": ["JournalArticle", "Conference"], "publicationDate": "2007-12-03",
+        "journal": {"pages": "473-480"}, "authors": [{"authorId": "1703537", "name":
+        "Y. Freund"}, {"authorId": "1880237", "name": "S. Dasgupta"}, {"authorId":
+        "34837742", "name": "Mayank Kabra"}, {"authorId": "39706047", "name": "Nakul
+        Verma"}]}, {"paperId": "4526320dd1be5d52789953faa04419f2c620862f", "externalIds":
+        {"MAG": "2133219328", "DBLP": "journals/corr/DasguptaHV12", "ArXiv": "1206.6813",
+        "CorpusId": 2578395}, "corpusId": 2578395, "publicationVenue": {"id": "f9af8000-42f8-410d-a622-e8811e41660a",
+        "name": "Conference on Uncertainty in Artificial Intelligence", "type": "conference",
+        "alternate_names": ["Uncertainty in Artificial Intelligence", "UAI", "Conf
+        Uncertain Artif Intell", "Uncertain Artif Intell"], "url": "http://www.auai.org/"},
+        "url": "https://www.semanticscholar.org/paper/4526320dd1be5d52789953faa04419f2c620862f",
+        "title": "A Concentration Theorem for Projections", "abstract": "X in R^D
+        has mean zero and finite second moments. We show that there is a precise sense
+        in which almost all linear projections of X into R^d (for d < D) look like
+        a scale-mixture of spherical Gaussians -- specifically, a mixture of distributions
+        N(0, sigma^2 I_d) where the weight of the particular sigma component is P
+        (| X |^2 = sigma^2 D). The extent of this effect depends upon the ratio of
+        d to D, and upon a particular coefficient of eccentricity of X''s distribution.
+        We explore this result in a variety of experiments.", "venue": "Conference
+        on Uncertainty in Artificial Intelligence", "year": 2006, "referenceCount":
+        19, "citationCount": 37, "influentialCitationCount": 4, "isOpenAccess": false,
+        "openAccessPdf": null, "fieldsOfStudy": ["Computer Science", "Mathematics"],
+        "s2FieldsOfStudy": [{"category": "Computer Science", "source": "external"},
+        {"category": "Mathematics", "source": "external"}, {"category": "Mathematics",
+        "source": "s2-fos-model"}], "publicationTypes": ["JournalArticle", "Conference"],
+        "publicationDate": "2006-07-13", "journal": {"volume": "abs/1206.6813", "name":
+        "ArXiv"}, "authors": [{"authorId": "1880237", "name": "S. Dasgupta"}, {"authorId":
+        "143724861", "name": "Daniel J. Hsu"}, {"authorId": "39706047", "name": "Nakul
+        Verma"}]}]}, {"authorId": "1804289842", "externalIds": {"DBLP": ["Nakul Verma"]},
+        "url": "https://www.semanticscholar.org/author/1804289842", "name": "Nakul
+        Verma", "aliases": null, "affiliations": [], "homepage": null, "paperCount":
+        8, "citationCount": 234, "hIndex": 5, "papers": [{"paperId": "032c2177d1e2c222f9eb75f741a896da65df9479",
+        "externalIds": {"DBLP": "conf/sigmod/FlokasWLWV022", "DOI": "10.1145/3514221.3517849",
+        "CorpusId": 249578991}, "corpusId": 249578991, "publicationVenue": null, "url":
+        "https://www.semanticscholar.org/paper/032c2177d1e2c222f9eb75f741a896da65df9479",
+        "title": "Complaint-Driven Training Data Debugging at Interactive Speeds",
+        "abstract": "Modern databases support queries that perform model inference
+        (inference queries). Although powerful and widely used, inference queries
+        are susceptible to incorrect results if the model is biased due to training
+        data errors. Recently, prior work Rain proposed complaint-driven data debugging
+        which uses user-specified errors in the output of inference queries (Complaints)
+        to rank erroneous training examples that most likely caused the complaint.
+        This can help users better interpret results and debug training sets. Rain
+        combined influence analysis from the ML literature with relaxed query provenance
+        polynomials from the DB literature to approximate the derivative of complaints
+        w.r.t. training examples. Although effective, the runtime is O(|T|d), where
+        T and d are the training set and model sizes, due to its reliance on the model''s
+        second order derivatives (the Hessian). On a Wide Resnet Network (WRN) model
+        with 1.5 million parameters, it takes >1 minute to debug a complaint. We observe
+        that most complaint debugging costs are independent of the complaint, and
+        that modern models are overparameterized. In response, Rain++ uses precomputation
+        techniques, based on non-trivial insights unique to data debugging, to reduce
+        debugging latencies to a constant factor independent of model size. We also
+        develop optimizations when the queried database is known apriori, and for
+        standing queries over streaming databases. Combining these optimizations in
+        Rain++ ensures interactive debugging latencies (~1ms) on models with millions
+        of parameters.", "venue": "SIGMOD Conference", "year": 2022, "referenceCount":
+        14, "citationCount": 3, "influentialCitationCount": 0, "isOpenAccess": false,
+        "openAccessPdf": null, "fieldsOfStudy": ["Computer Science"], "s2FieldsOfStudy":
+        [{"category": "Computer Science", "source": "external"}, {"category": "Computer
+        Science", "source": "s2-fos-model"}], "publicationTypes": ["JournalArticle",
+        "Book", "Conference"], "publicationDate": "2022-06-10", "journal": {"name":
+        "Proceedings of the 2022 International Conference on Management of Data"},
+        "authors": [{"authorId": "3451662", "name": "Lampros Flokas"}, {"authorId":
+        "2047416704", "name": "Weiyuan Wu"}, {"authorId": "2108334459", "name": "Yejia
+        Liu"}, {"authorId": "1743709", "name": "Jiannan Wang"}, {"authorId": "1804289842",
+        "name": "Nakul Verma"}, {"authorId": "48144872", "name": "Eugene Wu"}]}, {"paperId":
+        "15372d10a8cc7d20b0db2298b99dd2e240dc16c8", "externalIds": {"DBLP": "conf/aied/TangKSFAVD22",
+        "DOI": "10.1007/978-3-031-11647-6_127", "CorpusId": 251137338}, "corpusId":
+        251137338, "publicationVenue": {"id": "79c77f49-24e0-4b61-a1a0-a8ba8f64be00",
+        "name": "International Conference on Artificial Intelligence in Education",
+        "type": "conference", "alternate_names": ["AIED Workshops", "AIED", "Artificial
+        Intelligence in Education", "Int Conf Artif Intell Educ", "AIED Work", "Artif
+        Intell Educ"], "url": "http://www.wikicfp.com/cfp/program?id=102"}, "url":
+        "https://www.semanticscholar.org/paper/15372d10a8cc7d20b0db2298b99dd2e240dc16c8",
+        "title": "Solving Probability and Statistics Problems by Probabilistic Program
+        Synthesis at Human Level and Predicting Solvability", "abstract": null, "venue":
+        "International Conference on Artificial Intelligence in Education", "year":
+        2022, "referenceCount": 0, "citationCount": 7, "influentialCitationCount":
+        0, "isOpenAccess": false, "openAccessPdf": null, "fieldsOfStudy": ["Computer
+        Science"], "s2FieldsOfStudy": [{"category": "Computer Science", "source":
+        "external"}, {"category": "Computer Science", "source": "s2-fos-model"}],
+        "publicationTypes": ["JournalArticle", "Conference"], "publicationDate": null,
+        "journal": {"pages": "612-615"}, "authors": [{"authorId": "2144484107", "name":
+        "Leonard Tang"}, {"authorId": "2140579905", "name": "Elizabeth Ke"}, {"authorId":
+        "2110097630", "name": "Nikhil Singh"}, {"authorId": "2150041719", "name":
+        "Bo Feng"}, {"authorId": "2060771111", "name": "Derek Austin"}, {"authorId":
+        "1804289842", "name": "Nakul Verma"}, {"authorId": "2861627", "name": "Iddo
+        Drori"}]}, {"paperId": "2ceaa9671c736a669b6286a63419a3d37420257f", "externalIds":
+        {"DBLP": "conf/deem/FlokasWWV022", "DOI": "10.1145/3533028.3533305", "CorpusId":
+        248990164}, "corpusId": 248990164, "publicationVenue": null, "url": "https://www.semanticscholar.org/paper/2ceaa9671c736a669b6286a63419a3d37420257f",
+        "title": "How I stopped worrying about training data bugs and started complaining",
+        "abstract": "There is an increasing awareness of the gap between machine learning
+        research and production. The research community has largely focused on developing
+        a model that performs well on a validation set, but the production environment
+        needs to make sure the model also performs well in a downstream application.
+        The latter is more challenging because the test/inference-time data used in
+        the application could be quite different from the training data. To address
+        this challenge, we advocate for \"complaint-driven\" data debugging, which
+        allows the user to complain about the unexpected behaviors of the model in
+        the downstream application, and proposes interventions for training data errors
+        that likely led to the complaints. This new debugging paradigm helps solve
+        a range of training data quality problems such as labeling error, fairness,
+        and data drift. We present our long-term vision, highlight achieved milestones,
+        and outline a research roadmap including a number of open problems.", "venue":
+        "DEEM@SIGMOD", "year": 2022, "referenceCount": 5, "citationCount": 0, "influentialCitationCount":
+        0, "isOpenAccess": false, "openAccessPdf": null, "fieldsOfStudy": ["Computer
+        Science"], "s2FieldsOfStudy": [{"category": "Computer Science", "source":
+        "external"}, {"category": "Computer Science", "source": "s2-fos-model"}],
+        "publicationTypes": ["Book", "JournalArticle"], "publicationDate": "2022-06-12",
+        "journal": {"name": "Proceedings of the Sixth Workshop on Data Management
+        for End-To-End Machine Learning"}, "authors": [{"authorId": "3451662", "name":
+        "Lampros Flokas"}, {"authorId": "2047416704", "name": "Weiyuan Wu"}, {"authorId":
+        "1743709", "name": "Jiannan Wang"}, {"authorId": "1804289842", "name": "Nakul
+        Verma"}, {"authorId": "2056843177", "name": "Eugene Wu"}]}, {"paperId": "3646ccbbe4e262ab8baa3a7bd50cf2df57c7df6e",
+        "externalIds": {"ArXiv": "2012.02394", "DBLP": "conf/sigecom/CowgillDD0VC20",
+        "MAG": "3110881698", "DOI": "10.2139/ssrn.3615404", "CorpusId": 220434511},
+        "corpusId": 220434511, "publicationVenue": {"id": "3c2dd17d-6c11-4bb6-9d01-1fc2064cb8df",
+        "name": "ACM Conference on Economics and Computation", "type": "conference",
+        "alternate_names": ["Economics and Computation", "Electron Commer", "EC",
+        "ACM Conf Econ Comput", "Econ Comput", "Electronic Commerce"], "url": "http://www.acm.org/sigecom/"},
+        "url": "https://www.semanticscholar.org/paper/3646ccbbe4e262ab8baa3a7bd50cf2df57c7df6e",
+        "title": "Biased Programmers? Or Biased Data? A Field Experiment in Operationalizing
+        AI Ethics", "abstract": "Why do biased algorithmic predictions arise, and
+        what interventions can prevent them? We examine this topic with a field experiment
+        about using machine learning to predict human capital. We randomly assign
+        approximately 400 AI engineers to develop software under different experimental
+        conditions to predict standardized test scores of OECD residents. We then
+        assess the resulting predictive algorithms using the realized test performances,
+        and through randomized audit-like manipulations of algorithmic inputs. We
+        also used the diversity of our subject population to measure whether demographically
+        non-traditional engineers were more likely to notice and reduce algorithmic
+        bias, and whether algorithmic prediction errors are correlated within programmer
+        demographic groups. This document describes our experimental design and motivation;
+        the full results of our experiment are available at https://ssrn.com/abstract=3615404.",
+        "venue": "ACM Conference on Economics and Computation", "year": 2020, "referenceCount":
+        53, "citationCount": 57, "influentialCitationCount": 3, "isOpenAccess": true,
+        "openAccessPdf": {"url": "https://arxiv.org/pdf/2012.02394", "status": null},
+        "fieldsOfStudy": ["Economics", "Computer Science", "Psychology"], "s2FieldsOfStudy":
+        [{"category": "Economics", "source": "external"}, {"category": "Computer Science",
+        "source": "external"}, {"category": "Psychology", "source": "external"}, {"category":
+        "Computer Science", "source": "s2-fos-model"}], "publicationTypes": ["JournalArticle",
+        "Book"], "publicationDate": "2020-06-01", "journal": {"name": "Proceedings
+        of the 21st ACM Conference on Economics and Computation"}, "authors": [{"authorId":
+        "3222806", "name": "Bo Cowgill"}, {"authorId": "1580291470", "name": "Fabrizio
+        Dell''Acqua"}, {"authorId": "87301224", "name": "Samuel Deng"}, {"authorId":
+        "143724861", "name": "Daniel J. Hsu"}, {"authorId": "1804289842", "name":
+        "Nakul Verma"}, {"authorId": "2775909", "name": "A. Chaintreau"}]}, {"paperId":
+        "266f67ad4bdffacc08542c637d8557e362eb59f1", "externalIds": {"DOI": "10.1038/s41586-019-1869-9",
+        "CorpusId": 256818962}, "corpusId": 256818962, "publicationVenue": {"id":
+        "6c24a0a0-b07d-4d7b-a19b-fd09a3ed453a", "name": "Nature", "type": "journal",
+        "issn": "0028-0836", "url": "https://www.nature.com/", "alternate_urls": ["http://www.nature.com/nature/",
+        "https://www.nature.com/nature/", "http://www.nature.com/nature/archive/index.html"]},
+        "url": "https://www.semanticscholar.org/paper/266f67ad4bdffacc08542c637d8557e362eb59f1",
+        "title": "Cortical pattern generation during dexterous movement is input-driven",
+        "abstract": null, "venue": "Nature", "year": 2019, "referenceCount": 0, "citationCount":
+        0, "influentialCitationCount": 0, "isOpenAccess": true, "openAccessPdf": {"url":
+        "https://europepmc.org/articles/pmc6962553?pdf=render", "status": null}, "fieldsOfStudy":
+        null, "s2FieldsOfStudy": [{"category": "Biology", "source": "s2-fos-model"},
+        {"category": "Psychology", "source": "s2-fos-model"}], "publicationTypes":
+        null, "publicationDate": "2019-12-25", "journal": {"volume": "577", "pages":
+        "386 - 391", "name": "Nature"}, "authors": [{"authorId": "49166981", "name":
+        "Britton A. Sauerbrei"}, {"authorId": "50115491", "name": "Jian-Zhong Guo"},
+        {"authorId": "11095266", "name": "Jeremy D. Cohen"}, {"authorId": "2387609",
+        "name": "M. Mischiati"}, {"authorId": "2112740677", "name": "Wendy Guo"},
+        {"authorId": "34837742", "name": "Mayank Kabra"}, {"authorId": "1804289842",
+        "name": "Nakul Verma"}, {"authorId": "1875164", "name": "B. Mensh"}, {"authorId":
+        "2424812", "name": "K. Branson"}, {"authorId": "5832202", "name": "A. Hantman"}]},
+        {"paperId": "8b36a5f0915178f35827bd434c020717d789dc5e", "externalIds": {"PubMedCentral":
+        "6962553", "DBLP": "journals/nature/SauerbreiGCMGKV20", "MAG": "2997409530",
+        "DOI": "10.1038/s41586-019-1869-9", "CorpusId": 209481603, "PubMed": "31875851"},
+        "corpusId": 209481603, "publicationVenue": {"id": "6c24a0a0-b07d-4d7b-a19b-fd09a3ed453a",
+        "name": "Nature", "type": "journal", "issn": "0028-0836", "url": "https://www.nature.com/",
+        "alternate_urls": ["http://www.nature.com/nature/", "https://www.nature.com/nature/",
+        "http://www.nature.com/nature/archive/index.html"]}, "url": "https://www.semanticscholar.org/paper/8b36a5f0915178f35827bd434c020717d789dc5e",
+        "title": "Cortical pattern generation during dexterous movement is input-driven",
+        "abstract": null, "venue": "Nature", "year": 2019, "referenceCount": 62, "citationCount":
+        160, "influentialCitationCount": 5, "isOpenAccess": true, "openAccessPdf":
+        {"url": "https://europepmc.org/articles/pmc6962553?pdf=render", "status":
+        null}, "fieldsOfStudy": ["Biology", "Computer Science", "Medicine"], "s2FieldsOfStudy":
+        [{"category": "Biology", "source": "external"}, {"category": "Computer Science",
+        "source": "external"}, {"category": "Medicine", "source": "external"}, {"category":
+        "Biology", "source": "s2-fos-model"}, {"category": "Psychology", "source":
+        "s2-fos-model"}], "publicationTypes": ["JournalArticle"], "publicationDate":
+        "2019-10-31", "journal": {"volume": "577", "pages": "386 - 391", "name": "Nature"},
+        "authors": [{"authorId": "49166981", "name": "Britton A. Sauerbrei"}, {"authorId":
+        "50115491", "name": "Jian-Zhong Guo"}, {"authorId": "11095266", "name": "Jeremy
+        D. Cohen"}, {"authorId": "2387609", "name": "M. Mischiati"}, {"authorId":
+        "2112740677", "name": "Wendy Guo"}, {"authorId": "34837742", "name": "Mayank
+        Kabra"}, {"authorId": "1804289842", "name": "Nakul Verma"}, {"authorId": "1875164",
+        "name": "B. Mensh"}, {"authorId": "2424812", "name": "K. Branson"}, {"authorId":
+        "5832202", "name": "A. Hantman"}]}, {"paperId": "063e296ca6111cca313c5e51fb96dd4c272fefb6",
+        "externalIds": {"DOI": "10.1101/266320", "CorpusId": 248120379}, "corpusId":
+        248120379, "publicationVenue": {"id": "027ffd21-ebb0-4af8-baf5-911124292fd0",
+        "name": "bioRxiv", "type": "journal", "url": "http://biorxiv.org/"}, "url":
+        "https://www.semanticscholar.org/paper/063e296ca6111cca313c5e51fb96dd4c272fefb6",
+        "title": "Motor cortex is an input-driven dynamical system controlling dexterous
+        movement", "abstract": "Skillful control of movement is central to our ability
+        to sense and manipulate the world. A large body of work in nonhuman primates
+        has demonstrated that motor cortex provides flexible, time-varying activity
+        patterns that control the arm during reaching and grasping. Previous studies
+        have suggested that these patterns are generated by strong local recurrent
+        dynamics operating autonomously from inputs during movement execution. An
+        alternative possibility is that motor cortex requires coordination with upstream
+        brain regions throughout the entire movement in order to yield these patterns.
+        Here, we developed an experimental preparation in the mouse to directly test
+        these possibilities using optogenetics and electrophysiology during a skilled
+        reach-to-grab-to-eat task. To validate this preparation, we first established
+        that a specific, time-varying pattern of motor cortical activity was required
+        to produce coordinated movement. Next, in order to disentangle the contribution
+        of local recurrent motor cortical dynamics from external input, we optogenetically
+        held the recurrent contribution constant, then observed how motor cortical
+        activity recovered following the end of this perturbation. Both the neural
+        responses and hand trajectory varied from trial to trial, and this variability
+        reflected variability in external inputs. To directly probe the role of these
+        inputs, we used optogenetics to perturb activity in the thalamus. Thalamic
+        perturbation at the start of the trial prevented movement initiation, and
+        perturbation at any stage of the movement prevented progression of the hand
+        to the target; this demonstrates that input is required throughout the movement.
+        By comparing motor cortical activity with and without thalamic perturbation,
+        we were able to estimate the effects of external inputs on motor cortical
+        population activity. Thus, unlike pattern-generating circuits that are local
+        and autonomous, such as those in the spinal cord that generate left-right
+        alternation during locomotion, the pattern generator for reaching and grasping
+        is distributed across multiple, strongly-interacting brain regions.", "venue":
+        "bioRxiv", "year": 2018, "referenceCount": 34, "citationCount": 5, "influentialCitationCount":
+        0, "isOpenAccess": true, "openAccessPdf": {"url": "https://www.biorxiv.org/content/biorxiv/early/2018/12/14/266320.full.pdf",
+        "status": null}, "fieldsOfStudy": ["Biology"], "s2FieldsOfStudy": [{"category":
+        "Biology", "source": "external"}, {"category": "Biology", "source": "s2-fos-model"},
+        {"category": "Psychology", "source": "s2-fos-model"}], "publicationTypes":
+        null, "publicationDate": "2018-12-14", "journal": {"name": "bioRxiv"}, "authors":
+        [{"authorId": "49166981", "name": "Britton A. Sauerbrei"}, {"authorId": "50115491",
+        "name": "Jian-Zhong Guo"}, {"authorId": "2387609", "name": "M. Mischiati"},
+        {"authorId": "2112740677", "name": "Wendy Guo"}, {"authorId": "34837742",
+        "name": "Mayank Kabra"}, {"authorId": "1804289842", "name": "Nakul Verma"},
+        {"authorId": "2424812", "name": "K. Branson"}, {"authorId": "5832202", "name":
+        "A. Hantman"}]}, {"paperId": "e72cf73b237ded15d5c78c792a909b3d3c28514f", "externalIds":
+        {"MAG": "2792695457", "DOI": "10.1101/266320", "CorpusId": 89883456}, "corpusId":
+        89883456, "publicationVenue": null, "url": "https://www.semanticscholar.org/paper/e72cf73b237ded15d5c78c792a909b3d3c28514f",
+        "title": "The cortical dynamics orchestrating skilled prehension", "abstract":
+        "Skillful control of movement is central to our ability to sense and manipulate
+        the world. Dexterous acts depend on cerebral cortex, and the activity of cortical
+        neurons is correlated with movement. By isolating the neural dynamics that
+        command skilled movements from those that reflect other processes (such as
+        planning and deciding to move), we were able to characterize and manipulate
+        the motor commands underlying prehension. We showed that in mice trained to
+        perform a reach / grab / supination / bring-to-mouth sequence (volitional
+        prehension), multiple forms of optogenetic stimuli in sensorimotor cortex
+        resulted in an involuntary, complete movement (opto-prehension). This result
+        suggested that the trained brain could robustly transform a variety of aberrant
+        stimuli into the dynamics sufficient for prehension. We measured the electrical
+        activity of cortical populations and detailed limb kinematics during volitional
+        prehension and opto-prehension. During volitional prehension, neurons fired
+        before and during specific stages of the movement, and the population collectively
+        tiled the entire behavioral sequence. During opto-prehension, most neurons
+        recapitulated their volitional prehension activity patterns, but a physiologically
+        distinct subset did not. On trials where the liminal optogenetic stimulus
+        failed to produce these dynamics, movement did not occur, providing further
+        evidence that a specific pattern of neural activity was causally coupled to
+        prehension. Having identified these dynamics, we next tested their robustness
+        to brief, closed-loop perturbation. Regardless of where along the reach we
+        optogenetically halted cortical activity and the movement, relief of suppression
+        resulted in cortical dynamics that immediately recapitulated all steps of
+        the prehension program, and the animal completed the behavior. By combining
+        electrophysiology and optogenetic perturbations, we have identified and characterized
+        the cortical motor program driving a learned, dexterous movement sequence.",
+        "venue": "", "year": 2018, "referenceCount": 48, "citationCount": 5, "influentialCitationCount":
+        0, "isOpenAccess": true, "openAccessPdf": {"url": "https://www.biorxiv.org/content/biorxiv/early/2018/12/14/266320.full.pdf",
+        "status": null}, "fieldsOfStudy": ["Biology"], "s2FieldsOfStudy": [{"category":
+        "Biology", "source": "external"}, {"category": "Biology", "source": "s2-fos-model"},
+        {"category": "Psychology", "source": "s2-fos-model"}], "publicationTypes":
+        null, "publicationDate": "2018-02-15", "journal": {"volume": "", "pages":
+        "266320", "name": "bioRxiv"}, "authors": [{"authorId": "49166981", "name":
+        "Britton A. Sauerbrei"}, {"authorId": "50115491", "name": "Jian-Zhong Guo"},
+        {"authorId": "46998758", "name": "Jihong Zheng"}, {"authorId": "2112740677",
+        "name": "Wendy Guo"}, {"authorId": "34837742", "name": "Mayank Kabra"}, {"authorId":
+        "1804289842", "name": "Nakul Verma"}, {"authorId": "2424812", "name": "K.
+        Branson"}, {"authorId": "5832202", "name": "A. Hantman"}]}]}, {"authorId":
+        "2099457859", "externalIds": {}, "url": "https://www.semanticscholar.org/author/2099457859",
+        "name": "Nakul Verma Scribes", "aliases": null, "affiliations": [], "homepage":
+        null, "paperCount": 2, "citationCount": 0, "hIndex": 0, "papers": [{"paperId":
+        "191d66e2e5adc21693495f30cf29643320d4d76d", "externalIds": {"CorpusId": 53002262},
+        "corpusId": 53002262, "publicationVenue": null, "url": "https://www.semanticscholar.org/paper/191d66e2e5adc21693495f30cf29643320d4d76d",
+        "title": "Lecture 2 \u2013 Clustering Part II", "abstract": "1.3 Observations
+        The obvious way to find the optimal solution to k-means is through exhaustive
+        search which is untenable, as that takes a long time and has exponential complexity.
+        While there are only O(nk) combinations of possible choices for centroids
+        (assuming only points of X are admissible) there are kn possible partitions,
+        which for k = 10 and n = 100 equals the number of atoms in the universe!",
+        "venue": "", "year": 2018, "referenceCount": 5, "citationCount": 0, "influentialCitationCount":
+        0, "isOpenAccess": false, "openAccessPdf": null, "fieldsOfStudy": null, "s2FieldsOfStudy":
+        [{"category": "Education", "source": "s2-fos-model"}], "publicationTypes":
+        null, "publicationDate": null, "journal": null, "authors": [{"authorId": "2099457859",
+        "name": "Nakul Verma Scribes"}, {"authorId": "47786295", "name": "Jie Li"},
+        {"authorId": "94172923", "name": "Y. Rozov"}]}, {"paperId": "e3b46d7ba9a4535fdc5bd3a270ff055318187433",
+        "externalIds": {"CorpusId": 53000451}, "corpusId": 53000451, "publicationVenue":
+        null, "url": "https://www.semanticscholar.org/paper/e3b46d7ba9a4535fdc5bd3a270ff055318187433",
+        "title": "Lecture 3 \u2013 k-means + + & the Impossibility Theorem", "abstract":
+        null, "venue": "", "year": 2018, "referenceCount": 2, "citationCount": 0,
+        "influentialCitationCount": 0, "isOpenAccess": false, "openAccessPdf": null,
+        "fieldsOfStudy": null, "s2FieldsOfStudy": [], "publicationTypes": null, "publicationDate":
+        null, "journal": null, "authors": [{"authorId": "2099457859", "name": "Nakul
+        Verma Scribes"}, {"authorId": "103303283", "name": "Zongkai Tian"}]}]}]}
+
+        '
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '110878'
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 19 Oct 2023 18:08:57 GMT
+      Via:
+      - 1.1 ab8bcd9c092f618064e495d01acbd726.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - KCojyv45_3H3WGhQSh7H7xZzRF4H7g5qxjMSwHICjsTb67MHk6c5tQ==
+      X-Amz-Cf-Pop:
+      - JFK52-P2
+      X-Cache:
+      - Miss from cloudfront
+      x-amz-apigw-id:
+      - ND6M8GByPHcFW_w=
+      x-amzn-Remapped-Connection:
+      - keep-alive
+      x-amzn-Remapped-Content-Length:
+      - '110878'
+      x-amzn-Remapped-Date:
+      - Thu, 19 Oct 2023 18:08:57 GMT
+      x-amzn-Remapped-Server:
+      - gunicorn
+      x-amzn-RequestId:
+      - 9bb5137c-72e7-4dbd-9356-a146552ff687
+    status:
+      code: 200
+      message: OK
+version: 1

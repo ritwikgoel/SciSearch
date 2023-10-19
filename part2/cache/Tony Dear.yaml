@@ -1,0 +1,852 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.semanticscholar.org/graph/v1/author/search?query=Tony%20Dear&fields=affiliations,aliases,authorId,citationCount,externalIds,hIndex,homepage,name,paperCount,papers,papers.abstract,papers.authors,papers.citationCount,papers.corpusId,papers.externalIds,papers.fieldsOfStudy,papers.influentialCitationCount,papers.isOpenAccess,papers.journal,papers.openAccessPdf,papers.paperId,papers.publicationDate,papers.publicationTypes,papers.publicationVenue,papers.referenceCount,papers.s2FieldsOfStudy,papers.title,papers.url,papers.venue,papers.year,url&offset=0&limit=1000
+  response:
+    body:
+      string: '{"total": 4, "offset": 0, "data": [{"authorId": "145312382", "externalIds":
+        {}, "url": "https://www.semanticscholar.org/author/145312382", "name": "D.
+        Tony", "aliases": ["Dear Tony", "D James Tony"], "affiliations": [], "homepage":
+        null, "paperCount": 4, "citationCount": 0, "hIndex": 0, "papers": [{"paperId":
+        "7fba71440838712264bdda98ccffaf2236f854de", "externalIds": {"MAG": "2744418853",
+        "CorpusId": 189050199}, "corpusId": 189050199, "publicationVenue": null, "url":
+        "https://www.semanticscholar.org/paper/7fba71440838712264bdda98ccffaf2236f854de",
+        "title": "\u30a4\u30f3\u30d5\u30eb\u30a8\u30f3\u30b6\u30a6\u30a4\u30eb\u30b9\u306b\u304a\u3051\u308b\u3057\u305f\u30d2\u30c8\u304a\u3088\u3073\u30c8\u30ea\u53d7\u5bb9\u4f53\u7279\u7570\u6027\u306e\u540c\u6642\u540c\u5b9a\u306e\u305f\u3081\u306e\u86cd\u5149\u767a\u751f2\u6b21\u5143glycosheet\u3010Powered
+        by NICT\u3011", "abstract": null, "venue": "", "year": 2017, "referenceCount":
+        0, "citationCount": 0, "influentialCitationCount": 0, "isOpenAccess": false,
+        "openAccessPdf": null, "fieldsOfStudy": null, "s2FieldsOfStudy": [], "publicationTypes":
+        null, "publicationDate": null, "journal": {"volume": "4", "pages": "436",
+        "name": "Materials horizons"}, "authors": [{"authorId": "2093382853", "name":
+        "Song Jinxing"}, {"authorId": "1411074728", "name": "Tang Xinying"}, {"authorId":
+        "2074924521", "name": "Zhou Dongming"}, {"authorId": "90816675", "name": "Zhang
+        Wenqing"}, {"authorId": "145312382", "name": "D. Tony"}, {"authorId": "2071906915",
+        "name": "He Xiao-Peng"}, {"authorId": "116491701", "name": "Tian He"}]}, {"paperId":
+        "e243c726820649d3a5f0a8d17952708de670e7c5", "externalIds": {"MAG": "2742828938",
+        "CorpusId": 187402328}, "corpusId": 187402328, "publicationVenue": null, "url":
+        "https://www.semanticscholar.org/paper/e243c726820649d3a5f0a8d17952708de670e7c5",
+        "title": "\u4f4e\u6b21\u5143\u6750\u6599\u306f\u86cd\u5149\u30dc\u30ed\u30f3\u9178\u3068\u7cd6\u985e\u9593\u306e\u5171\u5f79\u3092\u4fc3\u9032\u3059\u308b\u3010Powered
+        by NICT\u3011", "abstract": null, "venue": "", "year": 2017, "referenceCount":
+        0, "citationCount": 0, "influentialCitationCount": 0, "isOpenAccess": false,
+        "openAccessPdf": null, "fieldsOfStudy": null, "s2FieldsOfStudy": [], "publicationTypes":
+        null, "publicationDate": null, "journal": {"volume": "1", "pages": "64", "name":
+        "Materials Chemistry Frontiers"}, "authors": [{"authorId": "2067724078", "name":
+        "Guodong Shi"}, {"authorId": "2052847467", "name": "Chen Jie"}, {"authorId":
+        "1410701753", "name": "Cai Bi-Ying"}, {"authorId": "2081506031", "name": "Chen
+        Wen-wen"}, {"authorId": "73495949", "name": "Liang Yu-fei"}, {"authorId":
+        "2073655008", "name": "Sun Xiaolong"}, {"authorId": "50532089", "name": "Chen
+        Guorong"}, {"authorId": "2071906915", "name": "He Xiao-Peng"}, {"authorId":
+        "145312382", "name": "D. Tony"}]}, {"paperId": "9c20a8dede5eca5e8e6c0200e239150f45d8b890",
+        "externalIds": {"MAG": "2747587357", "CorpusId": 187193809}, "corpusId": 187193809,
+        "publicationVenue": null, "url": "https://www.semanticscholar.org/paper/9c20a8dede5eca5e8e6c0200e239150f45d8b890",
+        "title": "snakeboard\u306e\u305f\u3081\u306e\u7269\u7406\u7684\u30d1\u30e9\u30e1\u30fc\u30bf\u306b\u57fa\u3065\u304f\u96c6\u6750\u30e2\u30c7\u30eb\u3010Powered
+        by NICT\u3011", "abstract": null, "venue": "", "year": 2016, "referenceCount":
+        0, "citationCount": 0, "influentialCitationCount": 0, "isOpenAccess": false,
+        "openAccessPdf": null, "fieldsOfStudy": null, "s2FieldsOfStudy": [{"category":
+        "Computer Science", "source": "s2-fos-model"}], "publicationTypes": null,
+        "publicationDate": null, "journal": {"volume": "2016", "pages": "7560", "name":
+        ""}, "authors": [{"authorId": "2058673941", "name": "S. Hadi"}, {"authorId":
+        "145312382", "name": "D. Tony"}, {"authorId": "146303854", "name": "Babikian
+        Sevag"}, {"authorId": "2101681366", "name": "Shammas Elie"}, {"authorId":
+        "146377308", "name": "Choset Howie"}]}, {"paperId": "ae0e5e1718624b0581c3717c89b79f941fb5c13b",
+        "externalIds": {"MAG": "2743400402", "CorpusId": 186700163}, "corpusId": 186700163,
+        "publicationVenue": null, "url": "https://www.semanticscholar.org/paper/ae0e5e1718624b0581c3717c89b79f941fb5c13b",
+        "title": "\u5358\u4e00\u5165\u529b3\u30ea\u30f3\u30af\u86c7\u30ed\u30dc\u30c3\u30c8\u306e\u79fb\u52d5\u89e3\u6790\u3010Powered
+        by NICT\u3011", "abstract": null, "venue": "", "year": 2016, "referenceCount":
+        0, "citationCount": 0, "influentialCitationCount": 0, "isOpenAccess": false,
+        "openAccessPdf": null, "fieldsOfStudy": null, "s2FieldsOfStudy": [{"category":
+        "Engineering", "source": "s2-fos-model"}], "publicationTypes": null, "publicationDate":
+        null, "journal": {"volume": "2016", "pages": "7547", "name": ""}, "authors":
+        [{"authorId": "145312382", "name": "D. Tony"}, {"authorId": "147199489", "name":
+        "Kelly Scott David"}, {"authorId": "144771722", "name": "T. Matthew"}, {"authorId":
+        "146377308", "name": "Choset Howie"}]}]}, {"authorId": "2082490557", "externalIds":
+        {}, "url": "https://www.semanticscholar.org/author/2082490557", "name": "Dear
+        Tony", "aliases": null, "affiliations": [], "homepage": null, "paperCount":
+        1, "citationCount": 0, "hIndex": 0, "papers": [{"paperId": "08a21445f5dda5759cf19a48c03f2407c1b4cfcf",
+        "externalIds": {"MAG": "2189386464", "CorpusId": 130669784}, "corpusId": 130669784,
+        "publicationVenue": null, "url": "https://www.semanticscholar.org/paper/08a21445f5dda5759cf19a48c03f2407c1b4cfcf",
+        "title": "Re: Updated Kelly Lake M\u00e9tis Settlement Society Woody Debris
+        Management Program Phase 3 Final Report", "abstract": null, "venue": "", "year":
+        2012, "referenceCount": 0, "citationCount": 0, "influentialCitationCount":
+        0, "isOpenAccess": false, "openAccessPdf": null, "fieldsOfStudy": ["Geography"],
+        "s2FieldsOfStudy": [{"category": "Geography", "source": "external"}], "publicationTypes":
+        null, "publicationDate": null, "journal": {"volume": "", "name": ""}, "authors":
+        [{"authorId": "2082490557", "name": "Dear Tony"}]}]}, {"authorId": "3258452",
+        "externalIds": {"DBLP": ["Tony Dear"]}, "url": "https://www.semanticscholar.org/author/3258452",
+        "name": "Tony Dear", "aliases": null, "affiliations": [], "homepage": null,
+        "paperCount": 26, "citationCount": 148, "hIndex": 8, "papers": [{"paperId":
+        "798c599b3ff4ac4392189ec162574400733f32af", "externalIds": {"DBLP": "journals/corr/abs-2301-13072",
+        "ArXiv": "2301.13072", "DOI": "10.48550/arXiv.2301.13072", "CorpusId": 256390237},
+        "corpusId": 256390237, "publicationVenue": {"id": "1901e811-ee72-4b20-8f7e-de08cd395a10",
+        "name": "arXiv.org", "alternate_names": ["ArXiv"], "issn": "2331-8422", "url":
+        "https://arxiv.org"}, "url": "https://www.semanticscholar.org/paper/798c599b3ff4ac4392189ec162574400733f32af",
+        "title": "Guided Deep Reinforcement Learning for Articulated Swimming Robots",
+        "abstract": "Deep reinforcement learning has recently been applied to a variety
+        of robotics applications, but learning locomotion for robots with unconventional
+        configurations is still limited. Prior work has shown that, despite the simple
+        modeling of articulated swimmer robots, such systems struggle to find effective
+        gaits using reinforcement learning due to the heterogeneity of the search
+        space. In this work, we leverage insight from geometric models of these robots
+        in order to focus on promising regions of the space and guide the learning
+        process. We demonstrate that our augmented learning technique is able to produce
+        gaits for different learning goals for swimmer robots in both low and high
+        Reynolds number fluids.", "venue": "arXiv.org", "year": 2023, "referenceCount":
+        26, "citationCount": 0, "influentialCitationCount": 0, "isOpenAccess": false,
+        "openAccessPdf": null, "fieldsOfStudy": ["Computer Science"], "s2FieldsOfStudy":
+        [{"category": "Computer Science", "source": "external"}, {"category": "Computer
+        Science", "source": "s2-fos-model"}], "publicationTypes": ["JournalArticle"],
+        "publicationDate": "2023-01-30", "journal": {"volume": "abs/2301.13072", "name":
+        "ArXiv"}, "authors": [{"authorId": "81703072", "name": "Jiaheng Hu"}, {"authorId":
+        "3258452", "name": "Tony Dear"}]}, {"paperId": "e7b503d48f4f5864fafb9e3fe6c1391a1f32328d",
+        "externalIds": {"DBLP": "journals/corr/abs-2303-02640", "ArXiv": "2303.02640",
+        "DOI": "10.48550/arXiv.2303.02640", "CorpusId": 257365779}, "corpusId": 257365779,
+        "publicationVenue": {"id": "1901e811-ee72-4b20-8f7e-de08cd395a10", "name":
+        "arXiv.org", "alternate_names": ["ArXiv"], "issn": "2331-8422", "url": "https://arxiv.org"},
+        "url": "https://www.semanticscholar.org/paper/e7b503d48f4f5864fafb9e3fe6c1391a1f32328d",
+        "title": "Swim: A General-Purpose, High-Performing, and Efficient Activation
+        Function for Locomotion Control Tasks", "abstract": "Activation functions
+        play a significant role in the performance of deep learning algorithms. In
+        particular, the Swish activation function tends to outperform ReLU on deeper
+        models, including deep reinforcement learning models, across challenging tasks.
+        Despite this progress, ReLU is the preferred function partly because it is
+        more efficient than Swish. Furthermore, in contrast to the fields of computer
+        vision and natural language processing, the deep reinforcement learning and
+        robotics domains have seen less inclination to adopt new activation functions,
+        such as Swish, and instead continue to use more traditional functions, like
+        ReLU. To tackle those issues, we propose Swim, a general-purpose, efficient,
+        and high-performing alternative to Swish, and then provide an analysis of
+        its properties as well as an explanation for its high-performance relative
+        to Swish, in terms of both reward-achievement and efficiency. We focus on
+        testing Swim on MuJoCo''s locomotion continuous control tasks since they exhibit
+        more complex dynamics and would therefore benefit most from a high-performing
+        and efficient activation function. We also use the TD3 algorithm in conjunction
+        with Swim and explain this choice in the context of the robot locomotion domain.
+        We then conclude that Swim is a state-of-the-art activation function for continuous
+        control locomotion tasks and recommend using it with TD3 as a working framework.",
+        "venue": "arXiv.org", "year": 2023, "referenceCount": 22, "citationCount":
+        1, "influentialCitationCount": 0, "isOpenAccess": false, "openAccessPdf":
+        null, "fieldsOfStudy": ["Computer Science"], "s2FieldsOfStudy": [{"category":
+        "Computer Science", "source": "external"}, {"category": "Computer Science",
+        "source": "s2-fos-model"}], "publicationTypes": ["JournalArticle"], "publicationDate":
+        "2023-03-05", "journal": {"volume": "abs/2303.02640", "name": "ArXiv"}, "authors":
+        [{"authorId": "2210797671", "name": "Maryam Abdool"}, {"authorId": "3258452",
+        "name": "Tony Dear"}]}, {"paperId": "e38c13e5e83b34494c27a4d73477b1bc1e9baf0f",
+        "externalIds": {"DBLP": "journals/corr/abs-2108-06442", "ArXiv": "2108.06442",
+        "CorpusId": 237091037}, "corpusId": 237091037, "publicationVenue": {"id":
+        "1901e811-ee72-4b20-8f7e-de08cd395a10", "name": "arXiv.org", "alternate_names":
+        ["ArXiv"], "issn": "2331-8422", "url": "https://arxiv.org"}, "url": "https://www.semanticscholar.org/paper/e38c13e5e83b34494c27a4d73477b1bc1e9baf0f",
+        "title": "The Geometric Structure of Externally Actuated Planar Locomoting
+        Systems in Ambient Media", "abstract": "Robots often interact with the world
+        via attached parts such as wheels, joints, or appendages. In many systems,
+        these interactions, and the manner in which they lead to locomotion, can be
+        understood using the machinery of geometric mechanics, explaining how inputs
+        in the shape space of a robot affect motion in its configuration space and
+        the configuration space of its environment. In this paper we consider an opposite
+        type of locomotion, wherein robots are influenced actively by interactions
+        with an externally forced ambient medium. We investigate two examples of externally
+        actuated systems; one for which locomotion is governed by a principal connection,
+        and is usually considered to possess no drift dynamics, and another for which
+        no such connection exists, with drift inherent in its locomotion. For the
+        driftless system, we develop geometric tools based on previously understood
+        internally actuated versions of the system and demonstrate their use for motion
+        planning under external actuation. For the system possessing drift, we employ
+        nonholonomic reduction to obtain a reduced representation of the system dynamics,
+        illustrate geometric features conducive to studying locomotion, and derive
+        strategies for external actuation.", "venue": "arXiv.org", "year": 2021, "referenceCount":
+        46, "citationCount": 0, "influentialCitationCount": 0, "isOpenAccess": false,
+        "openAccessPdf": null, "fieldsOfStudy": ["Computer Science", "Physics"], "s2FieldsOfStudy":
+        [{"category": "Computer Science", "source": "external"}, {"category": "Physics",
+        "source": "external"}, {"category": "Engineering", "source": "s2-fos-model"}],
+        "publicationTypes": ["JournalArticle"], "publicationDate": "2021-08-14", "journal":
+        {"volume": "abs/2108.06442", "name": "ArXiv"}, "authors": [{"authorId": "1411925170",
+        "name": "Blake Buchanan"}, {"authorId": "3258452", "name": "Tony Dear"}, {"authorId":
+        "2157425", "name": "S. Kelly"}, {"authorId": "143891751", "name": "M. Travers"},
+        {"authorId": "1742948", "name": "H. Choset"}]}, {"paperId": "dc01cfaa8a42db58c0f98900b99362819693467f",
+        "externalIds": {"MAG": "3154791684", "DOI": "10.1016/J.IFACOL.2020.12.2619",
+        "CorpusId": 235010551}, "corpusId": 235010551, "publicationVenue": null, "url":
+        "https://www.semanticscholar.org/paper/dc01cfaa8a42db58c0f98900b99362819693467f",
+        "title": "Deep Reinforcement Learning for Snake Robot Locomotion", "abstract":
+        null, "venue": "", "year": 2020, "referenceCount": 26, "citationCount": 3,
+        "influentialCitationCount": 0, "isOpenAccess": true, "openAccessPdf": null,
+        "fieldsOfStudy": ["Computer Science"], "s2FieldsOfStudy": [{"category": "Computer
+        Science", "source": "external"}, {"category": "Computer Science", "source":
+        "s2-fos-model"}], "publicationTypes": null, "publicationDate": null, "journal":
+        {"volume": "53", "pages": "9688-9695", "name": "IFAC-PapersOnLine"}, "authors":
+        [{"authorId": "1409923729", "name": "Junyao Shi"}, {"authorId": "3258452",
+        "name": "Tony Dear"}, {"authorId": "2157425", "name": "S. Kelly"}]}, {"paperId":
+        "e641fa9ee43b4f2f83e76293772cc6eefa2eab38", "externalIds": {"DBLP": "journals/ijrr/DearBAKTC20",
+        "MAG": "3002469973", "DOI": "10.1177/0278364919898503", "CorpusId": 213914472},
+        "corpusId": 213914472, "publicationVenue": null, "url": "https://www.semanticscholar.org/paper/e641fa9ee43b4f2f83e76293772cc6eefa2eab38",
+        "title": "Locomotion of a multi-link non-holonomic snake robot with passive
+        joints", "abstract": "Conventional approaches in prescribing controls for
+        locomoting robots assume control over all input degrees of freedom (DOFs).
+        Many robots, such as those with non-holonomic constraints, may not require
+        or even allow for direct command over all DOFs. In particular, a snake robot
+        with more than three links with non-holonomic constraints cannot achieve arbitrary
+        configurations in all of its joints while simultaneously locomoting. For such
+        a system, we assume partial command over a subset of the joints, and allow
+        the rest to evolve according to kinematic chained and dynamic models. Different
+        combinations of actuated and passive joints, as well as joints with dynamic
+        elements such as torsional springs, can drastically change the coupling interactions
+        and stable oscillations of joints. We use tools from nonlinear analysis to
+        understand emergent oscillation modes of various robot configurations and
+        connect them to overall locomotion using geometric mechanics and feedback
+        control for robots that may not fully utilize all available inputs. We also
+        experimentally verify observations and motion planning results on a physical
+        non-holonomic snake robot.", "venue": "Int. J. Robotics Res.", "year": 2020,
+        "referenceCount": 36, "citationCount": 17, "influentialCitationCount": 0,
+        "isOpenAccess": true, "openAccessPdf": {"url": "https://journals.sagepub.com/doi/pdf/10.1177/0278364919898503",
+        "status": null}, "fieldsOfStudy": ["Computer Science"], "s2FieldsOfStudy":
+        [{"category": "Computer Science", "source": "external"}, {"category": "Engineering",
+        "source": "s2-fos-model"}], "publicationTypes": ["JournalArticle"], "publicationDate":
+        "2020-01-27", "journal": {"volume": "39", "pages": "598 - 616", "name": "The
+        International Journal of Robotics Research"}, "authors": [{"authorId": "3258452",
+        "name": "Tony Dear"}, {"authorId": "1411925170", "name": "Blake Buchanan"},
+        {"authorId": "1403752368", "name": "Rodrigo Abrajan-Guerrero"}, {"authorId":
+        "2157425", "name": "S. Kelly"}, {"authorId": "143891751", "name": "M. Travers"},
+        {"authorId": "1742948", "name": "H. Choset"}]}, {"paperId": "40265ddc4300cd24656d92941e1ce277d0574b9f",
+        "externalIds": {"DBLP": "conf/amcc/GroverZDTCK18", "MAG": "2887003603", "DOI":
+        "10.23919/ACC.2018.8431828", "CorpusId": 52016027}, "corpusId": 52016027,
+        "publicationVenue": {"id": "fe4d09f8-d278-4bfb-b73a-1a6a0e22f6a3", "name":
+        "American Control Conference", "type": "conference", "alternate_names": ["Int
+        Conf Adv Comput Control", "ACC", "Advances in Computing and Communications",
+        "Adv Comput Commun", "Am Control Conf", "Advances in Computer and Communication",
+        "International Conference on Advanced Computer Control"], "issn": "2767-2875",
+        "url": "http://a2c2.org/conferences/american-control-conferences", "alternate_urls":
+        ["http://www.acc-rajagiri.org/"]}, "url": "https://www.semanticscholar.org/paper/40265ddc4300cd24656d92941e1ce277d0574b9f",
+        "title": "Geometric Motion Planning for a Three-Link Swimmer in a Three-Dimensional
+        low Reynolds-Number Regime", "abstract": "Purcell''s three-link, two-joint
+        planar swimmer is an iconic model of a simple mechanism that can locomote
+        in the low-Reynolds number regime. In this paper, we consider a modification
+        to the design of the planar swimmer by allowing yaw-pitch movements at the
+        two actuated joints as opposed to the conventional yaw-yaw movements. We demonstrate
+        that this design with only two active inputs is capable of swimming in three
+        dimensions unlike the planar swimmer. Using analytical and visual tools from
+        geometric mechanics, we design motion primitives that enable the swimmer to
+        reorient itself and swim along canonical directions in the inertial frame.
+        We also provide experimental results on a hardware testbed to show a comparison
+        between the trajectories derived from simulated gaits and trajectory of the
+        robot executing those gaits.", "venue": "American Control Conference", "year":
+        2018, "referenceCount": 14, "citationCount": 9, "influentialCitationCount":
+        0, "isOpenAccess": false, "openAccessPdf": null, "fieldsOfStudy": ["Computer
+        Science"], "s2FieldsOfStudy": [{"category": "Computer Science", "source":
+        "external"}, {"category": "Physics", "source": "s2-fos-model"}, {"category":
+        "Biology", "source": "s2-fos-model"}], "publicationTypes": ["JournalArticle",
+        "Conference"], "publicationDate": "2018-06-01", "journal": {"pages": "6067-6074",
+        "name": "2018 Annual American Control Conference (ACC)"}, "authors": [{"authorId":
+        "3402430", "name": "J. Grover"}, {"authorId": "51206672", "name": "J. Zimmer"},
+        {"authorId": "3258452", "name": "Tony Dear"}, {"authorId": "143891751", "name":
+        "M. Travers"}, {"authorId": "1742948", "name": "H. Choset"}, {"authorId":
+        "2157425", "name": "S. Kelly"}]}, {"paperId": "a38988f7e11dfa96169d03242b2e1ca8a213da67",
+        "externalIds": {"DBLP": "phd/us/Dear18", "MAG": "2991622863", "DOI": "10.1184/R1/7189487.V1",
+        "CorpusId": 215956153}, "corpusId": 215956153, "publicationVenue": null, "url":
+        "https://www.semanticscholar.org/paper/a38988f7e11dfa96169d03242b2e1ca8a213da67",
+        "title": "Extensions of the Principal Fiber Bundle Model for Locomoting Robots",
+        "abstract": "Our goal is to establish a rigorous formulation for modeling
+        the locomotion of a broad class of robotic systems. Recent research has identifi?ed
+        a number of systems with the structure of a principal ?fiber bundle. This
+        framework has led to a number of tools for analysis and motion planning applicable
+        to various robotic confi?gurations in diff?erent environments, but it also
+        requires a number of assumptions that limit its usefulness to certain \\idealized\"
+        systems. Systems that cannot be fully described with a principal fi?ber bundle
+        or cannot make full use of the subsequent tools include those whose joints
+        are not fully controllable, those with control inputs or dynamics external
+        to their mechanism, and those whose external con?figurations do not forma
+        symmetry group. In addition, the motion planning techniques derived from this
+        structure have traditionally assumed a mapping from internal joint confi?gurations
+        toexternal position con?figurations. The reverse of this mapping will be discussed
+        in this thesis, as well as the analysis and solutions for problems violating
+        each of the aboveassumptions in turn. For each case, we introduce one or two
+        motivating examples of robotic systems and discuss novel locomotive characteristics
+        that do not previouslyappear under the standard assumptions. This thesis expands
+        the applicability of the principal ?fiber bundle model, as well as derivative
+        tools for analysis and motionplanning, to a larger variety of locomoting systems.",
+        "venue": "", "year": 2018, "referenceCount": 0, "citationCount": 4, "influentialCitationCount":
+        0, "isOpenAccess": false, "openAccessPdf": null, "fieldsOfStudy": ["Computer
+        Science"], "s2FieldsOfStudy": [{"category": "Computer Science", "source":
+        "external"}, {"category": "Mathematics", "source": "s2-fos-model"}], "publicationTypes":
+        null, "publicationDate": "2018-08-01", "journal": {"volume": "", "name": ""},
+        "authors": [{"authorId": "3258452", "name": "Tony Dear"}]}, {"paperId": "0292514b7d432eb14af33a6e5673c3b6aaf1a07b",
+        "externalIds": {"DBLP": "journals/trob/HattonDC17", "MAG": "2591485004", "DOI":
+        "10.1109/TRO.2017.2653810", "CorpusId": 26762056}, "corpusId": 26762056, "publicationVenue":
+        {"id": "2aa2a52c-3e35-4bed-8edf-5dc99550883a", "name": "IEEE Transactions
+        on robotics", "type": "journal", "alternate_names": ["IEEE Trans robot", "IEEE
+        Trans Robot", "IEEE Transactions on Robotics"], "issn": "1552-3098", "url":
+        "http://ieeexplore.ieee.org/servlet/opac?punumber=8860", "alternate_urls":
+        ["https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8860"]}, "url":
+        "https://www.semanticscholar.org/paper/0292514b7d432eb14af33a6e5673c3b6aaf1a07b",
+        "title": "Kinematic Cartography and the Efficiency of Viscous Swimming", "abstract":
+        "The apparent \u201cdistance\u201d between two configurations of a system
+        and the \u201clength\u201d of trajectories through its configuration space
+        can be significantly distorted by plots that use \u201cnatural\u201d or intuitively
+        selected coordinates. This effect is similar to the way that a latitude\u2013longitude
+        plot of the Earth distorts the size and shape of the continents. In this paper,
+        we explore how ideas from cartography can be used to identify system parameterizations
+        that better reflect the effort costs of changing configuration. We then apply
+        these new parameters to provide geometric insight about two aspects of moving
+        in dissipative environments such as low Reynolds number fluids: The shape
+        of the optimal gait cycle for a three-link swimmer and the fundamentally superior
+        efficiency of a serpenoid swimmer as compared to the classic three-link system.",
+        "venue": "IEEE Transactions on robotics", "year": 2017, "referenceCount":
+        57, "citationCount": 17, "influentialCitationCount": 0, "isOpenAccess": true,
+        "openAccessPdf": null, "fieldsOfStudy": ["Mathematics", "Computer Science"],
+        "s2FieldsOfStudy": [{"category": "Mathematics", "source": "external"}, {"category":
+        "Computer Science", "source": "external"}, {"category": "Physics", "source":
+        "s2-fos-model"}], "publicationTypes": ["JournalArticle"], "publicationDate":
+        "2017-02-20", "journal": {"volume": "33", "pages": "523-535", "name": "IEEE
+        Transactions on Robotics"}, "authors": [{"authorId": "2468829", "name": "R.
+        Hatton"}, {"authorId": "3258452", "name": "Tony Dear"}, {"authorId": "1742948",
+        "name": "H. Choset"}]}, {"paperId": "0e613a415a30ac06a937644bcd070284bd43e4eb",
+        "externalIds": {"DBLP": "conf/amcc/DearKC17", "MAG": "2736155076", "DOI":
+        "10.23919/ACC.2017.7963705", "CorpusId": 32616432}, "corpusId": 32616432,
+        "publicationVenue": {"id": "fe4d09f8-d278-4bfb-b73a-1a6a0e22f6a3", "name":
+        "American Control Conference", "type": "conference", "alternate_names": ["Int
+        Conf Adv Comput Control", "ACC", "Advances in Computing and Communications",
+        "Adv Comput Commun", "Am Control Conf", "Advances in Computer and Communication",
+        "International Conference on Advanced Computer Control"], "issn": "2767-2875",
+        "url": "http://a2c2.org/conferences/american-control-conferences", "alternate_urls":
+        ["http://www.acc-rajagiri.org/"]}, "url": "https://www.semanticscholar.org/paper/0e613a415a30ac06a937644bcd070284bd43e4eb",
+        "title": "Control and locomotion of hydrodynamically coupled rigid spheres",
+        "abstract": "The coupling interactions between two spherical swimmers in an
+        ideal fluid have known analytic approximations for certain types of motion.
+        We apply these results to produce locomotion and coordination through the
+        actuation of internal masses inside each swimmer. Through control of either
+        both swimmers or one of them, the latter case taking advantage of compliance
+        in the passive swimmer, desired motion along the spheres'' line of centers
+        can be achieved. We subsequently treat general 2D motion as a superposition
+        of motion components along and perpendicular to the spheres'' line of centers,
+        leading to a derivation of a full model of controlled locomotion and coordination
+        of two spheres in a planar fluid.", "venue": "American Control Conference",
+        "year": 2017, "referenceCount": 16, "citationCount": 0, "influentialCitationCount":
+        0, "isOpenAccess": false, "openAccessPdf": null, "fieldsOfStudy": ["Physics",
+        "Computer Science"], "s2FieldsOfStudy": [{"category": "Physics", "source":
+        "external"}, {"category": "Computer Science", "source": "external"}, {"category":
+        "Engineering", "source": "s2-fos-model"}], "publicationTypes": ["JournalArticle",
+        "Conference"], "publicationDate": "2017-05-01", "journal": {"pages": "4845-4850",
+        "name": "2017 American Control Conference (ACC)"}, "authors": [{"authorId":
+        "3258452", "name": "Tony Dear"}, {"authorId": "2157425", "name": "S. Kelly"},
+        {"authorId": "1742948", "name": "H. Choset"}]}, {"paperId": "cee070fb6c9dbe0b1d6fb8caa519f2a8945d02c4",
+        "externalIds": {"MAG": "2771028324", "DOI": "10.1115/DSCC2017-5349", "CorpusId":
+        67372422}, "corpusId": 67372422, "publicationVenue": null, "url": "https://www.semanticscholar.org/paper/cee070fb6c9dbe0b1d6fb8caa519f2a8945d02c4",
+        "title": "Locomotion of a Multi-Link Nonholonomic Snake Robot", "abstract":
+        null, "venue": "", "year": 2017, "referenceCount": 0, "citationCount": 4,
+        "influentialCitationCount": 0, "isOpenAccess": false, "openAccessPdf": null,
+        "fieldsOfStudy": ["Computer Science"], "s2FieldsOfStudy": [{"category": "Computer
+        Science", "source": "external"}, {"category": "Engineering", "source": "s2-fos-model"}],
+        "publicationTypes": null, "publicationDate": "2017-10-11", "journal": {"volume":
+        "", "name": ""}, "authors": [{"authorId": "3258452", "name": "Tony Dear"},
+        {"authorId": "2157425", "name": "S. Kelly"}, {"authorId": "143891751", "name":
+        "M. Travers"}, {"authorId": "1742948", "name": "H. Choset"}]}, {"paperId":
+        "12f79d003d4dd6b2db848ce71b233d9d8ff943cd", "externalIds": {"MAG": "2571155720",
+        "DBLP": "conf/cdc/SalmanDBSC16", "DOI": "10.1109/CDC.2016.7799436", "CorpusId":
+        26973511}, "corpusId": 26973511, "publicationVenue": {"id": "ab066af1-bfee-42da-84bb-42f7e199d0d0",
+        "name": "IEEE Conference on Decision and Control", "type": "conference", "alternate_names":
+        ["Conference on Decision and Control", "IEEE Conf Decis Control", "Conf Decis
+        Control", "CDC"], "url": "http://www.wikicfp.com/cfp/program?id=403"}, "url":
+        "https://www.semanticscholar.org/paper/12f79d003d4dd6b2db848ce71b233d9d8ff943cd",
+        "title": "A physical parameter-based skidding model for the snakeboard", "abstract":
+        "The physical violation of a nonholonomic system''s idealized constraints
+        in the form of skidding has recently elucidated interest in new models in
+        order to directly incorporate the phenomenon into the system dynamics. However,
+        such models either are too simple to capture physical attributes or have otherwise
+        been tested only on systems with simple behaviors, such as the rolling disk.
+        In this work, we present a novel skidding model, based on physical parameters,
+        for a snakeboard system, which is simultaneously rich in behavior but simple
+        in design. This model extends the system''s configuration space and associates
+        traction forces to a skidding angle using an experimentally verified observation
+        from the literature. We validate our model in simulation and discuss its advantages
+        over the Rayleigh dissipation function skidding model. We also show that the
+        model accurately predicts a physical system''s behavior in experimentation
+        with tuned parameters and standard controllers.", "venue": "IEEE Conference
+        on Decision and Control", "year": 2016, "referenceCount": 18, "citationCount":
+        4, "influentialCitationCount": 0, "isOpenAccess": false, "openAccessPdf":
+        null, "fieldsOfStudy": ["Engineering", "Computer Science"], "s2FieldsOfStudy":
+        [{"category": "Engineering", "source": "external"}, {"category": "Computer
+        Science", "source": "external"}, {"category": "Computer Science", "source":
+        "s2-fos-model"}], "publicationTypes": ["JournalArticle", "Conference"], "publicationDate":
+        "2016-12-01", "journal": {"pages": "7555-7560", "name": "2016 IEEE 55th Conference
+        on Decision and Control (CDC)"}, "authors": [{"authorId": "40575781", "name":
+        "Hadi Salman"}, {"authorId": "3258452", "name": "Tony Dear"}, {"authorId":
+        "31392521", "name": "Sevag Babikian"}, {"authorId": "3313294", "name": "Elie
+        A. Shammas"}, {"authorId": "1742948", "name": "H. Choset"}]}, {"paperId":
+        "391e4c3fd6911f7e7a76c08f9e8f2e78e36a0475", "externalIds": {"MAG": "2588574957",
+        "DOI": "10.1115/DSCC2016-9923", "CorpusId": 28226682}, "corpusId": 28226682,
+        "publicationVenue": null, "url": "https://www.semanticscholar.org/paper/391e4c3fd6911f7e7a76c08f9e8f2e78e36a0475",
+        "title": "Experimental Gait Analysis of Waveboard Locomotion", "abstract":
+        "Through modeling and experimentation, we analyze common gaits on a waveboard,
+        an underactuated mechanical system whose motion is governed by both nonholonomic
+        constraints and momentum conservation. We take advantage of the system''s
+        symmetries to derive a reduced system model that differentiates between kinematic
+        and dynamic components of motion. We evaluate this model using marker trajectory
+        data gathered through an optical tracking system for various types of gaits.
+        By extracting relevant trajectory parameters via state reconstruction and
+        fitting our joint variables to an ellipse, we determine the kinematic components
+        of gaits commonly used by human riders. In particular, we demonstrate that
+        traditional forward motion is purely dynamic, while sustained turning motion
+        contains kinematic components. In order to validate our model, we compare
+        experimentally obtained trajectories with reconstructed displacements based
+        on the model. Finally, we suggest an approach for further analysis of the
+        dynamic components of these gaits. INTRODUCTION The waveboard, also known
+        as the essboard, caster board, vigor board, and ripstik, is a skateboard variant
+        in which two platforms, each resting upon a caster wheel, are constrained
+        to rotate about the same axis and coupled with a torsional spring. It is a
+        mixed mechanical system whose motion is governed by both nonholonomic velocity
+        constraints and momentum conservation. It is modeled similarly to the variable
+        inertia snakeboard examined by Shammas et al. [1], who used geometric mechanics
+        to differentiate between kinematic and dynamic components of motion. Relative
+        to traditional two-wheel drive systems, the waveboard possesses greater maneuverability
+        and potentially higher efficiency at the expense of stability. Modeling insight
+        could be used by designers to optimize kinematic parameters of waveboards
+        in light of ergonomic considerations. More generally, analysis of the locomotive
+        capabilities of this system informs control and planning of highly dynamic
+        mobile robots. Although the waveboard itself has not appeared often in geometric
+        mechanics literature, the snakeboard is a similar system that has received
+        considerable attention in the context of underactuated systems and controllability
+        of nonholonomic mechanical systems. The snakeboard was first analyzed as a
+        nonholonomic mechanical system by Ostrowski et al. [2]. Shammas et al. [1]
+        analyzed and generated gaits for mixed mechanical systems using height functions
+        to analyze geometric phase shift, as well as a novel scaled momentum and gamma
+        functions to evaluate dynamic phase shift. In [1, 3], Shammas et al. classified
+        gaits into three different categories: purely kinematic, purely dynamic, and
+        kino-dynamic. More recently, Shammas and de Oliveira provided an analytical
+        solution to snakeboard motion planning [4]. Dear et al. [5] built upon their
+        work using body coordinates and local trajectory information to address trajectory
+        generation. Dear et al. [6] also incorporated dissipative friction in the
+        traveling direction and skidding in the snakeboard model, investigating these
+        effects on trajectory planning. Asnafi and Mahzoon [7] generated some flower-like
+        gaits for the snakeboard. Similar geometric approaches can be applied to the
+        waveboard in order to analyze its locomotive capabilities. This paper addresses
+        the challenge of modeling and characterizing motions of the waveboard. In
+        the next section, we present a model for the waveboard and derive its reconstruction
+        equation. Subsequent sections describe experimental methodology and analysis
+        of common types of gaits in the framework of geometric mechanics. Correlations
+        between configurational variations and trajectory parameters are investigated,
+        and numerically reconstructed forward motion displacements are compared with
+        experimental data.", "venue": "", "year": 2016, "referenceCount": 10, "citationCount":
+        7, "influentialCitationCount": 0, "isOpenAccess": false, "openAccessPdf":
+        null, "fieldsOfStudy": ["Computer Science"], "s2FieldsOfStudy": [{"category":
+        "Computer Science", "source": "external"}, {"category": "Engineering", "source":
+        "s2-fos-model"}], "publicationTypes": null, "publicationDate": "2016-10-12",
+        "journal": {"volume": "", "name": ""}, "authors": [{"authorId": "49566774",
+        "name": "Ayush Agrawal"}, {"authorId": "144239360", "name": "H. Zaini"}, {"authorId":
+        "3258452", "name": "Tony Dear"}, {"authorId": "1742948", "name": "H. Choset"}]},
+        {"paperId": "4e8a39940432895a0123b79c09b6cd879649dca8", "externalIds": {"DBLP":
+        "conf/iros/ShuSRDSC16", "MAG": "2561267274", "DOI": "10.1109/IROS.2016.7759702",
+        "CorpusId": 18958232}, "corpusId": 18958232, "publicationVenue": {"id": "37275deb-3fcf-4d16-ae77-95db9899b1f3",
+        "name": "IEEE/RJS International Conference on Intelligent RObots and Systems",
+        "type": "conference", "alternate_names": ["IROS", "Intelligent Robots and
+        Systems", "Intell Robot Syst", "IEEE/RJS Int Conf Intell Robot Syst"], "url":
+        "http://www.iros.org/"}, "url": "https://www.semanticscholar.org/paper/4e8a39940432895a0123b79c09b6cd879649dca8",
+        "title": "Optimal control for geometric motion planning of a robot diver",
+        "abstract": "Inertial reorientation of airborne articulated bodies has been
+        an active area of research in the robotics community, as this behavior can
+        help guide dynamic robots to a safe landing with minimal damage. The main
+        objective of this work is emulating the aggressive and large angle correction
+        maneuvers, like somersaults, that are performed by human divers. To this end,
+        a planar three link robot, called DiverBot, is proposed. By considering a
+        gravity-free scenario, a local connection is obtained between joint angles
+        and the body orientation, resulting in a reduction in the system dynamics.
+        An optimal control policy applied on this reduced configuration space yielded
+        diving maneuvers that are dynamically feasible. Numerical results show that
+        the DiverBot can execute one somersault without drift and multiple somersaults
+        with minimal drift.", "venue": "IEEE/RJS International Conference on Intelligent
+        RObots and Systems", "year": 2016, "referenceCount": 25, "citationCount":
+        6, "influentialCitationCount": 0, "isOpenAccess": false, "openAccessPdf":
+        null, "fieldsOfStudy": ["Engineering", "Computer Science"], "s2FieldsOfStudy":
+        [{"category": "Engineering", "source": "external"}, {"category": "Computer
+        Science", "source": "external"}, {"category": "Engineering", "source": "s2-fos-model"}],
+        "publicationTypes": ["JournalArticle", "Conference"], "publicationDate": "2016-10-01",
+        "journal": {"pages": "4780-4785", "name": "2016 IEEE/RSJ International Conference
+        on Intelligent Robots and Systems (IROS)"}, "authors": [{"authorId": "153883312",
+        "name": "Roberto Shu"}, {"authorId": "145608726", "name": "Avinash Siravuru"},
+        {"authorId": "2762463", "name": "Akshara Rai"}, {"authorId": "3258452", "name":
+        "Tony Dear"}, {"authorId": "144116765", "name": "K. Sreenath"}, {"authorId":
+        "1742948", "name": "H. Choset"}]}, {"paperId": "68d0fc8c081630b4473d1b7a12d890ff64761dee",
+        "externalIds": {"MAG": "2568591792", "DBLP": "conf/cdc/DearKTC16", "DOI":
+        "10.1109/CDC.2016.7799434", "CorpusId": 37476946}, "corpusId": 37476946, "publicationVenue":
+        {"id": "ab066af1-bfee-42da-84bb-42f7e199d0d0", "name": "IEEE Conference on
+        Decision and Control", "type": "conference", "alternate_names": ["Conference
+        on Decision and Control", "IEEE Conf Decis Control", "Conf Decis Control",
+        "CDC"], "url": "http://www.wikicfp.com/cfp/program?id=403"}, "url": "https://www.semanticscholar.org/paper/68d0fc8c081630b4473d1b7a12d890ff64761dee",
+        "title": "Locomotive analysis of a single-input three-link snake robot", "abstract":
+        "When commanding gaits for snake robots and other articulated systems, direct
+        control of all possible joint inputs may not always be necessary or optimal
+        to achieve a locomotive goal. Here we consider a three-link nonholonomic snake
+        robot-an already underactuated system with locomotive capabilities in SE(2)-and
+        reduce its input space to a single actuated joint, replacing the other joint''s
+        motor with a passive mass-spring-damper system. We show that the modified
+        system can operate dynamically in addition to kinematically, and that it is
+        possible to find gaits that produces locomotion similar to a fully actuated
+        system. In particular, we describe the emergence of a new type of gait that
+        incorporates the system''s singular configurations to produce high locomotive
+        efficiency without incurring unbounded constraint forces.", "venue": "IEEE
+        Conference on Decision and Control", "year": 2016, "referenceCount": 13, "citationCount":
+        9, "influentialCitationCount": 0, "isOpenAccess": false, "openAccessPdf":
+        null, "fieldsOfStudy": ["Engineering", "Computer Science"], "s2FieldsOfStudy":
+        [{"category": "Engineering", "source": "external"}, {"category": "Computer
+        Science", "source": "external"}, {"category": "Engineering", "source": "s2-fos-model"},
+        {"category": "Biology", "source": "s2-fos-model"}], "publicationTypes": ["JournalArticle",
+        "Conference"], "publicationDate": "2016-12-01", "journal": {"pages": "7542-7547",
+        "name": "2016 IEEE 55th Conference on Decision and Control (CDC)"}, "authors":
+        [{"authorId": "3258452", "name": "Tony Dear"}, {"authorId": "2157425", "name":
+        "S. Kelly"}, {"authorId": "143891751", "name": "M. Travers"}, {"authorId":
+        "1742948", "name": "H. Choset"}]}, {"paperId": "905f075eebc2f3b480401437fc27266e8f294321",
+        "externalIds": {"MAG": "2588766077", "DOI": "10.1115/DSCC2016-9912", "CorpusId":
+        42168103}, "corpusId": 42168103, "publicationVenue": null, "url": "https://www.semanticscholar.org/paper/905f075eebc2f3b480401437fc27266e8f294321",
+        "title": "Variations on the Role of Principal Connections in Robotic Locomotion",
+        "abstract": "Diverse problems in robotic locomotion have previously been modeled
+        in terms of connections on principal bundles. Ordinarily, one identifies points
+        in the base manifold of such a bundle with different internal configurations
+        of a robot, identifies points in the fiber over a given base point with different
+        positions and orientations of the robot in its environment, and assumes control
+        to be applied in the former but not the latter. We examine ways in which the
+        ordinary application of this theory may be adapted to problems in aquatic
+        and terrestrial locomotion that fail to accommodate the preceding description.",
+        "venue": "", "year": 2016, "referenceCount": 15, "citationCount": 2, "influentialCitationCount":
+        0, "isOpenAccess": false, "openAccessPdf": null, "fieldsOfStudy": ["Computer
+        Science"], "s2FieldsOfStudy": [{"category": "Computer Science", "source":
+        "external"}, {"category": "Engineering", "source": "s2-fos-model"}], "publicationTypes":
+        null, "publicationDate": "2016-10-12", "journal": {"volume": "", "name": ""},
+        "authors": [{"authorId": "3258452", "name": "Tony Dear"}, {"authorId": "2157425",
+        "name": "S. Kelly"}, {"authorId": "1742948", "name": "H. Choset"}]}, {"paperId":
+        "d89d57cf06364b4740574c7d8b47493efffff13d", "externalIds": {"DBLP": "conf/amcc/DearKTC16",
+        "MAG": "2477943816", "DOI": "10.1109/ACC.2016.7526820", "CorpusId": 31111716},
+        "corpusId": 31111716, "publicationVenue": {"id": "fe4d09f8-d278-4bfb-b73a-1a6a0e22f6a3",
+        "name": "American Control Conference", "type": "conference", "alternate_names":
+        ["Int Conf Adv Comput Control", "ACC", "Advances in Computing and Communications",
+        "Adv Comput Commun", "Am Control Conf", "Advances in Computer and Communication",
+        "International Conference on Advanced Computer Control"], "issn": "2767-2875",
+        "url": "http://a2c2.org/conferences/american-control-conferences", "alternate_urls":
+        ["http://www.acc-rajagiri.org/"]}, "url": "https://www.semanticscholar.org/paper/d89d57cf06364b4740574c7d8b47493efffff13d",
+        "title": "The three-link nonholonomic snake as a hybrid kinodynamic system",
+        "abstract": "Motion planners often avoid the so-called singular configurations
+        of a locomoting system because they can change a system''s dynamics and cause
+        it to incur unbounded input controller costs. However, such configurations
+        can also allow a system to exhibit new modes of locomotion, which can be incorporated
+        into previously established planning techniques. Here we take a nonholonomic
+        kinematic system and present the formalism for representing it as a hybrid
+        system taking advantage of the singular configuration and the associated dynamics.
+        We show how to achieve the transition maps between the modes of operation
+        by allowing actuated joints to become passive or locked, circumventing problems
+        with unbounded constraint forces. This new model offers a new capability to
+        take advantage of drift dynamics and rolling motions, which we demonstrate
+        using a switching controller involving established kinematic techniques and
+        preliminary dynamic maneuvers.", "venue": "American Control Conference", "year":
+        2016, "referenceCount": 24, "citationCount": 11, "influentialCitationCount":
+        0, "isOpenAccess": false, "openAccessPdf": null, "fieldsOfStudy": ["Engineering",
+        "Computer Science"], "s2FieldsOfStudy": [{"category": "Engineering", "source":
+        "external"}, {"category": "Computer Science", "source": "external"}, {"category":
+        "Engineering", "source": "s2-fos-model"}], "publicationTypes": ["JournalArticle",
+        "Conference"], "publicationDate": "2016-07-06", "journal": {"pages": "7269-7274",
+        "name": "2016 American Control Conference (ACC)"}, "authors": [{"authorId":
+        "3258452", "name": "Tony Dear"}, {"authorId": "2157425", "name": "S. Kelly"},
+        {"authorId": "143891751", "name": "M. Travers"}, {"authorId": "1742948", "name":
+        "H. Choset"}]}, {"paperId": "1e1a233341ae887598f352ca328e9db2531dafa7", "externalIds":
+        {"MAG": "1481084627", "DBLP": "conf/icra/DaiTDGAGC15", "DOI": "10.1109/ICRA.2015.7140022",
+        "CorpusId": 16622243}, "corpusId": 16622243, "publicationVenue": {"id": "3f2626a8-9d78-42ca-9e0d-4b853b59cdcc",
+        "name": "IEEE International Conference on Robotics and Automation", "type":
+        "conference", "alternate_names": ["International Conference on Robotics and
+        Automation", "Int Conf Robot Autom", "ICRA", "IEEE Int Conf Robot Autom"],
+        "issn": "2152-4092", "alternate_issns": ["2379-9544"], "url": "http://ieeexplore.ieee.org/xpl/conhome.jsp?punumber=1000639",
+        "alternate_urls": ["http://www.ncsu.edu/IEEE-RAS/"]}, "url": "https://www.semanticscholar.org/paper/1e1a233341ae887598f352ca328e9db2531dafa7",
+        "title": "Robot-inspired biology: The compound-wave control template", "abstract":
+        "Biologically inspired robots perform many interesting and useful behaviors,
+        but to effectively emulate their biological counterparts, robots often need
+        to possess many degrees of freedom, complicating their mechanical design and
+        making it difficult to apply standard control and motion planning strategies.
+        To address this complexity, the robotics community has derived low-dimensional
+        parameter-based controllers that naturally coordinate many degrees of freedom
+        such as the serpenoid curves used to control snake robots. Controllers utilizing
+        this parameterization for snake robots have been able to induce behaviors
+        similar to that of the robots'' biological counterparts. A similar concept,
+        called a control template, is used in the study of animal movements. However,
+        much of the prior work on control templates has been limited to in-plane motion.
+        In this work, we extend the usage of control templates to three dimensions
+        to both better model and understand biology, as well as to help us gain better
+        intuition into how we can use pre-existing control paradigms to create new
+        behaviors for biologically inspired robots.", "venue": "IEEE International
+        Conference on Robotics and Automation", "year": 2015, "referenceCount": 17,
+        "citationCount": 7, "influentialCitationCount": 0, "isOpenAccess": false,
+        "openAccessPdf": null, "fieldsOfStudy": ["Engineering", "Computer Science"],
+        "s2FieldsOfStudy": [{"category": "Engineering", "source": "external"}, {"category":
+        "Computer Science", "source": "external"}, {"category": "Computer Science",
+        "source": "s2-fos-model"}], "publicationTypes": ["JournalArticle", "Conference"],
+        "publicationDate": "2015-05-26", "journal": {"pages": "5879-5884", "name":
+        "2015 IEEE International Conference on Robotics and Automation (ICRA)"}, "authors":
+        [{"authorId": "2118794037", "name": "Jin Dai"}, {"authorId": "143891751",
+        "name": "M. Travers"}, {"authorId": "3258452", "name": "Tony Dear"}, {"authorId":
+        "1708203", "name": "Chaohui Gong"}, {"authorId": "3257556", "name": "H. Astley"},
+        {"authorId": "50880539", "name": "D. Goldman"}, {"authorId": "1742948", "name":
+        "H. Choset"}]}, {"paperId": "b890772a9b44fc9f153c63e7046f427067613c6d", "externalIds":
+        {"DBLP": "conf/icra/DearKTC15", "MAG": "1502278167", "DOI": "10.1109/ICRA.2015.7139251",
+        "CorpusId": 9700515}, "corpusId": 9700515, "publicationVenue": {"id": "3f2626a8-9d78-42ca-9e0d-4b853b59cdcc",
+        "name": "IEEE International Conference on Robotics and Automation", "type":
+        "conference", "alternate_names": ["International Conference on Robotics and
+        Automation", "Int Conf Robot Autom", "ICRA", "IEEE Int Conf Robot Autom"],
+        "issn": "2152-4092", "alternate_issns": ["2379-9544"], "url": "http://ieeexplore.ieee.org/xpl/conhome.jsp?punumber=1000639",
+        "alternate_urls": ["http://www.ncsu.edu/IEEE-RAS/"]}, "url": "https://www.semanticscholar.org/paper/b890772a9b44fc9f153c63e7046f427067613c6d",
+        "title": "Snakeboard motion planning with viscous friction and skidding",
+        "abstract": "The snakeboard is a well-studied example for mechanical systems
+        analysis, largely because of its simultaneous richness in behavior and simplicity
+        in design. However, few snakeboard models incorporate dissipative friction
+        in the traveling direction and skidding as a violation of the rigid nonholonomic
+        constraints. In this paper we investigate these effects on trajectory planning
+        by evaluating a previously proposed friction model as well as a novel skidding
+        model based on the addition of Rayleigh dissipation functions. We show how
+        these additions change the usual behavior of gaits in the forward planning
+        problem, and incorporate the changes into the solutions of the inverse planning
+        problem by utilizing body coordinates along with a curvature parameterization
+        for trajectories.", "venue": "IEEE International Conference on Robotics and
+        Automation", "year": 2015, "referenceCount": 21, "citationCount": 20, "influentialCitationCount":
+        1, "isOpenAccess": false, "openAccessPdf": null, "fieldsOfStudy": ["Physics",
+        "Computer Science"], "s2FieldsOfStudy": [{"category": "Physics", "source":
+        "external"}, {"category": "Computer Science", "source": "external"}, {"category":
+        "Physics", "source": "s2-fos-model"}], "publicationTypes": ["JournalArticle",
+        "Conference"], "publicationDate": "2015-05-26", "journal": {"pages": "670-675",
+        "name": "2015 IEEE International Conference on Robotics and Automation (ICRA)"},
+        "authors": [{"authorId": "3258452", "name": "Tony Dear"}, {"authorId": "2157425",
+        "name": "S. Kelly"}, {"authorId": "143891751", "name": "M. Travers"}, {"authorId":
+        "1742948", "name": "H. Choset"}]}, {"paperId": "ed708f263f053fe68fb4e5250430eab56d0cc651",
+        "externalIds": {"MAG": "2238830763", "DOI": "10.1115/DSCC2015-9660", "CorpusId":
+        45810756}, "corpusId": 45810756, "publicationVenue": null, "url": "https://www.semanticscholar.org/paper/ed708f263f053fe68fb4e5250430eab56d0cc651",
+        "title": "Motion Planning and Differential Flatness of Mechanical Systems
+        on Principal Bundles", "abstract": "Mechanical systems often exhibit physical
+        symmetries in their configuration variables, allowing for significant reduction
+        of their mathematical complexity arising from characteristics such as underactuation
+        and nonlinearity. In this paper, we exploit the geometric structure of such
+        systems to explore the following motion planning problem: given a desired
+        trajectory in the workspace, can we explicitly solve for the appropriate inputs
+        to follow it? We appeal to results on differential flatness from the nonlinear
+        control literature to develop a general motion planning formulation for systems
+        with symmetries and constraints, which also applies to both fully constrained
+        and unconstrained kinematic systems. We conclude by demonstrating the utility
+        of our results on several canonical mechanical systems found in the locomotion
+        literature.Copyright \u00a9 2015 by ASME", "venue": "", "year": 2015, "referenceCount":
+        27, "citationCount": 2, "influentialCitationCount": 0, "isOpenAccess": false,
+        "openAccessPdf": null, "fieldsOfStudy": ["Mathematics"], "s2FieldsOfStudy":
+        [{"category": "Mathematics", "source": "external"}, {"category": "Mathematics",
+        "source": "s2-fos-model"}], "publicationTypes": null, "publicationDate": "2015-10-28",
+        "journal": {"volume": "", "name": ""}, "authors": [{"authorId": "3258452",
+        "name": "Tony Dear"}, {"authorId": "2157425", "name": "S. Kelly"}, {"authorId":
+        "143891751", "name": "M. Travers"}, {"authorId": "1742948", "name": "H. Choset"}]},
+        {"paperId": "03641011175ea13793f2bfd6357a086c418bbabd", "externalIds": {"MAG":
+        "2026001669", "DOI": "10.1115/DSCC2014-6212", "CorpusId": 18119692}, "corpusId":
+        18119692, "publicationVenue": null, "url": "https://www.semanticscholar.org/paper/03641011175ea13793f2bfd6357a086c418bbabd",
+        "title": "Dissipation-Induced Self-Recovery in Systems on Principal Bundles",
+        "abstract": "The \u201cself-recovery\u201d phenomenon is a seemingly curious
+        property of certain underactuated dissipative systems in which dissipative
+        forces always push the system to a pre-determined equilibrium state dependent
+        on the initial conditions. The systems for which this has been studied are
+        Abelian, with all system velocity interactions due entirely to inertial effects.
+        In this paper we also consider Abelian systems, but in the context of principal
+        bundles, and introduce drag in addition to inertial interactions, allowing
+        us to show that the same conservation that induces self-recovery now depends
+        on the trajectories of the system inputs in addition to initial conditions.
+        We conclude by demonstrating an example illustrating the conditions derived
+        from our proof, along with an observation that the present analysis is insufficient
+        for self-recovery in non-Abelian systems.Copyright \u00a9 2014 by ASME", "venue":
+        "", "year": 2014, "referenceCount": 8, "citationCount": 1, "influentialCitationCount":
+        0, "isOpenAccess": false, "openAccessPdf": null, "fieldsOfStudy": ["Physics"],
+        "s2FieldsOfStudy": [{"category": "Physics", "source": "external"}, {"category":
+        "Mathematics", "source": "s2-fos-model"}], "publicationTypes": null, "publicationDate":
+        "2014-10-22", "journal": {"volume": "", "name": ""}, "authors": [{"authorId":
+        "3258452", "name": "Tony Dear"}, {"authorId": "2157425", "name": "S. Kelly"},
+        {"authorId": "143891751", "name": "M. Travers"}, {"authorId": "1742948", "name":
+        "H. Choset"}]}, {"paperId": "b6af3377a3f58507c6f489581b8624ac02f99821", "externalIds":
+        {"DBLP": "conf/iros/DearHC14", "MAG": "2087328483", "DOI": "10.1109/IROS.2014.6943067",
+        "CorpusId": 17106417}, "corpusId": 17106417, "publicationVenue": null, "url":
+        "https://www.semanticscholar.org/paper/b6af3377a3f58507c6f489581b8624ac02f99821",
+        "title": "Nonlinear dimensionality reduction for kinematic cartography with
+        an application toward robotic locomotion", "abstract": "Planning robot motions
+        often requires a notion of the \u201cdistance\u201d between configurations
+        or the \u201clength\u201d of a trajectory connecting them in the configuration
+        space. If these quantities are defined so as to correspond to the effort required
+        to change configurations, then they would likely differ from the Euclidean
+        distance or arclength in the system''s configuration parameters, distorting
+        the visual representation of the relative costs of executing the motions.
+        This problem is fundamentally similar to that of producing map projections
+        with minimal distortion in cartography. A separate problem is that of nonlinear
+        dimensionality reduction (NLDR), which, given a set of data, projects it into
+        a lower-dimensional space while seeking to retain the geometric relationship
+        between data points. In this paper, we show that NLDR can be applied to the
+        kinematic cartography problem, allowing us to generate system parameterizations
+        in which distance and arclength correspond to the effort of motion.", "venue":
+        "2014 IEEE/RSJ International Conference on Intelligent Robots and Systems",
+        "year": 2014, "referenceCount": 29, "citationCount": 3, "influentialCitationCount":
+        0, "isOpenAccess": false, "openAccessPdf": null, "fieldsOfStudy": ["Computer
+        Science"], "s2FieldsOfStudy": [{"category": "Computer Science", "source":
+        "external"}, {"category": "Computer Science", "source": "s2-fos-model"}],
+        "publicationTypes": ["JournalArticle", "Conference"], "publicationDate": "2014-09-01",
+        "journal": {"pages": "3604-3609", "name": "2014 IEEE/RSJ International Conference
+        on Intelligent Robots and Systems"}, "authors": [{"authorId": "3258452", "name":
+        "Tony Dear"}, {"authorId": "2468829", "name": "R. Hatton"}, {"authorId": "1742948",
+        "name": "H. Choset"}]}, {"paperId": "6cb9c3aa2f582fc0d66b2bad859419d2394554d8",
+        "externalIds": {"MAG": "2148521036", "DOI": "10.1115/DSCC2013-3883", "CorpusId":
+        18672827}, "corpusId": 18672827, "publicationVenue": null, "url": "https://www.semanticscholar.org/paper/6cb9c3aa2f582fc0d66b2bad859419d2394554d8",
+        "title": "Snakeboard Motion Planning With Local Trajectory Information", "abstract":
+        "We address trajectory generation for the snakeboard, a system commonly studied
+        in the geometric mechanics community. Our approach derives a solution using
+        body coordinates and local trajectory information, leading to a more intuitive
+        solution compared to prior work. The simple forms of the solution clearly
+        show how they depend on local curvature and desired velocity profile, allowing
+        for a description of some simple motion primitives. We readily propose techniques
+        to navigate paths, including those with sharp corners, by taking advantage
+        of the snakeboard\u2019s singular configuration, as well as discuss some implications
+        of torque limits.", "venue": "", "year": 2013, "referenceCount": 14, "citationCount":
+        9, "influentialCitationCount": 0, "isOpenAccess": false, "openAccessPdf":
+        null, "fieldsOfStudy": ["Mathematics"], "s2FieldsOfStudy": [{"category": "Mathematics",
+        "source": "external"}, {"category": "Physics", "source": "s2-fos-model"}],
+        "publicationTypes": null, "publicationDate": "2013-10-21", "journal": {"volume":
+        "", "name": ""}, "authors": [{"authorId": "3258452", "name": "Tony Dear"},
+        {"authorId": "2468829", "name": "R. Hatton"}, {"authorId": "143891751", "name":
+        "M. Travers"}, {"authorId": "1742948", "name": "H. Choset"}]}, {"paperId":
+        "aeb6e83ecdfcf44c5cb286f3a8f7d1f8c9cf7f6c", "externalIds": {"MAG": "2096045629",
+        "DOI": "10.1115/DSCC2013-3941", "CorpusId": 16971111}, "corpusId": 16971111,
+        "publicationVenue": null, "url": "https://www.semanticscholar.org/paper/aeb6e83ecdfcf44c5cb286f3a8f7d1f8c9cf7f6c",
+        "title": "MECHANICS AND CONTROL OF A TERRESTRIAL VEHICLE EXPLOITING A NONHOLONOMIC
+        CONSTRAINT FOR FISHLIKE LOCOMOTION", "abstract": "We present a novel mechanical
+        system, the \u201clandfish,\u201d which takes advantage of a combination of
+        articulation and a nonholonomic constraint to exhibit fishlike locomotion.
+        We apply geometric mechanics techniques to establish the equations of motion
+        in terms of the system\u2019s nonholonomic momentum and analyze the system\u2019s
+        equilibrium properties. Finally, we demonstrate its locomotion capabilities
+        under several controllers, including heading and joint velocity control.",
+        "venue": "", "year": 2013, "referenceCount": 6, "citationCount": 12, "influentialCitationCount":
+        0, "isOpenAccess": true, "openAccessPdf": {"url": "http://www.ri.cmu.edu/pub_files/2013/10/DSCC2013-3941.pdf",
+        "status": null}, "fieldsOfStudy": ["Physics"], "s2FieldsOfStudy": [{"category":
+        "Physics", "source": "external"}, {"category": "Engineering", "source": "s2-fos-model"},
+        {"category": "Mathematics", "source": "s2-fos-model"}], "publicationTypes":
+        null, "publicationDate": "2013-10-21", "journal": {"volume": "", "name": ""},
+        "authors": [{"authorId": "3258452", "name": "Tony Dear"}, {"authorId": "2157425",
+        "name": "S. Kelly"}, {"authorId": "143891751", "name": "M. Travers"}, {"authorId":
+        "1742948", "name": "H. Choset"}]}, {"paperId": "431336f7f719b62e776ece4282eaa2724832ab35",
+        "externalIds": {"CorpusId": 73650100}, "corpusId": 73650100, "publicationVenue":
+        null, "url": "https://www.semanticscholar.org/paper/431336f7f719b62e776ece4282eaa2724832ab35",
+        "title": "Problem statement and motivation", "abstract": "Volume production
+        at industrial scale of miniaturised multi-material 3D components or sub-components
+        (polymer-polymer, metal-polymer, metal-metal, polymer-ceramics,...) still
+        offers important challenges to overcome ( until now , the main effort has
+        been focused on the development of high quality and accurate mass production/replication
+        technologies for micro mono-material parts ), challenges not only in terms
+        of precision manufacturing (precision engineering iniaturised components (micro
+        injection moulding and hot-embossing ), although are quite developed technologies,
+        would need an improvement (precision, high throughput,...) and also be part
+        of a process chains which integrates additional technologies in order to be
+        cost efficient and fulfil the requirements the market of microsystem-based
+        products demands (new material combinations with complex geometric forms and
+        increased functionalities).", "venue": "", "year": 2012, "referenceCount":
+        4, "citationCount": 0, "influentialCitationCount": 0, "isOpenAccess": false,
+        "openAccessPdf": null, "fieldsOfStudy": null, "s2FieldsOfStudy": [{"category":
+        "Materials Science", "source": "s2-fos-model"}], "publicationTypes": null,
+        "publicationDate": null, "journal": null, "authors": [{"authorId": "3258452",
+        "name": "Tony Dear"}, {"authorId": "2058535240", "name": "A. Schuler"}, {"authorId":
+        "96173596", "name": "M. Flie\u00df"}, {"authorId": "2107716345", "name": "P.
+        Martin"}, {"authorId": "2094163662", "name": "N. Petit"}, {"authorId": "1731878",
+        "name": "P. Rouchon"}]}, {"paperId": "2293242a24cc208b1d50aa9dfdd477b9083fbe6c",
+        "externalIds": {"MAG": "598401454", "CorpusId": 142456877}, "corpusId": 142456877,
+        "publicationVenue": null, "url": "https://www.semanticscholar.org/paper/2293242a24cc208b1d50aa9dfdd477b9083fbe6c",
+        "title": "The Golfer''s Handbook: Tips, Wit, and Wisdom to Inform and Entertain",
+        "abstract": null, "venue": "", "year": 2008, "referenceCount": 0, "citationCount":
+        0, "influentialCitationCount": 0, "isOpenAccess": false, "openAccessPdf":
+        null, "fieldsOfStudy": ["Psychology"], "s2FieldsOfStudy": [{"category": "Psychology",
+        "source": "external"}], "publicationTypes": null, "publicationDate": "2008-09-22",
+        "journal": null, "authors": [{"authorId": "3258452", "name": "Tony Dear"}]},
+        {"paperId": "feb686d88e00f626b113ad8241ba6efe0a661cbd", "externalIds": {"MAG":
+        "597460344", "CorpusId": 190811819}, "corpusId": 190811819, "publicationVenue":
+        null, "url": "https://www.semanticscholar.org/paper/feb686d88e00f626b113ad8241ba6efe0a661cbd",
+        "title": "101 golden rules of golf : wiles, wit and wisdom to inform and entertain",
+        "abstract": "Golf is a mystery that sometimes pleases, sometimes frustrates,
+        but always enthrals. Its nuances can take a lifetime to unravel and \"101
+        Golden Rules of Golf\" is the perfect companion for that journey - by turns
+        fun and wise, frivolous and fascinating. Not only does the book include anecdotes
+        about the glorious game that will bring a knowing smile to any golfer''s face,
+        it also provides valuable drills, hints, and lessons that will improve their
+        game and reduce their handicap. Each of these pearls of wisdom is illustrated
+        with a specially commissioned colour artwork to point you in the right direction.
+        This charming giftbook is a must-have for all armchair and fairway golf enthusiasts
+        - packed with hints, rules, and fascinating insights it''s required reading
+        for any golfer.", "venue": "", "year": 2008, "referenceCount": 0, "citationCount":
+        0, "influentialCitationCount": 0, "isOpenAccess": false, "openAccessPdf":
+        null, "fieldsOfStudy": ["Art"], "s2FieldsOfStudy": [{"category": "Art", "source":
+        "external"}, {"category": "Art", "source": "s2-fos-model"}], "publicationTypes":
+        null, "publicationDate": null, "journal": null, "authors": [{"authorId": "3258452",
+        "name": "Tony Dear"}]}]}, {"authorId": "2080821447", "externalIds": {}, "url":
+        "https://www.semanticscholar.org/author/2080821447", "name": "Caron Alan Keith
+        Terry Trevor Robyn Tony Michael P. Anne Chapman Coulthard Dear Dwyer Kilpatrick
+        Lucas McMi", "aliases": null, "affiliations": [], "homepage": null, "paperCount":
+        1, "citationCount": 14, "hIndex": 1, "papers": [{"paperId": "49a01b7ccdd98e39c6651d6b63047a2f2a044d54",
+        "externalIds": {"MAG": "2969043692", "DOI": "10.1038/s41430-019-0476-z", "CorpusId":
+        199492003, "PubMed": "31395972"}, "corpusId": 199492003, "publicationVenue":
+        {"id": "68d9e7c1-01cc-4bd0-a6c7-8c976e44b931", "name": "European Journal of
+        Clinical Nutrition", "type": "journal", "alternate_names": ["Eur J Clin Nutr"],
+        "issn": "0954-3007", "url": "https://www.nature.com/ejcn/", "alternate_urls":
+        ["http://www.naturesj.com/ejcn/index.html", "http://www.nature.com/ejcn/index.html"]},
+        "url": "https://www.semanticscholar.org/paper/49a01b7ccdd98e39c6651d6b63047a2f2a044d54",
+        "title": "Higher fish consumption and lower risk of central nervous system
+        demyelination", "abstract": null, "venue": "European Journal of Clinical Nutrition",
+        "year": 2019, "referenceCount": 51, "citationCount": 14, "influentialCitationCount":
+        0, "isOpenAccess": true, "openAccessPdf": {"url": "https://eprints.utas.edu.au/31515/2/135001%20-%20Higher%20fish%20consumption%20and%20lower%20risk%20-%20Final%20author%20version.pdf",
+        "status": null}, "fieldsOfStudy": ["Medicine"], "s2FieldsOfStudy": [{"category":
+        "Medicine", "source": "external"}, {"category": "Medicine", "source": "s2-fos-model"}],
+        "publicationTypes": ["JournalArticle"], "publicationDate": "2019-08-08", "journal":
+        {"volume": "74", "pages": "818-824", "name": "European Journal of Clinical
+        Nutrition"}, "authors": [{"authorId": "2195311", "name": "L. Black"}, {"authorId":
+        "86957313", "name": "Yun-Qing Zhao"}, {"authorId": "2110422755", "name": "Ye
+        Peng"}, {"authorId": "50018071", "name": "J. Sherriff"}, {"authorId": "34155558",
+        "name": "R. Lucas"}, {"authorId": "80533106", "name": "I. A. van der Mei"},
+        {"authorId": "50164948", "name": "G. Pereira"}, {"authorId": "2080821447",
+        "name": "Caron Alan Keith Terry Trevor Robyn Tony Michael P. Anne Chapman
+        Coulthard Dear Dwyer Kilpatrick Lucas McMi"}, {"authorId": "50146737", "name":
+        "C. Chapman"}, {"authorId": "144980438", "name": "A. Coulthard"}, {"authorId":
+        "4852337", "name": "K. Dear"}, {"authorId": "118073017", "name": "T. Dwyer"},
+        {"authorId": "2238314", "name": "T. Kilpatrick"}, {"authorId": "34155558",
+        "name": "R. Lucas"}, {"authorId": "145707393", "name": "T. Mcmichael"}, {"authorId":
+        "4771399", "name": "M. Pender"}, {"authorId": "144137389", "name": "A. Ponsonby"},
+        {"authorId": "35145629", "name": "B. Taylor"}, {"authorId": "4721961", "name":
+        "P. Valery"}, {"authorId": "2152725845", "name": "David J. Williams"}]}]}]}
+
+        '
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '65495'
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 19 Oct 2023 18:08:59 GMT
+      Via:
+      - 1.1 d1450f9172625df286184e0b1f1d01f2.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - -tF9yPG3yz9XKlOtpeBqSJmj4tqnG8JQPcuCoSlqRO0HWgSu4SvPvA==
+      X-Amz-Cf-Pop:
+      - JFK52-P2
+      X-Cache:
+      - Miss from cloudfront
+      x-amz-apigw-id:
+      - ND6NSG5YvHcFfvQ=
+      x-amzn-Remapped-Connection:
+      - keep-alive
+      x-amzn-Remapped-Content-Length:
+      - '65495'
+      x-amzn-Remapped-Date:
+      - Thu, 19 Oct 2023 18:08:59 GMT
+      x-amzn-Remapped-Server:
+      - gunicorn
+      x-amzn-RequestId:
+      - 66471542-2ce5-4be7-b75a-bf0a74b6ee9b
+    status:
+      code: 200
+      message: OK
+version: 1

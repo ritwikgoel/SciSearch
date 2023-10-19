@@ -1,0 +1,1045 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.semanticscholar.org/graph/v1/author/search?query=Adam%20Cannon&fields=affiliations,aliases,authorId,citationCount,externalIds,hIndex,homepage,name,paperCount,papers,papers.abstract,papers.authors,papers.citationCount,papers.corpusId,papers.externalIds,papers.fieldsOfStudy,papers.influentialCitationCount,papers.isOpenAccess,papers.journal,papers.openAccessPdf,papers.paperId,papers.publicationDate,papers.publicationTypes,papers.publicationVenue,papers.referenceCount,papers.s2FieldsOfStudy,papers.title,papers.url,papers.venue,papers.year,url&offset=0&limit=1000
+  response:
+    body:
+      string: '{"total": 6, "offset": 0, "data": [{"authorId": "38032005", "externalIds":
+        {}, "url": "https://www.semanticscholar.org/author/38032005", "name": "Adam
+        E Cannon", "aliases": ["Adam Cannon"], "affiliations": [], "homepage": null,
+        "paperCount": 4, "citationCount": 184, "hIndex": 3, "papers": [{"paperId":
+        "05ae3133d15f86ddb2355ca01731da8a768da2a8", "externalIds": {"MAG": "2080461800",
+        "DOI": "10.1016/j.vaccine.2013.11.035", "CorpusId": 24021887, "PubMed": "24269619"},
+        "corpusId": 24021887, "publicationVenue": {"id": "9b07daf4-3c7e-4798-847b-5005416bc8d5",
+        "name": "Vaccine", "type": "journal", "issn": "0264-410X", "url": "http://www.elsevier.com/locate/vaccine",
+        "alternate_urls": ["http://www.sciencedirect.com/science/journal/0264410X",
+        "http://www.elsevier.com/wps/find/journaldescription.cws_home/30521/description#description"]},
+        "url": "https://www.semanticscholar.org/paper/05ae3133d15f86ddb2355ca01731da8a768da2a8",
+        "title": "Pharmacist-led Tdap vaccination of close contacts of neonates in
+        a women''s hospital.", "abstract": null, "venue": "Vaccine", "year": 2014,
+        "referenceCount": 32, "citationCount": 23, "influentialCitationCount": 1,
+        "isOpenAccess": true, "openAccessPdf": null, "fieldsOfStudy": ["Medicine"],
+        "s2FieldsOfStudy": [{"category": "Medicine", "source": "external"}, {"category":
+        "Medicine", "source": "s2-fos-model"}, {"category": "Political Science", "source":
+        "s2-fos-model"}], "publicationTypes": ["JournalArticle", "Study"], "publicationDate":
+        "2014-01-16", "journal": {"volume": "32 4", "pages": "\n          521-5\n        ",
+        "name": "Vaccine"}, "authors": [{"authorId": "19170820", "name": "Brittany
+        Mills"}, {"authorId": "6492502", "name": "L. Fensterheim"}, {"authorId": "6113548",
+        "name": "M. Taitel"}, {"authorId": "38032005", "name": "Adam E Cannon"}]},
+        {"paperId": "264a4f60b9617e0f4c8aa8337d66c27e18270c32", "externalIds": {"MAG":
+        "2410563531", "CorpusId": 11487415, "PubMed": "24449960"}, "corpusId": 11487415,
+        "publicationVenue": {"id": "05aa6959-620c-4e2a-833e-5b975a644055", "name":
+        "American Journal of Managed Care", "type": "journal", "alternate_names":
+        ["Am J Manag Care", "The American Journal of Managed Care"], "issn": "1088-0224",
+        "url": "https://www.ajmc.com/", "alternate_urls": ["http://www.ajmc.com/"]},
+        "url": "https://www.semanticscholar.org/paper/264a4f60b9617e0f4c8aa8337d66c27e18270c32",
+        "title": "Improving pneumococcal and herpes zoster vaccination uptake: expanding
+        pharmacist privileges.", "abstract": "OBJECTIVE\nTo investigate how state-authorized
+        pharmacist immunization privileges influence pharmacist intervention effectiveness
+        in delivering pneumococcal and herpes zoster vaccinations and assess the implications
+        these privileges have on vaccination rates.\n\n\nSTUDY DESIGN\nCross-sectional
+        study of Walgreens vaccination records from August 2011 to March 2012.\n\n\nMETHODS\nA
+        random sample of patients having a claim for influenza vaccination in the
+        study period was selected. Vaccination uptake rates for pneumococcal disease
+        and herpes zoster were calculated for previously unvaccinated patients at
+        high risk for these conditions. Rates were examined by state-level pharmacist
+        privileges.\n\n\nRESULTS\nFor states authorizing immunization by protocol
+        or prescriptive authority, the 1-year pneumococcal vaccination uptake rate
+        for previously unvaccinated, high-risk persons was 6.6%, compared with 2.5%
+        for states requiring a prescription (P <.0001), and 2.8% for states with no
+        authorization (P <.0001). For herpes zoster, the 1-year vaccination uptake
+        rate was 3.3% for states authorizing per protocol/prescriptive authority,
+        compared with 2.8% (not significant, P <.05) for states authorizing by prescription,
+        and 1.0% for states with no authorization (P <.0001). A 148% increase of pneumococcal
+        vaccination and a 77% increase of herpes zoster vaccination would result if
+        all states granted pharmacists full immunization privileges.\n\n\nCONCLUSIONS\nThis
+        analysis demonstrates that states that offer pharmacists full immunization
+        privileges have higher vaccination uptake rates than states with restricted
+        or no authorization. Considering the suboptimal vaccination rates of pneumonia
+        and shingles and the public health goals of 2020, states with limited or no
+        immunization authorization for pharmacists should consider expanding pharmacist
+        privileges for these vaccinations.", "venue": "American Journal of Managed
+        Care", "year": 2013, "referenceCount": 11, "citationCount": 16, "influentialCitationCount":
+        1, "isOpenAccess": false, "openAccessPdf": null, "fieldsOfStudy": ["Medicine"],
+        "s2FieldsOfStudy": [{"category": "Medicine", "source": "external"}, {"category":
+        "Medicine", "source": "s2-fos-model"}, {"category": "Political Science", "source":
+        "s2-fos-model"}], "publicationTypes": ["JournalArticle"], "publicationDate":
+        "2013-09-11", "journal": {"volume": "19 9", "pages": "\n          e309-13\n        ",
+        "name": "The American journal of managed care"}, "authors": [{"authorId":
+        "6113548", "name": "M. Taitel"}, {"authorId": "6492502", "name": "L. Fensterheim"},
+        {"authorId": "38032005", "name": "Adam E Cannon"}, {"authorId": "2118266360",
+        "name": "E. Cohen"}]}, {"paperId": "27b912b2de67d57d2e22a9b87417114aaa58a2f5",
+        "externalIds": {"MAG": "2143460527", "DOI": "10.1370/afm.1542", "CorpusId":
+        24446203, "PubMed": "24019274"}, "corpusId": 24446203, "publicationVenue":
+        {"id": "584186f5-efe3-43a9-aaf8-8081794afa7f", "name": "Annals of Family Medicine",
+        "type": "journal", "alternate_names": ["Ann Fam Med"], "issn": "1544-1709",
+        "url": "https://www.annfammed.org/", "alternate_urls": ["http://www.annfammed.org/"]},
+        "url": "https://www.semanticscholar.org/paper/27b912b2de67d57d2e22a9b87417114aaa58a2f5",
+        "title": "Vaccinations Administered During Off-Clinic Hours at a National
+        Community Pharmacy: Implications for Increasing Patient Access and Convenience",
+        "abstract": "PURPOSE Approximately 50,000 adults die annually from vaccine-preventable
+        diseases in the United States. Most traditional vaccine providers (eg, physician
+        offices) administer vaccinations during standard clinic hours, but community
+        pharmacies offer expanded hours that allow patients to be vaccinated at convenient
+        times. We analyzed the types of vaccines administered and patient populations
+        vaccinated during off-clinic hours in a national community pharmacy, and their
+        implications for vaccination access and convenience. METHODS We retrospectively
+        reviewed data for all vaccinations given at the Walgreens pharmacy chain between
+        August 2011 and July 2012. The time of vaccination was categorized as occurring
+        during traditional hours (9:00 am\u20136:00 pm weekdays) or off-clinic hours,
+        consisting of weekday evenings, weekends, and federal holidays. We compared
+        demographic characteristics and types of vaccine. We used a logistic regression
+        model to identify predictors of being vaccinated during off-clinic hours.
+        RESULTS During the study period, pharmacists administered 6,250,402 vaccinations,
+        of which 30.5% were provided during off-clinic hours: 17.4% were provided
+        on weekends, 10.2% on evenings, and 2.9% on holidays. Patients had significantly
+        higher odds of off-clinic vaccination if they were younger than 65 years of
+        age, were male, resided in an urban area, and did not have any chronic conditions.
+        CONCLUSIONS A large proportion of adults being vaccinated receive their vaccines
+        during evening, weekend, and holiday hours at the pharmacy, when traditional
+        vaccine providers are likely unavailable. Younger, working-aged, healthy adults,
+        in particular, accessed a variety of immunizations during off-clinic hours.
+        With the low rates of adult and adolescent vaccination in the United States,
+        community pharmacies are creating new opportunities for vaccination that expand
+        access and convenience.", "venue": "Annals of Family Medicine", "year": 2013,
+        "referenceCount": 41, "citationCount": 144, "influentialCitationCount": 2,
+        "isOpenAccess": true, "openAccessPdf": {"url": "http://www.annfammed.org/content/11/5/429.full.pdf",
+        "status": null}, "fieldsOfStudy": ["Medicine"], "s2FieldsOfStudy": [{"category":
+        "Medicine", "source": "external"}, {"category": "Medicine", "source": "s2-fos-model"},
+        {"category": "Political Science", "source": "s2-fos-model"}], "publicationTypes":
+        ["JournalArticle", "Review"], "publicationDate": "2013-09-01", "journal":
+        {"volume": "11", "pages": "429 - 436", "name": "The Annals of Family Medicine"},
+        "authors": [{"authorId": "9823334", "name": "J. Goad"}, {"authorId": "6113548",
+        "name": "M. Taitel"}, {"authorId": "6492502", "name": "L. Fensterheim"}, {"authorId":
+        "38032005", "name": "Adam E Cannon"}]}, {"paperId": "94a44aa0b8abd391873ee312881a0393b529f7e2",
+        "externalIds": {"MAG": "2022492608", "DOI": "10.1016/S0140-6736(13)62251-5",
+        "CorpusId": 54257357}, "corpusId": 54257357, "publicationVenue": {"id": "ba627f0e-abf9-4f01-8146-73118f4ebaf9",
+        "name": "The Lancet", "type": "journal", "alternate_names": ["Lancet"], "issn":
+        "0923-7577", "alternate_issns": ["0140-6736"], "url": "http://www.elsevier.com/wps/find/journaldescription.cws_home/31066/description#description",
+        "alternate_urls": ["http://www.thelancet.com/", "https://www.thelancet.com/"]},
+        "url": "https://www.semanticscholar.org/paper/94a44aa0b8abd391873ee312881a0393b529f7e2",
+        "title": "Two retrospective cohort studies exploring HIV medication and overall
+        adherence at HIV-specialised pharmacies: implications for HIV patients with
+        comorbid conditions and serious mental illness", "abstract": null, "venue":
+        "The Lancet", "year": 2013, "referenceCount": 0, "citationCount": 0, "influentialCitationCount":
+        0, "isOpenAccess": true, "openAccessPdf": {"url": "http://www.thelancet.com/article/S0140673613622515/pdf",
+        "status": null}, "fieldsOfStudy": ["Medicine"], "s2FieldsOfStudy": [{"category":
+        "Medicine", "source": "external"}, {"category": "Medicine", "source": "s2-fos-model"},
+        {"category": "Psychology", "source": "s2-fos-model"}], "publicationTypes":
+        null, "publicationDate": "2013-11-03", "journal": {"volume": "382", "name":
+        "The Lancet"}, "authors": [{"authorId": "3501192", "name": "J. Duchane"},
+        {"authorId": "6113548", "name": "M. Taitel"}, {"authorId": "6492502", "name":
+        "L. Fensterheim"}, {"authorId": "40237461", "name": "Bobby L Clark"}, {"authorId":
+        "2726976", "name": "John G. Hou"}, {"authorId": "51320106", "name": "Julia
+        Zhu"}, {"authorId": "2389140", "name": "Jenny Jiang"}, {"authorId": "38032005",
+        "name": "Adam E Cannon"}, {"authorId": "13648119", "name": "G. Pietrandoni"}]}]},
+        {"authorId": "1413818284", "externalIds": {}, "url": "https://www.semanticscholar.org/author/1413818284",
+        "name": "''. A. Cannon", "aliases": ["'' Adam Cannon"], "affiliations": [],
+        "homepage": null, "paperCount": 1, "citationCount": 0, "hIndex": 0, "papers":
+        [{"paperId": "58d5c58ec24fcec4881d991825663f21ee53addf", "externalIds": {"MAG":
+        "1538019763", "CorpusId": 161363519}, "corpusId": 161363519, "publicationVenue":
+        null, "url": "https://www.semanticscholar.org/paper/58d5c58ec24fcec4881d991825663f21ee53addf",
+        "title": "Nomads of the Interstates: Portrait of the American Trucker", "abstract":
+        null, "venue": "", "year": 2007, "referenceCount": 0, "citationCount": 0,
+        "influentialCitationCount": 0, "isOpenAccess": false, "openAccessPdf": null,
+        "fieldsOfStudy": ["Art"], "s2FieldsOfStudy": [{"category": "Art", "source":
+        "external"}, {"category": "History", "source": "s2-fos-model"}], "publicationTypes":
+        null, "publicationDate": null, "journal": {"volume": "", "name": ""}, "authors":
+        [{"authorId": "1413818284", "name": "''. A. Cannon"}, {"authorId": "66224316",
+        "name": "F. Gearhart"}]}]}, {"authorId": "145051113", "externalIds": {}, "url":
+        "https://www.semanticscholar.org/author/145051113", "name": "A. Cannon", "aliases":
+        ["A Cannon", "A D Cannon", "A. Cannon", "Adam D. Cannon"], "affiliations":
+        [], "homepage": null, "paperCount": 17, "citationCount": 978, "hIndex": 9,
+        "papers": [{"paperId": "3a03a26bc7fb6675b7761756874aac5e54762f48", "externalIds":
+        {"CorpusId": 38643172}, "corpusId": 38643172, "publicationVenue": null, "url":
+        "https://www.semanticscholar.org/paper/3a03a26bc7fb6675b7761756874aac5e54762f48",
+        "title": "Intracoronary Stenting for Closure PTCA 917 nomic problems associated
+        with CABG for failed", "abstract": "Background. Acute closure remains a significant
+        limitation of percutaneous transluminal coronary angioplasty (PTCA) and underlies
+        the majority of ischemic complications. This study details the clinical and
+        angiographic characteristics of a series of patients receiving an intracoronary
+        stent device to manage acute and threatened closure and presents the early
+        clinical results. Methods and Results. From October 1989 through June 1991,
+        115 patients undergoing PTCA received intracoronary stents to treat acute
+        or threatened closure in 119 vessels. Sixty-three percent had multivessel
+        coronary disease, 33 (29%Y7) had undergone prior coronary artery bypass grafting
+        (CABG), and 52 (45%) had had previous PTCA. Using the American College of
+        Cardiology/American Heart Association (ACC/AHA) classification, 15% of lesions
+        were class A, 55% were class B, and 30% were class C. Eight patients were
+        referred with severe coronary dissection and unstable angina after PTCA at
+        other institutions. Acute closure was defined as occlusion of the vessel with
+        TIMI (Thrombolysis in Myocardial Infarction) 0 or 1 flow immediately before
+        stent placement. Threatened closure required two or more of the following
+        criteria: 1) a residual stenosis greater than 50%o, 2) TIMI grade 2 flow,
+        3) angiographic dissection comprising extraluminal dye extravasation and/or
+        a length of greater than 15 mm, 4) evidence of clinical ischemia (either typical
+        angina or ECG changes). Twelve vessels (10%) met the criteria for acute closure,
+        and 87 vessels (73%) satisfied the criteria for threatened closure. Twenty
+        vessels (17%) failed to meet two criteria. Stenting produced optimal angiographic
+        results in 111 vessels (93%), with mean diameter stenosis (\u00b11 SD) reduced
+        from 83\u00b112% before to 18\u00b129% after stenting. Overall, in-hospital
+        mortality was 1.7% and CABG was required in 4.2%; Q wave myocardial infarction
+        (MI) occurred in 7% and non-Q wave MI in 91%. Stent thrombosis occurred in
+        nine patients (7.6%). For the 108 patients who presented to the catheterization
+        laboratory without evolving MI, Q wave MI occurred in 4% and non-Q wave MI
+        occurred in 7%. Angiographic follow-up has been performed in 81 eligible patients
+        (76%), and 34 patients (41%) had a lesion of .50%o. Conclusions. This stent
+        may be a useful adjunct to balloon dilatation in acute or threatened closure.
+        Randomized studies comparing this stent with alternative technologies are
+        required. (Circulation 1992;85:916-927)", "venue": "", "year": 2005, "referenceCount":
+        48, "citationCount": 0, "influentialCitationCount": 0, "isOpenAccess": false,
+        "openAccessPdf": null, "fieldsOfStudy": null, "s2FieldsOfStudy": [{"category":
+        "Medicine", "source": "s2-fos-model"}], "publicationTypes": null, "publicationDate":
+        null, "journal": null, "authors": [{"authorId": "5519845", "name": "G. Roubin"},
+        {"authorId": "145051113", "name": "A. Cannon"}, {"authorId": "49064342", "name":
+        "S. Agrawal"}, {"authorId": "10746101", "name": "P. Macander"}, {"authorId":
+        "2227886", "name": "L. Dean"}, {"authorId": "10100884", "name": "W. A. Baxley"},
+        {"authorId": "37426548", "name": "J. Breland"}]}, {"paperId": "faffacebf8c6fa1c8f7f112e05309ceaf4ec34d8",
+        "externalIds": {"MAG": "2088971390", "DOI": "10.1046/j.1443-9506.2000.07224.x",
+        "CorpusId": 72349036}, "corpusId": 72349036, "publicationVenue": null, "url":
+        "https://www.semanticscholar.org/paper/faffacebf8c6fa1c8f7f112e05309ceaf4ec34d8",
+        "title": "Troponin I in the assessment of myocardial damage during percutaneous
+        transluminal coronary angioplasty with stenting", "abstract": null, "venue":
+        "", "year": 2000, "referenceCount": 0, "citationCount": 0, "influentialCitationCount":
+        0, "isOpenAccess": false, "openAccessPdf": null, "fieldsOfStudy": ["Medicine"],
+        "s2FieldsOfStudy": [{"category": "Medicine", "source": "external"}, {"category":
+        "Medicine", "source": "s2-fos-model"}], "publicationTypes": null, "publicationDate":
+        "2000-12-01", "journal": null, "authors": [{"authorId": "51136595", "name":
+        "A. Riha"}, {"authorId": "145051113", "name": "A. Cannon"}, {"authorId": "144502775",
+        "name": "R. Muller"}, {"authorId": "2052820397", "name": "R. Tan"}]}, {"paperId":
+        "197c957c26b22dea2d4da77b485cb6cae3fdf43d", "externalIds": {"MAG": "2413134763",
+        "CorpusId": 6607437, "PubMed": "10745553"}, "corpusId": 6607437, "publicationVenue":
+        {"id": "7f867c00-7663-4223-b833-df50c4e1c35c", "name": "The Journal of invasive
+        cardiology", "type": "journal", "alternate_names": ["Journal of Invasive Cardiology",
+        "J Invasive Cardiol", "J invasive cardiol"], "issn": "1042-3931", "url": "https://www.invasivecardiology.com/archive"},
+        "url": "https://www.semanticscholar.org/paper/197c957c26b22dea2d4da77b485cb6cae3fdf43d",
+        "title": "Stenting of the right internal mammary artery graft and right coronary
+        artery via a femoral approach.", "abstract": "We describe a case of balloon
+        angioplasty and stenting of the right internal mammary artery (RIMA) graft
+        anastomosis and the native right coronary artery through an in situ RIMA graft
+        using two Bard XT stents (USCI Division of C.R. Bard, Inc., Billerica, Massachusetts).
+        This case illustrates the feasibility of transluminal angioplasty and stenting
+        of RIMA grafts and the native coronary artery using a femoral artery approach.",
+        "venue": "The Journal of invasive cardiology", "year": 1999, "referenceCount":
+        0, "citationCount": 1, "influentialCitationCount": 0, "isOpenAccess": false,
+        "openAccessPdf": null, "fieldsOfStudy": ["Medicine"], "s2FieldsOfStudy": [{"category":
+        "Medicine", "source": "external"}, {"category": "Medicine", "source": "s2-fos-model"}],
+        "publicationTypes": ["JournalArticle", "CaseReport"], "publicationDate": "1999-06-01",
+        "journal": {"volume": "11 6", "pages": "\n          369-71\n        ", "name":
+        "The Journal of invasive cardiology"}, "authors": [{"authorId": "11974460",
+        "name": "H. Ravat"}, {"authorId": "145051113", "name": "A. Cannon"}]}, {"paperId":
+        "3614865f3590afa28337d2cd304f74c37359a3aa", "externalIds": {"MAG": "2037261166",
+        "DOI": "10.1002/(SICI)1097-0304(199802)43:2<168::AID-CCD12>3.0.CO;2-K", "CorpusId":
+        6737838, "PubMed": "9488549"}, "corpusId": 6737838, "publicationVenue": {"id":
+        "22a3a8ae-6d61-4631-ac7b-8758c076065b", "name": "Catheterization and Cardiovascular
+        Diagnosis", "type": "journal", "alternate_names": ["Catheter Cardiovasc Diagn"],
+        "issn": "0098-6569", "alternate_issns": ["1097-0304"], "url": "http://www3.interscience.wiley.com/cgi-bin/jtoc?ID=32535",
+        "alternate_urls": ["http://onlinelibrary.wiley.com/journal/10.1002/(ISSN)1522-726X",
+        "https://onlinelibrary.wiley.com/journal/1522726X"]}, "url": "https://www.semanticscholar.org/paper/3614865f3590afa28337d2cd304f74c37359a3aa",
+        "title": "Angiographic follow-up and clinical experience with the flexible
+        Tantalum Cordis stent.", "abstract": "The Cordis stent is a flexible, highly
+        radioopaque intracoronary stent engineered from a single Tantalum filament
+        folded into a sinusoidal helical coil. It is premounted on a semicompliant
+        balloon expandable stent delivery system. From September 1995-March 1996,
+        147 Cordis stents were deployed in 105 patients (aged 58+/-12 yr, 71% male).
+        Clinical indications for stenting were unstable angina in 59 (55%), stable
+        angina in 41 (38%), and acute myocardial infarction in 7 (7%). The target
+        vessel was the right coronary artery in 45%, the left anterior descending
+        in 31%, and the circumflex artery in 22%. One stent was deployed in a vein
+        graft, and one stent was deployed in a left internal mammary artery graft.
+        Stent deployment was achieved in all but one patient. Acute in-stent thrombosis
+        occurred in 3 patients (2.9%). Two of these patients required urgent coronary
+        artery bypass surgery. Subacute stent thrombosis occurred in 2 patients (1.9%).
+        Minimum lumen diameter increased from 0.70+/-0.41 mm to 3.50+/-0.60 mm following
+        stent placement. All patients received aspirin. Eighty-one patients (77%)
+        received ticlopidine, and 4 patients (4%) received warfarin therapy. The mean
+        hospital stay was 3.4+/-2.3 days. Six-month follow-up angiography was performed
+        on 50 out of 55 eligible patients at one of the two institutions involved
+        in this study. Computer-assisted quantitative coronary angiography defined
+        a restenosis rate of 26%. Repeat revascularization was required in 8 patients
+        (14.5%) at 6-mo follow-up. The Tantalum Cordis intracoronary stent is an effective
+        and safe means of treating coronary lesions, even in patients with unstable
+        ischemic syndromes. Acute and subacute rates of in-stent thrombosis were acceptable,
+        and the long-term angiographic restenosis rates and need for repeat revascularization
+        were favorable.", "venue": "Catheterization and Cardiovascular Diagnosis",
+        "year": 1998, "referenceCount": 18, "citationCount": 7, "influentialCitationCount":
+        0, "isOpenAccess": false, "openAccessPdf": null, "fieldsOfStudy": ["Medicine"],
+        "s2FieldsOfStudy": [{"category": "Medicine", "source": "external"}, {"category":
+        "Medicine", "source": "s2-fos-model"}], "publicationTypes": ["JournalArticle"],
+        "publicationDate": "1998-02-01", "journal": {"volume": "43 2", "pages": "\n          168-73\n        ",
+        "name": "Catheterization and cardiovascular diagnosis"}, "authors": [{"authorId":
+        "41202576", "name": "P. Watson"}, {"authorId": "35628798", "name": "C. Ponde"},
+        {"authorId": "65957439", "name": "C. Aroney"}, {"authorId": "144960173", "name":
+        "J. Cameron"}, {"authorId": "145051113", "name": "A. Cannon"}, {"authorId":
+        "8626922", "name": "M. Dooris"}, {"authorId": "9907386", "name": "P. Garrahy"},
+        {"authorId": "144485655", "name": "P. McEniery"}, {"authorId": "80771328",
+        "name": "J. Bett"}]}, {"paperId": "7eed1cd3d49226261286d326c5df14b25e4bc1ab",
+        "externalIds": {"MAG": "1989230427", "DOI": "10.1002/(SICI)1097-0304(199812)45:4<462::AID-CCD28>3.0.CO;2-A",
+        "CorpusId": 23603851, "PubMed": "9863763"}, "corpusId": 23603851, "publicationVenue":
+        {"id": "22a3a8ae-6d61-4631-ac7b-8758c076065b", "name": "Catheterization and
+        Cardiovascular Diagnosis", "type": "journal", "alternate_names": ["Catheter
+        Cardiovasc Diagn"], "issn": "0098-6569", "alternate_issns": ["1097-0304"],
+        "url": "http://www3.interscience.wiley.com/cgi-bin/jtoc?ID=32535", "alternate_urls":
+        ["http://onlinelibrary.wiley.com/journal/10.1002/(ISSN)1522-726X", "https://onlinelibrary.wiley.com/journal/1522726X"]},
+        "url": "https://www.semanticscholar.org/paper/7eed1cd3d49226261286d326c5df14b25e4bc1ab",
+        "title": "Early experience with the Bard XT stent.", "abstract": "The Bard
+        XT stent is a new generation balloon expandable intracoronary stent. It has
+        several unique design advantages. Between October 1996 and November 1997,
+        127 Bard XT stents of various length were deployed in 93 patients with 109
+        lesions. According to the American College of Cardiology (ACC) and American
+        Heart Association (AHA) classifications 7 lesions were type A, 38 were type
+        B1, 43 were type B2 and 21 were type C [Ellis et al.: Circulation 82:1193-1202,
+        1990]. Stent delivery was successful in 98% of attempts. Angiographic success
+        was achieved in 98% of 109 lesions. Procedural success was achieved in 94%
+        of 93 patients. Minimal luminal diameter (MLD) increased from 0.91+/-0.34
+        mm to 3.03+/-0.44 mm and percentage diameter stenosis reduced from 69.1+/-11.07
+        to 9.96+/-6.81. Complications occurred in four patients. One patient had intracranial
+        hemorrhage, one patient had subacute thrombosis and two patients died postprocedure.
+        Patients were followed for a period of 1 to 14 months (average 7+/-4 months)
+        for major cardiac events and clinical restenosis. The Bard XT stent is a user-friendly
+        device which provided excellent angiographic results and short-term clinical
+        outcome in selected cases. Further study is required to evaluate effects on
+        restenosis.", "venue": "Catheterization and Cardiovascular Diagnosis", "year":
+        1998, "referenceCount": 9, "citationCount": 2, "influentialCitationCount":
+        0, "isOpenAccess": false, "openAccessPdf": null, "fieldsOfStudy": ["Medicine"],
+        "s2FieldsOfStudy": [{"category": "Medicine", "source": "external"}, {"category":
+        "Medicine", "source": "s2-fos-model"}], "publicationTypes": ["JournalArticle"],
+        "publicationDate": "1998-12-01", "journal": {"volume": "45 4", "pages": "\n          462-70\n        ",
+        "name": "Catheterization and cardiovascular diagnosis"}, "authors": [{"authorId":
+        "11974460", "name": "H. Ravat"}, {"authorId": "145051113", "name": "A. Cannon"}]},
+        {"paperId": "00cf52ce59123c6259257d77e1a2fe9e0a748407", "externalIds": {"MAG":
+        "3026291590", "DOI": "10.1161/01.CIR.92.3.311", "CorpusId": 46042902, "PubMed":
+        "7634443"}, "corpusId": 46042902, "publicationVenue": {"id": "0d67273f-71c8-43f4-a642-9c384870ccb2",
+        "name": "Circulation", "type": "journal", "issn": "0009-7322", "url": "http://gateway.ovid.com/ovidweb.cgi?AN=00002060-000000000-00000&D=ovft&MODE=ovid&NEWS=N&PAGE=toc&T=JS",
+        "alternate_urls": ["http://circ.ahajournals.org/"]}, "url": "https://www.semanticscholar.org/paper/00cf52ce59123c6259257d77e1a2fe9e0a748407",
+        "title": "Length of hospital stay and complications after percutaneous transluminal
+        coronary angioplasty. Clinical and procedural predictors. Heparin Registry
+        Investigators.", "abstract": "BACKGROUND\nAlthough several studies have established
+        that the complications of percutaneous transluminal coronary angioplasty (PTCA)
+        are related to clinical and angiographic variables such as advanced age and
+        lesion complexity, it is uncertain whether the use of hospital resources after
+        PTCA also depends on the same baseline variables. The purpose of this study
+        was to identify the factors responsible for prolonged hospital stay after
+        PTCA.\n\n\nMETHODS AND RESULTS\nThe study cohort included 591 consecutive
+        patients undergoing conventional balloon angioplasty at nine medical centers
+        in North America. Major or minor complications occurred in 91 patients (15.4%)
+        and were observed to be related to several baseline characteristics, including
+        unstable angina, multivessel coronary artery disease, patient age, and lesion
+        complexity. Compared with a median length of hospital stay of 2.0 days after
+        PTCA (25th, 75th percentiles: 2.0, 4.0) for the entire cohort of patients,
+        the length of stay was increased in patients with unstable angina (3.0 days
+        [2.0, 5.0]; P = .002), multivessel coronary artery disease (3.0 [2.0, 5.5];
+        P = .001), age > 65 years (3.0 [2.0, 5.5]; P = .02), complex lesions (3.0
+        [2.0, 6.0]; P = .001), and filling defects (6.0 [2.0, 11.0]; P < .001). The
+        length of stay was more strikingly increased, however, in patients who experienced
+        major or minor PTCA complications, such as emergency bypass surgery (9.0 days
+        [8.0, 18.0]; P < .001), Q-wave or non-Q-wave myocardial infarction (8.0 [6.0,
+        15.5]; P < .001), transfusion unrelated to bypass surgery (8.0 [4.0, 12.0];
+        P < .001), or abrupt vessel closure (6.0 [3.0, 10.5]; P < .001). On stepwise
+        multiple linear regression, PTCA complications appeared to be the strongest
+        predictors of length of hospital stay (all P < .001) and overwhelmed the weaker
+        relation between length of stay and several individual baseline variables.
+        Inclusion of a composite clinical risk score (reflecting the presence of unstable
+        angina, multivessel disease, advanced age, complex lesions, or filling defects)
+        in the regression model confirmed that patients with several high-risk baseline
+        variables had a significant increase in length of stay after PTCA (P = .003),
+        but PTCA complications remained the strongest predictors of length of stay.\n\n\nCONCLUSIONS\nAlthough
+        PTCA complications were correlated with baseline variables such as unstable
+        angina, multivessel disease, advanced age, complex lesions, and filling defects,
+        excess length of stay after PTCA was most strongly influenced by the development
+        of minor and major PTCA complications. Because patients with several baseline
+        risk factors experienced significantly prolonged hospitalizations, improved
+        selection of patients may contribute to reductions in length of stay after
+        PTCA. A greater reduction in resource use after PTCA, however, would be expected
+        from developing new treatments to decrease PTCA complications rather than
+        limiting the access of patients with unstable angina, advanced age, or complex
+        lesions to PTCA.", "venue": "Circulation", "year": 1995, "referenceCount":
+        31, "citationCount": 46, "influentialCitationCount": 0, "isOpenAccess": false,
+        "openAccessPdf": null, "fieldsOfStudy": ["Medicine"], "s2FieldsOfStudy": [{"category":
+        "Medicine", "source": "external"}, {"category": "Medicine", "source": "s2-fos-model"}],
+        "publicationTypes": ["JournalArticle", "ClinicalTrial"], "publicationDate":
+        "1995-08-01", "journal": {"volume": "92 3", "pages": "\n          311-9\n        ",
+        "name": "Circulation"}, "authors": [{"authorId": "48562601", "name": "M. Wolfe"},
+        {"authorId": "5519845", "name": "G. Roubin"}, {"authorId": "34927268", "name":
+        "M. Schweiger"}, {"authorId": "50577432", "name": "J. Isner"}, {"authorId":
+        "144056037", "name": "J. Ferguson"}, {"authorId": "145051113", "name": "A.
+        Cannon"}, {"authorId": "6295390", "name": "M. Cleman"}, {"authorId": "3971476",
+        "name": "H. Cabin"}, {"authorId": "9994318", "name": "F. Leya"}, {"authorId":
+        "3773403", "name": "R. Bonan"}]}, {"paperId": "9ed8eec6cc7a45e8c9eb278dd8cfe19416e63a57",
+        "externalIds": {"MAG": "2012721261", "DOI": "10.1016/0735-1097(95)93083-O",
+        "CorpusId": 71193346}, "corpusId": 71193346, "publicationVenue": null, "url":
+        "https://www.semanticscholar.org/paper/9ed8eec6cc7a45e8c9eb278dd8cfe19416e63a57",
+        "title": "1017-74 Length of Hospital Stay After Percutaneous Transluminal
+        Coronary Angioplasty: Clinical and Angiographic Predictors", "abstract": null,
+        "venue": "", "year": 1995, "referenceCount": 0, "citationCount": 1, "influentialCitationCount":
+        0, "isOpenAccess": false, "openAccessPdf": null, "fieldsOfStudy": ["Medicine"],
+        "s2FieldsOfStudy": [{"category": "Medicine", "source": "external"}, {"category":
+        "Medicine", "source": "s2-fos-model"}], "publicationTypes": null, "publicationDate":
+        "1995-02-01", "journal": {"volume": "25", "name": "Journal of the American
+        College of Cardiology"}, "authors": [{"authorId": "6501411", "name": "J. Bittl"},
+        {"authorId": "48562601", "name": "M. Wolfe"}, {"authorId": "5519845", "name":
+        "G. Roubin"}, {"authorId": "34927268", "name": "M. Schweiger"}, {"authorId":
+        "50577432", "name": "J. Isner"}, {"authorId": "144056037", "name": "J. Ferguson"},
+        {"authorId": "145051113", "name": "A. Cannon"}, {"authorId": "6295390", "name":
+        "M. Cleman"}, {"authorId": "3971476", "name": "H. Cabin"}, {"authorId": "9994318",
+        "name": "F. Leya"}, {"authorId": "3773403", "name": "R. Bonan"}, {"authorId":
+        "6669736", "name": "J. Strony"}, {"authorId": "4893332", "name": "B. Adelman"}]},
+        {"paperId": "53d92d9ec3553d72923d2884c1a71f8d58863690", "externalIds": {"MAG":
+        "2096116682", "DOI": "10.1002/CCD.1810320206", "CorpusId": 10018013, "PubMed":
+        "8062366"}, "corpusId": 10018013, "publicationVenue": {"id": "22a3a8ae-6d61-4631-ac7b-8758c076065b",
+        "name": "Catheterization and Cardiovascular Diagnosis", "type": "journal",
+        "alternate_names": ["Catheter Cardiovasc Diagn"], "issn": "0098-6569", "alternate_issns":
+        ["1097-0304"], "url": "http://www3.interscience.wiley.com/cgi-bin/jtoc?ID=32535",
+        "alternate_urls": ["http://onlinelibrary.wiley.com/journal/10.1002/(ISSN)1522-726X",
+        "https://onlinelibrary.wiley.com/journal/1522726X"]}, "url": "https://www.semanticscholar.org/paper/53d92d9ec3553d72923d2884c1a71f8d58863690",
+        "title": "Balloon angioplasty for treatment of in-stent restenosis: feasibility,
+        safety, and efficacy.", "abstract": "Sixty patients with 1 or 2 stainless
+        steel intracoronary stents (Cook, Inc.) underwent balloon angioplasty for
+        in-stent restenosis 1.5-13.5 months after stenting. Seventy-five in-stent
+        redilatation procedures were performed. Seventy-three restenotic lesions (97%)
+        were successfully recrossed and dilated, reducing the mean pre-angioplasty
+        intrastent diameter stenosis from 77 +/- 12% to 20 +/- 11% residual. Although
+        one angioplasty (1.3%) was complicated by non-Q-wave infarction, no angioplasty-related
+        death, acute closure, need for additional stenting, emergent coronary bypass
+        surgery, side branch occlusion, or vascular sequelae occurred. Post-procedure
+        heparin was not used in 83% of successful cases. Most patients were discharged
+        the day following redilatation (mean in-hospital stay 1.7 +/- 1.3 days). At
+        5.4 +/- 3.4 months following in-stent angioplasty, 84% of patients were in
+        Canadian Cardiovascular Society class 0 or I. In conclusion, balloon dilatation
+        in this stent for restenosis appears simple and efficacious in the short term,
+        and may entail less risk than dilatation of unprotected coronary vessels.",
+        "venue": "Catheterization and Cardiovascular Diagnosis", "year": 1994, "referenceCount":
+        16, "citationCount": 94, "influentialCitationCount": 2, "isOpenAccess": false,
+        "openAccessPdf": null, "fieldsOfStudy": ["Medicine"], "s2FieldsOfStudy": [{"category":
+        "Medicine", "source": "external"}, {"category": "Medicine", "source": "s2-fos-model"}],
+        "publicationTypes": ["JournalArticle"], "publicationDate": "1994-06-01", "journal":
+        {"volume": "32 2", "pages": "\n          125-31\n        ", "name": "Catheterization
+        and cardiovascular diagnosis"}, "authors": [{"authorId": "10746101", "name":
+        "P. Macander"}, {"authorId": "5519845", "name": "G. Roubin"}, {"authorId":
+        "5519845", "name": "G. Roubin"}, {"authorId": "49064342", "name": "S. Agrawal"},
+        {"authorId": "145051113", "name": "A. Cannon"}, {"authorId": "2227886", "name":
+        "L. Dean"}, {"authorId": "10100884", "name": "W. A. Baxley"}]}, {"paperId":
+        "e9cd4fc91b9d1285744574d07167b3af0581c601", "externalIds": {"MAG": "2070550447",
+        "DOI": "10.1016/0002-9149(94)90925-3", "CorpusId": 8533784, "PubMed": "8166057"},
+        "corpusId": 8533784, "publicationVenue": {"id": "dd20039d-e9f5-409b-a9f2-0e59135b63f3",
+        "name": "American Journal of Cardiology", "type": "journal", "alternate_names":
+        ["Am J Cardiol"], "issn": "0002-9149", "url": "http://www.elsevier.com/wps/find/journaldescription.cws_home/525048/description#description",
+        "alternate_urls": ["https://www.ajconline.org/", "http://www.ajconline.org/",
+        "http://www.sciencedirect.com/science/journal/00029149"]}, "url": "https://www.semanticscholar.org/paper/e9cd4fc91b9d1285744574d07167b3af0581c601",
+        "title": "Acute angiographic and clinical results of long balloon percutaneous
+        transluminal coronary angioplasty and adjuvant stenting for long narrowings.",
+        "abstract": null, "venue": "American Journal of Cardiology", "year": 1994,
+        "referenceCount": 20, "citationCount": 21, "influentialCitationCount": 0,
+        "isOpenAccess": false, "openAccessPdf": null, "fieldsOfStudy": ["Medicine"],
+        "s2FieldsOfStudy": [{"category": "Medicine", "source": "external"}, {"category":
+        "Medicine", "source": "s2-fos-model"}], "publicationTypes": ["JournalArticle",
+        "Review"], "publicationDate": "1994-04-01", "journal": {"volume": "73 9",
+        "pages": "\n          635-41\n        ", "name": "The American journal of
+        cardiology"}, "authors": [{"authorId": "145051113", "name": "A. Cannon"},
+        {"authorId": "5519845", "name": "G. Roubin"}, {"authorId": "38419309", "name":
+        "J. A. Hearn"}, {"authorId": "2828659", "name": "S. Iyer"}, {"authorId": "10100884",
+        "name": "W. A. Baxley"}, {"authorId": "2227886", "name": "L. Dean"}]}, {"paperId":
+        "f72a198d0c5eae595e07dc8648d91c5b26c8424c", "externalIds": {"MAG": "2102064487",
+        "DOI": "10.1016/0002-9149(94)90186-4", "CorpusId": 31751715, "PubMed": "8203343"},
+        "corpusId": 31751715, "publicationVenue": {"id": "dd20039d-e9f5-409b-a9f2-0e59135b63f3",
+        "name": "American Journal of Cardiology", "type": "journal", "alternate_names":
+        ["Am J Cardiol"], "issn": "0002-9149", "url": "http://www.elsevier.com/wps/find/journaldescription.cws_home/525048/description#description",
+        "alternate_urls": ["https://www.ajconline.org/", "http://www.ajconline.org/",
+        "http://www.sciencedirect.com/science/journal/00029149"]}, "url": "https://www.semanticscholar.org/paper/f72a198d0c5eae595e07dc8648d91c5b26c8424c",
+        "title": "Predictors of thrombotic complications after placement of the flexible
+        coil stent.", "abstract": null, "venue": "American Journal of Cardiology",
+        "year": 1994, "referenceCount": 16, "citationCount": 86, "influentialCitationCount":
+        0, "isOpenAccess": false, "openAccessPdf": null, "fieldsOfStudy": ["Medicine"],
+        "s2FieldsOfStudy": [{"category": "Medicine", "source": "external"}, {"category":
+        "Medicine", "source": "s2-fos-model"}], "publicationTypes": ["Study", "JournalArticle"],
+        "publicationDate": "1994-06-15", "journal": {"volume": "73 16", "pages": "\n          1216-9\n        ",
+        "name": "The American journal of cardiology"}, "authors": [{"authorId": "49064342",
+        "name": "S. Agrawal"}, {"authorId": "46568847", "name": "D. Ho"}, {"authorId":
+        "2234538088", "name": "M. Liu"}, {"authorId": "2828659", "name": "S. Iyer"},
+        {"authorId": "38419309", "name": "J. A. Hearn"}, {"authorId": "145051113",
+        "name": "A. Cannon"}, {"authorId": "10746101", "name": "P. Macander"}, {"authorId":
+        "2227886", "name": "L. Dean"}, {"authorId": "10100884", "name": "W. A. Baxley"},
+        {"authorId": "5519845", "name": "G. Roubin"}]}, {"paperId": "5796b024819c1681566f44aebb450e032545c051",
+        "externalIds": {"MAG": "30938676", "DOI": "10.1007/978-94-011-1854-5_37",
+        "CorpusId": 68085799}, "corpusId": 68085799, "publicationVenue": null, "url":
+        "https://www.semanticscholar.org/paper/5796b024819c1681566f44aebb450e032545c051",
+        "title": "Coronary Gianturco-Roubin stents", "abstract": null, "venue": "",
+        "year": 1993, "referenceCount": 20, "citationCount": 1, "influentialCitationCount":
+        0, "isOpenAccess": false, "openAccessPdf": null, "fieldsOfStudy": ["Medicine"],
+        "s2FieldsOfStudy": [{"category": "Medicine", "source": "external"}, {"category":
+        "Medicine", "source": "s2-fos-model"}], "publicationTypes": null, "publicationDate":
+        null, "journal": {"volume": "137", "pages": "609-624", "name": "Developments
+        in cardiovascular medicine"}, "authors": [{"authorId": "145051113", "name":
+        "A. Cannon"}, {"authorId": "5519845", "name": "G. Roubin"}]}, {"paperId":
+        "159f520e94781eb63dd1d15eb52b3b6a55dd0ec7", "externalIds": {"MAG": "2087339238",
+        "DOI": "10.1161/01.CIR.85.3.916", "CorpusId": 427984, "PubMed": "1537128"},
+        "corpusId": 427984, "publicationVenue": {"id": "0d67273f-71c8-43f4-a642-9c384870ccb2",
+        "name": "Circulation", "type": "journal", "issn": "0009-7322", "url": "http://gateway.ovid.com/ovidweb.cgi?AN=00002060-000000000-00000&D=ovft&MODE=ovid&NEWS=N&PAGE=toc&T=JS",
+        "alternate_urls": ["http://circ.ahajournals.org/"]}, "url": "https://www.semanticscholar.org/paper/159f520e94781eb63dd1d15eb52b3b6a55dd0ec7",
+        "title": "Intracoronary Stenting for Acute and Threatened Closure Complicating
+        Percutaneous Transluminal Coronary Angioplasty", "abstract": "BackgroundAcute
+        closure remains a significant limitation of percutaneous transluminal coronary
+        angioplasty (PTCA) and underlies the majority of ischemic complications. This
+        study details the clinical and angiographic characteristics of a series of
+        patients receiving an intracoronary stent device to manage acute and threatened
+        closure and presents the early clinical results. Methods and ResultsFrom October
+        1989 through June 1991, 115 patients undergoing PTCA received intracoronary
+        stents to treat acute or threatened closure in 119 vessels. Sixty-three percent
+        had multivessel coronary disease, 33 (29%) had undergone prior coronary artery
+        bypass grafting (CABG), and 52 (45%) had had previous PTCA. Using the American
+        College of Cardiology/American Heart Association (ACC/AHA) classification,
+        15% of lesions were class A, 55% were class B, and 30% were class C. Eight
+        patients were referred with severe coronary dissection and unstable angina
+        after PTCA at other institutions. Acute closure was defined as occlusion of
+        the vessel with TIMI (Thrombolysis in Myocardial Infarction) 0 or 1 flow immediately
+        before stent placement. Threatened closure required two or more of the following
+        criteria: 1) a residual stenosis greater than 50%, 2) TIMI grade 2 flow, 3)
+        angiographic dissection comprising extraluminal dye extravasation and/or a
+        length of greater than 15 mm, 4) evidence of clinical ischemia (either typical
+        angina or ECG changes). Twelve vessels (10%) met the criteria for acute closure,
+        and 87 vessels (73%) satisfied the criteria for threatened closure. Twenty
+        vessels (17%) failed to meet two criteria. Stenting produced optimal angiographic
+        results in 111 vessels (93%), with mean diameter stenosis (\u00b11 SD) reduced
+        from 83\u00b112% before to 18\u00b129% after stenting. Overall, in-hospital
+        mortality was 1.7% and CABG was required in 4.2%; Q wave myocardial infarction
+        (MI) occurred in 7% and non-Q wave MI in 91%. Stent thrombosis occurred in
+        nine patients (7.6%). For the 108 patients who presented to the catheterization
+        laboratory without evolving MI, Q wave MI occurred in 4% and non-Q wave MI
+        occurred in 7%. Angiographic follow-up has been performed in 81 eligible patients
+        (76%), and 34 patients (41%) had a lesion of .50%. ConclusionsThis stent may
+        be a useful adjunct to balloon dilatation in acute or threatened closure.
+        Randomized studies comparing this stent with alternative technologies are
+        required.", "venue": "Circulation", "year": 1992, "referenceCount": 44, "citationCount":
+        593, "influentialCitationCount": 4, "isOpenAccess": true, "openAccessPdf":
+        {"url": "https://www.ahajournals.org/doi/pdf/10.1161/01.CIR.85.3.916", "status":
+        null}, "fieldsOfStudy": ["Medicine"], "s2FieldsOfStudy": [{"category": "Medicine",
+        "source": "external"}, {"category": "Medicine", "source": "s2-fos-model"}],
+        "publicationTypes": ["JournalArticle"], "publicationDate": "1992-03-01", "journal":
+        {"volume": "85", "pages": "916\u2013927", "name": "Circulation"}, "authors":
+        [{"authorId": "5519845", "name": "G. Roubin"}, {"authorId": "145051113", "name":
+        "A. Cannon"}, {"authorId": "49064342", "name": "S. Agrawal"}, {"authorId":
+        "10746101", "name": "P. Macander"}, {"authorId": "2227886", "name": "L. Dean"},
+        {"authorId": "10100884", "name": "W. A. Baxley"}, {"authorId": "37426548",
+        "name": "J. Breland"}]}, {"paperId": "792eb127077cee8e547f17676a23db269b809da7",
+        "externalIds": {"MAG": "2001369176", "DOI": "10.1016/0735-1097(92)90015-F",
+        "CorpusId": 21142408, "PubMed": "1512340"}, "corpusId": 21142408, "publicationVenue":
+        {"id": "8cd0658b-273f-4a78-9262-bae6eea40607", "name": "Journal of the American
+        College of Cardiology", "type": "journal", "alternate_names": ["J Am Coll
+        Cardiol", "Journal of the American college of cardiology", "J Am coll cardiol"],
+        "issn": "1790-5257", "alternate_issns": ["1975-8030", "0735-1097", "2214-997X"],
+        "url": "http://asia.elsevierhealth.com/", "alternate_urls": ["http://content.onlinejacc.org/",
+        "http://www.sciencedirect.com/science/journal/07351097"]}, "url": "https://www.semanticscholar.org/paper/792eb127077cee8e547f17676a23db269b809da7",
+        "title": "Nonsurgical closure of femoral pseudoaneurysms complicating cardiac
+        catheterization and percutaneous transluminal coronary angioplasty.", "abstract":
+        null, "venue": "Journal of the American College of Cardiology", "year": 1992,
+        "referenceCount": 25, "citationCount": 59, "influentialCitationCount": 3,
+        "isOpenAccess": false, "openAccessPdf": null, "fieldsOfStudy": ["Medicine"],
+        "s2FieldsOfStudy": [{"category": "Medicine", "source": "external"}, {"category":
+        "Medicine", "source": "s2-fos-model"}], "publicationTypes": ["JournalArticle"],
+        "publicationDate": "1992-09-01", "journal": {"volume": "20 3", "pages": "\n          610-5\n        ",
+        "name": "Journal of the American College of Cardiology"}, "authors": [{"authorId":
+        "49064342", "name": "S. Agrawal"}, {"authorId": "152302696", "name": "L. Pinheiro"},
+        {"authorId": "5519845", "name": "G. Roubin"}, {"authorId": "38419309", "name":
+        "J. A. Hearn"}, {"authorId": "145051113", "name": "A. Cannon"}, {"authorId":
+        "10746101", "name": "P. Macander"}, {"authorId": "2233125396", "name": "Jennifer
+        L. Barnes"}, {"authorId": "2227886", "name": "L. Dean"}, {"authorId": "4812585",
+        "name": "N. Nanda"}]}, {"paperId": "7a98c9c1a6042fd1d3f86deb028c5873a770ee58",
+        "externalIds": {"MAG": "2094412681", "DOI": "10.1016/0735-1097(91)92089-5",
+        "CorpusId": 73181810}, "corpusId": 73181810, "publicationVenue": null, "url":
+        "https://www.semanticscholar.org/paper/7a98c9c1a6042fd1d3f86deb028c5873a770ee58",
+        "title": "What are the predictors of acute complications following coronary
+        artery stenting? Single institutional experience", "abstract": null, "venue":
+        "", "year": 1991, "referenceCount": 0, "citationCount": 16, "influentialCitationCount":
+        0, "isOpenAccess": false, "openAccessPdf": null, "fieldsOfStudy": ["Medicine"],
+        "s2FieldsOfStudy": [{"category": "Medicine", "source": "external"}, {"category":
+        "Medicine", "source": "s2-fos-model"}], "publicationTypes": null, "publicationDate":
+        "1991-02-01", "journal": {"volume": "17", "name": "Journal of the American
+        College of Cardiology"}, "authors": [{"authorId": "5519845", "name": "G. Roubin"},
+        {"authorId": "49064342", "name": "S. Agrawal"}, {"authorId": "2227886", "name":
+        "L. Dean"}, {"authorId": "10100884", "name": "W. A. Baxley"}, {"authorId":
+        "9907386", "name": "P. Garrahy"}, {"authorId": "36831026", "name": "R. Bajaj"},
+        {"authorId": "12249732", "name": "P. Gainey"}, {"authorId": "80878743", "name":
+        "J. B. Cavender"}, {"authorId": "10746101", "name": "P. Macander"}, {"authorId":
+        "145051113", "name": "A. Cannon"}]}, {"paperId": "ab876e43c6d76bf171ae9163e8c36b8e529b3add",
+        "externalIds": {"MAG": "2412188753", "CorpusId": 20502545, "PubMed": "1823886"},
+        "corpusId": 20502545, "publicationVenue": {"id": "5e872f73-fb57-4790-815d-94224992f97b",
+        "name": "Indian Heart Journal", "type": "journal", "alternate_names": ["Indian
+        Heart J", "Indian heart j", "Indian heart journal"], "issn": "0019-4832",
+        "url": "https://www.journals.elsevier.com/indian-heart-journal/", "alternate_urls":
+        ["http://indianheartjournal.com/"]}, "url": "https://www.semanticscholar.org/paper/ab876e43c6d76bf171ae9163e8c36b8e529b3add",
+        "title": "The Gianturco-Roubin flexible intracoronary stent: clinical application
+        and initial results.", "abstract": null, "venue": "Indian Heart Journal",
+        "year": 1991, "referenceCount": 0, "citationCount": 1, "influentialCitationCount":
+        0, "isOpenAccess": false, "openAccessPdf": null, "fieldsOfStudy": ["Medicine"],
+        "s2FieldsOfStudy": [{"category": "Medicine", "source": "external"}, {"category":
+        "Medicine", "source": "s2-fos-model"}], "publicationTypes": ["Review", "JournalArticle"],
+        "publicationDate": "1991-11-01", "journal": {"volume": "43 6", "pages": "\n          403-13\n        ",
+        "name": "Indian heart journal"}, "authors": [{"authorId": "49064342", "name":
+        "S. Agrawal"}, {"authorId": "10746101", "name": "P. Macander"}, {"authorId":
+        "145051113", "name": "A. Cannon"}, {"authorId": "5519845", "name": "G. Roubin"}]},
+        {"paperId": "ea332dcd5369b8b97cead38b98a3075352cc560b", "externalIds": {"MAG":
+        "2438334786", "CorpusId": 33954560, "PubMed": "10149128"}, "corpusId": 33954560,
+        "publicationVenue": {"id": "7f867c00-7663-4223-b833-df50c4e1c35c", "name":
+        "The Journal of invasive cardiology", "type": "journal", "alternate_names":
+        ["Journal of Invasive Cardiology", "J Invasive Cardiol", "J invasive cardiol"],
+        "issn": "1042-3931", "url": "https://www.invasivecardiology.com/archive"},
+        "url": "https://www.semanticscholar.org/paper/ea332dcd5369b8b97cead38b98a3075352cc560b",
+        "title": "Intracoronary stenting as an adjunct to angioplasty in acute myocardial
+        infarction.", "abstract": null, "venue": "The Journal of invasive cardiology",
+        "year": 1991, "referenceCount": 0, "citationCount": 26, "influentialCitationCount":
+        0, "isOpenAccess": false, "openAccessPdf": null, "fieldsOfStudy": ["Medicine"],
+        "s2FieldsOfStudy": [{"category": "Medicine", "source": "external"}, {"category":
+        "Medicine", "source": "s2-fos-model"}], "publicationTypes": ["JournalArticle",
+        "CaseReport"], "publicationDate": "1991-11-01", "journal": {"volume": "3 6",
+        "pages": "\n          255-8\n        ", "name": "The Journal of invasive cardiology"},
+        "authors": [{"authorId": "145051113", "name": "A. Cannon"}, {"authorId": "5519845",
+        "name": "G. Roubin"}, {"authorId": "10746101", "name": "P. Macander"}, {"authorId":
+        "49064342", "name": "S. Agrawal"}]}]}, {"authorId": "145051116", "externalIds":
+        {"DBLP": ["Adam Cannon"]}, "url": "https://www.semanticscholar.org/author/145051116",
+        "name": "Adam Cannon", "aliases": ["Adam H. Cannon"], "affiliations": [],
+        "homepage": null, "paperCount": 13, "citationCount": 154, "hIndex": 4, "papers":
+        [{"paperId": "f1950a0d063a63d74248267a8c7e6bb257b44e94", "externalIds": {"DBLP":
+        "conf/sigcse/FurmanCJT20", "MAG": "3009927230", "DOI": "10.1145/3328778.3366985",
+        "CorpusId": 211520338}, "corpusId": 211520338, "publicationVenue": {"id":
+        "2c9ecac6-f875-4a9b-acc2-10bd9f6782df", "name": "Technical Symposium on Computer
+        Science Education", "type": "conference", "alternate_names": ["SIGCSE", "Tech
+        Symp Comput Sci Educ"], "url": "http://www.sigcse.org/"}, "url": "https://www.semanticscholar.org/paper/f1950a0d063a63d74248267a8c7e6bb257b44e94",
+        "title": "CS Principles Curriculum Framework Updates for 2020", "abstract":
+        "In 2017 the Advanced Placement CS Principles course had the most successful
+        launch of any AP course in history. In its first three years more than 220,000
+        students have sat for the exam and the course has successfully increased participation
+        among women and other traditionally underrepresented groups in AP computer
+        science. Like any breadth-first CS course the AP CSP curriculum requires regular
+        updating and in this panel we will discuss changes coming for the 2020 academic
+        year. We will share perspectives from the College Board and higher education
+        faculty with the goal of providing audience members a better understanding
+        of the nature of the course''s first round of updates and the motivation behind
+        them.", "venue": "Technical Symposium on Computer Science Education", "year":
+        2020, "referenceCount": 0, "citationCount": 1, "influentialCitationCount":
+        0, "isOpenAccess": false, "openAccessPdf": null, "fieldsOfStudy": ["Computer
+        Science"], "s2FieldsOfStudy": [{"category": "Computer Science", "source":
+        "external"}, {"category": "Education", "source": "s2-fos-model"}], "publicationTypes":
+        ["Book", "JournalArticle", "Conference"], "publicationDate": "2020-02-26",
+        "journal": {"name": "Proceedings of the 51st ACM Technical Symposium on Computer
+        Science Education"}, "authors": [{"authorId": "35246558", "name": "C. Furman"},
+        {"authorId": "145051116", "name": "Adam Cannon"}, {"authorId": "35276024",
+        "name": "E. Johnson"}, {"authorId": "1706586", "name": "P. Tymann"}]}, {"paperId":
+        "28f9766f066f355920c5eda6ea7b8c95415c0b41", "externalIds": {"DBLP": "conf/sigcse/PowellMCGR13",
+        "MAG": "2008571599", "DOI": "10.1145/2445196.2445413", "CorpusId": 9791461},
+        "corpusId": 9791461, "publicationVenue": {"id": "2c9ecac6-f875-4a9b-acc2-10bd9f6782df",
+        "name": "Technical Symposium on Computer Science Education", "type": "conference",
+        "alternate_names": ["SIGCSE", "Tech Symp Comput Sci Educ"], "url": "http://www.sigcse.org/"},
+        "url": "https://www.semanticscholar.org/paper/28f9766f066f355920c5eda6ea7b8c95415c0b41",
+        "title": "Evaluation of the emerging scholars program at Columbia University
+        (abstract only)", "abstract": "The Columbia Emerging Scholars Program (CESP)
+        in Computer Science is a Peer Led Team Learning (PLTL) approach to bringing
+        undergraduates new to the discipline together with peer mentors to work on
+        computational problems, and to expose them to the broad array of disciplines
+        within computer science. CESP demonstrates that computer science is necessarily
+        a collaborative activity that focuses more on problem solving and algorithmic
+        thinking than on programming. In spring 2012 the computer science department
+        at Columbia University completed the 9th iteration of CESP, with 104 women
+        and 36 men having completed the program to date. Female enrollment at Columbia
+        during the past four years has increased from 9% to 23%, but did CESP play
+        a part in this increase? This poster presents our evaluation data, which indicates
+        that CESP increased enrollment in the computer science major, especially for
+        women. Students who took CESP along with the introduction to computer programming
+        course in 2009-10 were three times more likely to major in computer science
+        the following year than the students who took introduction to programming
+        without CESP. 47% of CESP students subsequently chose the computer science
+        major. In addition, survey results indicated that a large majority of students
+        intended to take another computer science course, were enthusiastic about
+        the program, and found the workshop topics exciting and engaging. Participants
+        reported that they learned more about computer science in CESP, and would
+        recommend CESP to others.", "venue": "Technical Symposium on Computer Science
+        Education", "year": 2013, "referenceCount": 1, "citationCount": 1, "influentialCitationCount":
+        0, "isOpenAccess": false, "openAccessPdf": null, "fieldsOfStudy": ["Computer
+        Science"], "s2FieldsOfStudy": [{"category": "Computer Science", "source":
+        "external"}, {"category": "Education", "source": "s2-fos-model"}, {"category":
+        "Computer Science", "source": "s2-fos-model"}], "publicationTypes": ["JournalArticle",
+        "Review"], "publicationDate": "2013-03-06", "journal": {"pages": "731"}, "authors":
+        [{"authorId": "2747309", "name": "R. Powell"}, {"authorId": "2064793873",
+        "name": "Christian Murphy"}, {"authorId": "145051116", "name": "Adam Cannon"},
+        {"authorId": "18190257", "name": "Joshua B. Gordon"}, {"authorId": "46553107",
+        "name": "Arthi Ramachandran"}]}, {"paperId": "ac6ad5aa737f5e2fc74765dd76bc1868249fec4d",
+        "externalIds": {"MAG": "41401431", "CorpusId": 14936241}, "corpusId": 14936241,
+        "publicationVenue": null, "url": "https://www.semanticscholar.org/paper/ac6ad5aa737f5e2fc74765dd76bc1868249fec4d",
+        "title": "Emerging Scholars Program\u2014A PLTL-CS Program That Increases
+        Recruitment and Retention of Women in the Major", "abstract": "The Emerging
+        Scholars Program (ESP) in Computer Science is a Peer Led Team Learning (PLTL)
+        approach to bringing undergraduates new to the discipline together with peer
+        mentors to work on computational problems, and to expose them to the broad
+        array of disciplines within computer science. This program demonstrates that
+        computer science is necessarily a collaborative activity that focuses more
+        on problem solving and algorithmic thinking than on programming. In spring
+        2012 the computer science department at an urban research university university
+        completed the 9th iteration of ESP, with 104 women and 36 men completing the
+        program. Our evaluation data indicates that ESP increased enrollment in the
+        computer science major. 47% of students who took ESP along with the introduction
+        to computer programming course at the university study site during this study
+        majored in computer science. In addition, survey results indicated that a
+        large majority of students intended to take another computer science course,
+        were enthusiastic about the program, and found the workshop topics exciting
+        and engaging. Participants reported that they learned more about computer
+        science in ESP, and would recommend ESP to others.", "venue": "", "year":
+        2012, "referenceCount": 11, "citationCount": 3, "influentialCitationCount":
+        0, "isOpenAccess": false, "openAccessPdf": null, "fieldsOfStudy": ["Computer
+        Science"], "s2FieldsOfStudy": [{"category": "Computer Science", "source":
+        "external"}, {"category": "Education", "source": "s2-fos-model"}, {"category":
+        "Computer Science", "source": "s2-fos-model"}], "publicationTypes": ["Review"],
+        "publicationDate": null, "journal": {"volume": "", "name": ""}, "authors":
+        [{"authorId": "2747309", "name": "R. Powell"}, {"authorId": "2064793873",
+        "name": "Christian Murphy"}, {"authorId": "145051116", "name": "Adam Cannon"},
+        {"authorId": "35146747", "name": "J. Gordon"}, {"authorId": "46553107", "name":
+        "Arthi Ramachandran"}]}, {"paperId": "c4c3466ff37387f3b6135de3de179fa1ab0f5de4",
+        "externalIds": {"DBLP": "conf/sigcse/MurphyPPC11", "MAG": "2010462813", "DOI":
+        "10.1145/1953163.1953226", "CorpusId": 34785318}, "corpusId": 34785318, "publicationVenue":
+        {"id": "2c9ecac6-f875-4a9b-acc2-10bd9f6782df", "name": "Technical Symposium
+        on Computer Science Education", "type": "conference", "alternate_names": ["SIGCSE",
+        "Tech Symp Comput Sci Educ"], "url": "http://www.sigcse.org/"}, "url": "https://www.semanticscholar.org/paper/c4c3466ff37387f3b6135de3de179fa1ab0f5de4",
+        "title": "Lessons learned from a PLTL-CS program", "abstract": "The Peer-Led
+        Team Learning (PLTL) approach has previously been shown to be effective in
+        recruiting and retaining students, particularly under-represented students,
+        in undergraduate introductory CS courses. In PLTL, small groups of students
+        are led by an undergraduate peer and work together to solve problems related
+        to CS. At Columbia University, the Columbia Emerging Scholars Program has
+        used PLTL in an effort to increase enrollment in CS courses beyond the introductory
+        level, and to increase the number of students who select Computer Science
+        as their major, by demonstrating that CS is necessarily a collaborative activity
+        that focuses more on problem solving and algorithmic thinking than on programming.
+        Over the past six semesters, over 80 students have completed the program,
+        and preliminary results indicate that this program has had a positive effect
+        on increasing participation in the major. This paper discusses our experiences
+        of building and expanding the Columbia Emerging Scholars program, and addresses
+        such topics as recruiting, training, scheduling, student behavior, and evaluation.
+        We expect that this paper will provide a valuable set of lessons learned to
+        other educators who seek to launch or grow a PLTL program at their institution
+        as well.", "venue": "Technical Symposium on Computer Science Education", "year":
+        2011, "referenceCount": 9, "citationCount": 11, "influentialCitationCount":
+        0, "isOpenAccess": true, "openAccessPdf": {"url": "https://repository.upenn.edu/cgi/viewcontent.cgi?article=1504&context=cis_papers",
+        "status": null}, "fieldsOfStudy": ["Computer Science"], "s2FieldsOfStudy":
+        [{"category": "Computer Science", "source": "external"}, {"category": "Education",
+        "source": "s2-fos-model"}], "publicationTypes": ["JournalArticle", "Book",
+        "Conference"], "publicationDate": "2011-03-09", "journal": {"name": "Proceedings
+        of the 42nd ACM technical symposium on Computer science education"}, "authors":
+        [{"authorId": "2064793873", "name": "Christian Murphy"}, {"authorId": "2747309",
+        "name": "R. Powell"}, {"authorId": "14389233", "name": "K. Parton"}, {"authorId":
+        "145051116", "name": "Adam Cannon"}]}, {"paperId": "8d5b8821e879cce14a2b7f53d85df127c80bb5d6",
+        "externalIds": {"DBLP": "conf/sigcse/MurphyKKC08", "MAG": "2003229342", "DOI":
+        "10.1145/1352135.1352193", "CorpusId": 5055189}, "corpusId": 5055189, "publicationVenue":
+        {"id": "2c9ecac6-f875-4a9b-acc2-10bd9f6782df", "name": "Technical Symposium
+        on Computer Science Education", "type": "conference", "alternate_names": ["SIGCSE",
+        "Tech Symp Comput Sci Educ"], "url": "http://www.sigcse.org/"}, "url": "https://www.semanticscholar.org/paper/8d5b8821e879cce14a2b7f53d85df127c80bb5d6",
+        "title": "Backstop: a tool for debugging runtime errors", "abstract": "The
+        errors that Java programmers are likely to encounter can roughly be categorized
+        into three groups: compile-time (semantic and syntactic), logical, and runtime
+        (exceptions). While much work has focused on the first two, there are very
+        few tools that exist for interpreting the sometimes cryptic messages that
+        result from runtime errors. Novice programmers in particular have difficulty
+        dealing with uncaught exceptions in their code and the resulting stack traces,
+        which are by no means easy to understand. We present Backstop, a tool for
+        debugging runtime errors in Java applications. This tool provides more user-friendly
+        error messages when an uncaught exception occurs, and also provides debugging
+        support by allowing users to watch the execution of the program and the changes
+        to the values of variables. We also present the results of two preliminary
+        studies conducted on introductory-level programmers using the two different
+        features of the tool.", "venue": "Technical Symposium on Computer Science
+        Education", "year": 2008, "referenceCount": 25, "citationCount": 28, "influentialCitationCount":
+        3, "isOpenAccess": false, "openAccessPdf": null, "fieldsOfStudy": ["Computer
+        Science"], "s2FieldsOfStudy": [{"category": "Computer Science", "source":
+        "external"}, {"category": "Computer Science", "source": "s2-fos-model"}],
+        "publicationTypes": ["JournalArticle"], "publicationDate": "2008-03-12", "journal":
+        {"pages": "173-177"}, "authors": [{"authorId": "1824613", "name": "Christian
+        Murphy"}, {"authorId": "2110056406", "name": "Eunhee Kim"}, {"authorId": "1694056",
+        "name": "G. Kaiser"}, {"authorId": "145051116", "name": "Adam Cannon"}]},
+        {"paperId": "a46007f224ae75a70cfb828813c04b54ad222d2d", "externalIds": {"CorpusId":
+        261291359}, "corpusId": 261291359, "publicationVenue": null, "url": "https://www.semanticscholar.org/paper/a46007f224ae75a70cfb828813c04b54ad222d2d",
+        "title": "Backstop : A Tool for Debugging Runtime Errors", "abstract": "The
+        errors that Java programmers are likely to encounter can roughly be categorized
+        into three groups: compile-time (semantic and syntactic), logical, and runtime
+        (exceptions). While much work has focused on the first two, there are very
+        few tools that exist for interpreting the sometimes cryptic messages that
+        result from runtime errors. Novice programmers in particular have difficulty
+        dealing with uncaught exceptions in their code and the resulting stack traces,
+        which are by no means easy to understand. We present Backstop, a tool for
+        debugging runtime errors in Java applications. This tool provides more user-friendly
+        error messages when an uncaught exception occurs, and also provides debugging
+        support by allowing users to watch the execution of the program and the changes
+        to the values of variables. We also present the results of two preliminary
+        studies conducted on introductory-level programmers using the two different
+        features of the tool.", "venue": "", "year": 2007, "referenceCount": 14, "citationCount":
+        0, "influentialCitationCount": 0, "isOpenAccess": false, "openAccessPdf":
+        null, "fieldsOfStudy": null, "s2FieldsOfStudy": [{"category": "Computer Science",
+        "source": "s2-fos-model"}], "publicationTypes": null, "publicationDate": null,
+        "journal": null, "authors": [{"authorId": "1824613", "name": "Christian Murphy"},
+        {"authorId": "2110056406", "name": "Eunhee Kim"}, {"authorId": "1694056",
+        "name": "G. Kaiser"}, {"authorId": "145051116", "name": "Adam Cannon"}]},
+        {"paperId": "7d0fe0f30398c3283573009f98c8a8dddf7428e1", "externalIds": {"MAG":
+        "2177379977", "DBLP": "conf/amai/CannonC00", "DOI": "10.1023/B:AMAI.0000012867.03976.a5",
+        "CorpusId": 5935300}, "corpusId": 5935300, "publicationVenue": {"id": "f8eb9cd5-5961-4095-893b-76281b1a0665",
+        "name": "Annals of Mathematics and Artificial Intelligence", "type": "journal",
+        "alternate_names": ["Ann Math Artif Intell"], "issn": "1012-2443", "url":
+        "https://www.springer.com/computer/ai/journal/10472", "alternate_urls": ["https://link.springer.com/journal/10472"]},
+        "url": "https://www.semanticscholar.org/paper/7d0fe0f30398c3283573009f98c8a8dddf7428e1",
+        "title": "Approximation Algorithms for the Class Cover Problem", "abstract":
+        null, "venue": "Annals of Mathematics and Artificial Intelligence", "year":
+        2004, "referenceCount": 13, "citationCount": 57, "influentialCitationCount":
+        6, "isOpenAccess": false, "openAccessPdf": null, "fieldsOfStudy": ["Computer
+        Science", "Mathematics"], "s2FieldsOfStudy": [{"category": "Computer Science",
+        "source": "external"}, {"category": "Mathematics", "source": "external"},
+        {"category": "Mathematics", "source": "s2-fos-model"}, {"category": "Computer
+        Science", "source": "s2-fos-model"}], "publicationTypes": ["JournalArticle"],
+        "publicationDate": "2004-03-01", "journal": {"volume": "40", "pages": "215-223",
+        "name": "Annals of Mathematics and Artificial Intelligence"}, "authors": [{"authorId":
+        "145051116", "name": "Adam Cannon"}, {"authorId": "143983748", "name": "L.
+        Cowen"}]}, {"paperId": "987de70e555d28b843c9e312052f7a5a237a1625", "externalIds":
+        {"MAG": "1558339584", "DBLP": "conf/icmla/CannonH04", "DOI": "10.1109/ICMLA.2004.1383503",
+        "CorpusId": 29732272}, "corpusId": 29732272, "publicationVenue": null, "url":
+        "https://www.semanticscholar.org/paper/987de70e555d28b843c9e312052f7a5a237a1625",
+        "title": "Multiple instance learning using simple classifiers", "abstract":
+        "In this paper we study Multiple Instance Learning, a variant of the standard
+        classification problem. We demonstrate the utility of an empirical risk minimization
+        approach allowing for a straightforward classification treatment of the problem.
+        In addition we consider simple data dependent hypothesis classes that allow
+        efficient minimization of the empirical loss function and the development
+        of bounds on the estimation error. Our empirical results are competitive with
+        those of the most successful previously published methods.", "venue": "2004
+        International Conference on Machine Learning and Applications, 2004. Proceedings.",
+        "year": 2004, "referenceCount": 12, "citationCount": 4, "influentialCitationCount":
+        0, "isOpenAccess": false, "openAccessPdf": null, "fieldsOfStudy": ["Computer
+        Science"], "s2FieldsOfStudy": [{"category": "Computer Science", "source":
+        "external"}, {"category": "Computer Science", "source": "s2-fos-model"}],
+        "publicationTypes": ["JournalArticle", "Conference"], "publicationDate": "2004-12-16",
+        "journal": {"pages": "123-128", "name": "2004 International Conference on
+        Machine Learning and Applications, 2004. Proceedings."}, "authors": [{"authorId":
+        "145051116", "name": "Adam Cannon"}, {"authorId": "1754328", "name": "D. Hush"}]},
+        {"paperId": "9942a60626c201d8f81bdeb8ca34cf748df69f84", "externalIds": {"MAG":
+        "1499247608", "CorpusId": 116941691}, "corpusId": 116941691, "publicationVenue":
+        null, "url": "https://www.semanticscholar.org/paper/9942a60626c201d8f81bdeb8ca34cf748df69f84",
+        "title": "Simple classifiers from data dependent hypothesis classes", "abstract":
+        "In this paper we introduce simple classifiers as an example of how to use
+        the data dependent hypothesis class framework described by Cannon et al. (2002)
+        to explore the performance/computation trade-off in the classifier design
+        problem. We provide a specific example of a simple classifier and demonstrate
+        that it has many remarkable properties: For example it possesses computationally
+        efficient learning algorithms with favorable bounds on estimation error, admits
+        kernel mappings, and is particularly well suited to boosting. We present experimental
+        results on synthetic and real data that suggest that this classifier is competitive
+        with powerful alternative methods.", "venue": "", "year": 2003, "referenceCount":
+        0, "citationCount": 1, "influentialCitationCount": 0, "isOpenAccess": false,
+        "openAccessPdf": null, "fieldsOfStudy": ["Mathematics"], "s2FieldsOfStudy":
+        [{"category": "Mathematics", "source": "external"}, {"category": "Computer
+        Science", "source": "s2-fos-model"}], "publicationTypes": null, "publicationDate":
+        null, "journal": {"volume": "", "name": ""}, "authors": [{"authorId": "145051116",
+        "name": "Adam Cannon"}, {"authorId": "1743007", "name": "J. Howse"}, {"authorId":
+        "1754328", "name": "D. Hush"}, {"authorId": "52096354", "name": "J. Scovel"}]},
+        {"paperId": "d38a7f6773230b41c60d752b6736807c07dcd604", "externalIds": {"MAG":
+        "2164597199", "DBLP": "journals/jmlr/CannonEHS02", "DOI": "10.1162/153244302760200650",
+        "CorpusId": 13005286}, "corpusId": 13005286, "publicationVenue": {"id": "c22e7c36-3bfa-43e1-bb7b-edccdea2a780",
+        "name": "Journal of machine learning research", "type": "journal", "alternate_names":
+        ["Journal of Machine Learning Research", "J mach learn res", "J Mach Learn
+        Res"], "issn": "1532-4435", "alternate_issns": ["1533-7928"], "url": "http://www.ai.mit.edu/projects/jmlr/",
+        "alternate_urls": ["http://jmlr.csail.mit.edu/", "http://www.jmlr.org/", "http://portal.acm.org/affiliated/jmlr"]},
+        "url": "https://www.semanticscholar.org/paper/d38a7f6773230b41c60d752b6736807c07dcd604",
+        "title": "Machine Learning with Data Dependent Hypothesis Classes", "abstract":
+        "We extend the VC theory of statistical learning to data dependent spaces
+        of classifiers. This theory can be viewed as a decomposition of classifier
+        design into two components; the first component is a restriction to a data
+        dependent hypothesis class and the second is empirical risk minimization within
+        that class. We define a measure of complexity for data dependent hypothesis
+        classes and provide data dependent versions of bounds on error deviance and
+        estimation error. We also provide a structural risk minimization procedure
+        over data dependent hierarchies and prove consistency. We use this theory
+        to provide a framework for studying the trade-offs between performance and
+        computational complexity in classifier design. As a consequence we obtain
+        a new family of classifiers with dimension independent performance bounds
+        and efficient learning procedures.", "venue": "Journal of machine learning
+        research", "year": 2002, "referenceCount": 29, "citationCount": 40, "influentialCitationCount":
+        3, "isOpenAccess": false, "openAccessPdf": null, "fieldsOfStudy": ["Mathematics",
+        "Computer Science"], "s2FieldsOfStudy": [{"category": "Mathematics", "source":
+        "external"}, {"category": "Computer Science", "source": "external"}, {"category":
+        "Computer Science", "source": "s2-fos-model"}], "publicationTypes": ["JournalArticle"],
+        "publicationDate": "2002-03-01", "journal": {"volume": "2", "pages": "335-358",
+        "name": "J. Mach. Learn. Res."}, "authors": [{"authorId": "145051116", "name":
+        "Adam Cannon"}, {"authorId": "144818711", "name": "J. M. Ettinger"}, {"authorId":
+        "1754328", "name": "D. Hush"}, {"authorId": "143790221", "name": "C. Scovel"}]},
+        {"paperId": "23e9a4b221ae5d1fa2cf975be79372ef122ff0fa", "externalIds": {"MAG":
+        "1537322559", "CorpusId": 60859705}, "corpusId": 60859705, "publicationVenue":
+        null, "url": "https://www.semanticscholar.org/paper/23e9a4b221ae5d1fa2cf975be79372ef122ff0fa",
+        "title": "Learning from examples: from theory to practice", "abstract": "This
+        tutorial provides an overview of the problem of learning from examples. Emphasis
+        is placed on fundamental limitations in three areas: approximation, estimation
+        and computation. Each of these is compared and contrasted in situations where
+        the problem is one of regression verses pattern classification, parametric
+        versus nonparametric, and linear versus nonlinear. General methods for improving
+        generalization and computation speed are discussed, and practical examples
+        are used to illustrate these methods.", "venue": "", "year": 2001, "referenceCount":
+        0, "citationCount": 4, "influentialCitationCount": 1, "isOpenAccess": false,
+        "openAccessPdf": null, "fieldsOfStudy": ["Computer Science"], "s2FieldsOfStudy":
+        [{"category": "Computer Science", "source": "external"}, {"category": "Computer
+        Science", "source": "s2-fos-model"}], "publicationTypes": ["Review"], "publicationDate":
+        null, "journal": {"volume": "", "name": ""}, "authors": [{"authorId": "1754328",
+        "name": "D. Hush"}, {"authorId": "52096354", "name": "J. Scovel"}, {"authorId":
+        "35206821", "name": "P. Kelly"}, {"authorId": "1743007", "name": "J. Howse"},
+        {"authorId": "145832730", "name": "M. Fugate"}, {"authorId": "145051116",
+        "name": "Adam Cannon"}]}, {"paperId": "77b35d23354e08491ec93aba556f9faf0b6b1b7a",
+        "externalIds": {"MAG": "2914485779", "CorpusId": 86576858}, "corpusId": 86576858,
+        "publicationVenue": null, "url": "https://www.semanticscholar.org/paper/77b35d23354e08491ec93aba556f9faf0b6b1b7a",
+        "title": "Approximate distance methods in classification", "abstract": "This
+        dissertation investigates theoretical and experimental aspects of a set of
+        classification methods based on approximate point to subset distances. Chapter
+        1 introduces the classification problem, gives background and notation. In
+        Chapter 2, a classifier is presented based on the 1997 Cowen and Priebe ADC
+        non-linear projections, and its performance is tested on some benchmark data
+        sets. Chapter 3 is motivated by the idea of deterministically constructing
+        ADC projections to a single dimension that preserve interclass separation
+        in a 2-class setting. In it, the \u201cClass Cover\u201d problem is formulated,
+        and complexity results and polynomial time approximation algorithms for this
+        problem are presented. The final chapter investigates theoretical properties
+        of a new general class of classifiers based on a generalization to subset
+        ranks of the Wilcoxon-Mann-Whitney rank statistics studied by Priebe, Cowen
+        and Xie. The consistency of a fairly general class of classification rules
+        is demonstrated.", "venue": "", "year": 2001, "referenceCount": 0, "citationCount":
+        0, "influentialCitationCount": 0, "isOpenAccess": false, "openAccessPdf":
+        null, "fieldsOfStudy": ["Computer Science"], "s2FieldsOfStudy": [{"category":
+        "Computer Science", "source": "external"}, {"category": "Mathematics", "source":
+        "s2-fos-model"}], "publicationTypes": null, "publicationDate": null, "journal":
+        {"volume": "", "name": ""}, "authors": [{"authorId": "143983748", "name":
+        "L. Cowen"}, {"authorId": "145051116", "name": "Adam Cannon"}]}, {"paperId":
+        "40e698af4ca2b106f717986b1e32803d606340b4", "externalIds": {"CorpusId": 14092441},
+        "corpusId": 14092441, "publicationVenue": null, "url": "https://www.semanticscholar.org/paper/40e698af4ca2b106f717986b1e32803d606340b4",
+        "title": "Approximate Distance Classiication", "abstract": "We investigate
+        the use of a class of nonlinear projections from a high-dimensional Euclidean
+        space to a low-dimensional space in a classiication (supervised learning)
+        context. The projections developed by Cowen and Priebe approximately preserve
+        interclass distances. Projected data was obtained from data sets that have
+        been extensively studied in the machine learning and statistical pattern recognition
+        communities, and analyzed in the projected space using standard statistical
+        techniques. A simple implementation involving no pre-processing or data dependent
+        adjustments produced results that are near-competitive with the best known
+        established classi-cation rates on these benchmark data sets. Thus even in
+        moderate dimensional spaces the utility and robust-ness of classiication schemes
+        based on these projections is demonstrated.", "venue": "", "year": 1998, "referenceCount":
+        10, "citationCount": 4, "influentialCitationCount": 0, "isOpenAccess": false,
+        "openAccessPdf": null, "fieldsOfStudy": null, "s2FieldsOfStudy": [{"category":
+        "Computer Science", "source": "s2-fos-model"}], "publicationTypes": null,
+        "publicationDate": null, "journal": null, "authors": [{"authorId": "145051116",
+        "name": "Adam Cannon"}, {"authorId": "143983748", "name": "L. Cowen"}, {"authorId":
+        "1693972", "name": "C. Priebe"}]}]}, {"authorId": "16096134", "externalIds":
+        {}, "url": "https://www.semanticscholar.org/author/16096134", "name": "Adam
+        Cannon", "aliases": ["Adam M Cannon"], "affiliations": [], "homepage": null,
+        "paperCount": 3, "citationCount": 6, "hIndex": 1, "papers": [{"paperId": "7afce8cf6d9d65804dbfaa7309bb716942202b6c",
+        "externalIds": {"MAG": "249054889", "DOI": "10.21236/ada597405", "CorpusId":
+        107620379}, "corpusId": 107620379, "publicationVenue": null, "url": "https://www.semanticscholar.org/paper/7afce8cf6d9d65804dbfaa7309bb716942202b6c",
+        "title": "Scylla and Charybdis: the Army''s Development of War Plan Orange",
+        "abstract": "Abstract : Planning for hypothetical wars represented one of
+        the most daunting challenges for the Army in the interwar years (1919-1941).
+        A challenging strategic environment, a weak force lacking in significant capability,
+        and no unified national security apparatus all combined to limit the options
+        available to the Army''s War Plans Division. War Plan Orange, the plan to
+        defeat Japan, emerged as the most likely contingency and received the greatest
+        emphasis for development. Published in 1924, 1928, and 1938, War Plan Orange
+        evolved in response to changes in the strategic environment and inherent constraints
+        placed on the planners. This monograph examines how the planners of the Army
+        War Plans Division developed their contribution to the overall conception
+        of War Plan Orange. By placing the plans within the context in which they
+        developed like the strategic environment, the condition of the army, and the
+        deliberations surrounding its development, a comprehensive picture of the
+        plan emerges. This picture allows for a reasoned evaluation of the feasibility
+        of the plan. Rather than make comparisons with Japanese capabilities and the
+        likelihood of success against the Japanese, this monograph solely examines
+        the initial objectives sought by the plan, and if they were achievable given
+        the condition of the Army. The War Plans Division produced plans of increasing
+        feasibility during the interwar years. In the 1924 plan, through a combination
+        of faulty assumptions and wishful thinking, the War Plans Division created
+        an impractical plan in response to political pressure to immediately relieve
+        the Philippines. The 1928 Plan, while marginally better, prescribed a rigid
+        course of action the force commander would take to relieve the Philippines.
+        Only the 1938 plan presented a plan that was within the capabilities of the
+        Army, and allowed the force commander the flexibility to act according to
+        his discretion.", "venue": "", "year": 2012, "referenceCount": 13, "citationCount":
+        0, "influentialCitationCount": 0, "isOpenAccess": false, "openAccessPdf":
+        null, "fieldsOfStudy": ["Engineering"], "s2FieldsOfStudy": [{"category": "Engineering",
+        "source": "external"}, {"category": "History", "source": "s2-fos-model"}],
+        "publicationTypes": null, "publicationDate": "2012-05-17", "journal": {"volume":
+        "", "name": ""}, "authors": [{"authorId": "16096134", "name": "Adam Cannon"}]},
+        {"paperId": "01a85a299a36aca1e4c15a44312e7303929fa1ff", "externalIds": {"MAG":
+        "2208533674", "CorpusId": 163051591}, "corpusId": 163051591, "publicationVenue":
+        null, "url": "https://www.semanticscholar.org/paper/01a85a299a36aca1e4c15a44312e7303929fa1ff",
+        "title": "The Influence of Religious Dogma on Perceptions of Modern Technology
+        in the Mennonite Communities of Upper Barton Creek and Spanish Lookout in
+        Belize", "abstract": null, "venue": "", "year": 2006, "referenceCount": 0,
+        "citationCount": 0, "influentialCitationCount": 0, "isOpenAccess": false,
+        "openAccessPdf": null, "fieldsOfStudy": ["History"], "s2FieldsOfStudy": [{"category":
+        "History", "source": "external"}], "publicationTypes": null, "publicationDate":
+        null, "journal": null, "authors": [{"authorId": "16096134", "name": "Adam
+        Cannon"}, {"authorId": "94723346", "name": "F. A. C. Springwood"}]}, {"paperId":
+        "2787cce55d0633901b810b2f22671701bb117edb", "externalIds": {"MAG": "2067848350",
+        "DOI": "10.1016/S1328-0163(97)90119-6", "CorpusId": 72927842}, "corpusId":
+        72927842, "publicationVenue": null, "url": "https://www.semanticscholar.org/paper/2787cce55d0633901b810b2f22671701bb117edb",
+        "title": "The QUEST study", "abstract": null, "venue": "", "year": 1997, "referenceCount":
+        0, "citationCount": 6, "influentialCitationCount": 0, "isOpenAccess": false,
+        "openAccessPdf": null, "fieldsOfStudy": ["Medicine"], "s2FieldsOfStudy": [{"category":
+        "Medicine", "source": "external"}], "publicationTypes": null, "publicationDate":
+        "1997-05-01", "journal": {"volume": "6", "pages": "67-68", "name": "The Asia
+        Pacific Heart Journal"}, "authors": [{"authorId": "16096134", "name": "Adam
+        Cannon"}]}]}, {"authorId": "2250888156", "externalIds": {}, "url": "https://www.semanticscholar.org/author/2250888156",
+        "name": "Adam Cannon", "aliases": null, "affiliations": [], "homepage": null,
+        "paperCount": 1, "citationCount": 0, "hIndex": 0, "papers": [{"paperId": "99235ab9b8f711cc4574592ccb285704e5199a97",
+        "externalIds": {"MAG": "2298428393", "CorpusId": 263413365}, "corpusId": 263413365,
+        "publicationVenue": null, "url": "https://www.semanticscholar.org/paper/99235ab9b8f711cc4574592ccb285704e5199a97",
+        "title": "Vaccinations Administered During off-Clinic Hours At a National
+        Community Pharmacy: Implications for Increasing Patient Access and Convenience",
+        "abstract": null, "venue": "", "year": 2012, "referenceCount": 0, "citationCount":
+        0, "influentialCitationCount": 0, "isOpenAccess": false, "openAccessPdf":
+        null, "fieldsOfStudy": ["Medicine"], "s2FieldsOfStudy": [{"category": "Medicine",
+        "source": "external"}, {"category": "Medicine", "source": "s2-fos-model"}],
+        "publicationTypes": null, "publicationDate": null, "journal": {"volume": "",
+        "name": ""}, "authors": [{"authorId": "2250888156", "name": "Adam Cannon"}]}]}]}
+
+        '
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '81045'
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 19 Oct 2023 18:07:41 GMT
+      Via:
+      - 1.1 79985f6b7b9f366996e2a85ef814999e.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - mKP6S4oI-bd8nVJFHuXSFWuGY3Ovn7jrF99duVIBMYTor2GzbIDLxA==
+      X-Amz-Cf-Pop:
+      - JFK52-P2
+      X-Cache:
+      - Miss from cloudfront
+      x-amz-apigw-id:
+      - ND6AVEQoPHcF4sQ=
+      x-amzn-Remapped-Connection:
+      - keep-alive
+      x-amzn-Remapped-Content-Length:
+      - '81045'
+      x-amzn-Remapped-Date:
+      - Thu, 19 Oct 2023 18:07:41 GMT
+      x-amzn-Remapped-Server:
+      - gunicorn
+      x-amzn-RequestId:
+      - b3c6044e-0fcf-40d7-a177-236d32b74fba
+    status:
+      code: 200
+      message: OK
+version: 1

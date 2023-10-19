@@ -1,0 +1,9 @@
+{
+    "professors": ["Luis Gravano", "Paul Blaer", "Christos Papadimitriou", 
+              "Adam Cannon", "Nakul Verma",
+              "Mihalis Yannakakis", "Martha Kim", "Tony Dear",
+              "Daniel Bauer", "David Blei", "Shing-Fu Chang",
+              "Eleni Drinea", "Stephen Edwards", "Steven Feiner", 
+              "Daniel Hsu", "David Knowles", "Jason Nieh", "Dan Rubenstein", 
+              "Clifford Stein", "Bjarne Stroustrup", "Carl Vondrick"]
+}

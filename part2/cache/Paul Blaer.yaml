@@ -1,0 +1,371 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.semanticscholar.org/graph/v1/author/search?query=Paul%20Blaer&fields=affiliations,aliases,authorId,citationCount,externalIds,hIndex,homepage,name,paperCount,papers,papers.abstract,papers.authors,papers.citationCount,papers.corpusId,papers.externalIds,papers.fieldsOfStudy,papers.influentialCitationCount,papers.isOpenAccess,papers.journal,papers.openAccessPdf,papers.paperId,papers.publicationDate,papers.publicationTypes,papers.publicationVenue,papers.referenceCount,papers.s2FieldsOfStudy,papers.title,papers.url,papers.venue,papers.year,url&offset=0&limit=1000
+  response:
+    body:
+      string: '{"total": 1, "offset": 0, "data": [{"authorId": "1897655", "externalIds":
+        {"DBLP": ["Paul Blaer"]}, "url": "https://www.semanticscholar.org/author/1897655",
+        "name": "P. Blaer", "aliases": ["P. Blaer", "Paul S. Blaer", "Paul Blaer"],
+        "affiliations": [], "homepage": null, "paperCount": 13, "citationCount": 448,
+        "hIndex": 9, "papers": [{"paperId": "b1d0f72f48b4573d132fcc555894024a934de0ff",
+        "externalIds": {"MAG": "1561558735", "DOI": "10.7916/D87D3332", "CorpusId":
+        60548399}, "corpusId": 60548399, "publicationVenue": null, "url": "https://www.semanticscholar.org/paper/b1d0f72f48b4573d132fcc555894024a934de0ff",
+        "title": "Stable Flight and Object Tracking with a Quadricopter Using an Android
+        Device", "abstract": "We discuss a novel system architecture for quadricopter
+        control, the Robocopter platform, in which the quadricopter can behave near-autonomously
+        and processing is handled by an Android device on the quadricopter. The Android
+        device communicates with a laptop, receiving commands from the host and sending
+        imagery and sensor data back. We also discuss the results of a series of tests
+        of our platform on our first hardware iteration, named Jabberwock.", "venue":
+        "", "year": 2011, "referenceCount": 2, "citationCount": 0, "influentialCitationCount":
+        0, "isOpenAccess": false, "openAccessPdf": null, "fieldsOfStudy": ["Computer
+        Science"], "s2FieldsOfStudy": [{"category": "Computer Science", "source":
+        "external"}, {"category": "Computer Science", "source": "s2-fos-model"}],
+        "publicationTypes": null, "publicationDate": null, "journal": {"volume": "",
+        "name": ""}, "authors": [{"authorId": "123735470", "name": "Benjami Alexander
+        Bardin"}, {"authorId": "2072980746", "name": "W. H. Brown"}, {"authorId":
+        "1897655", "name": "P. Blaer"}]}, {"paperId": "983d19a3b6559e487b6ed831a4631ca1a1bc1a37",
+        "externalIds": {"DBLP": "journals/jfr/BlaerA09", "DOI": "10.1002/rob.20318",
+        "CorpusId": 7079851}, "corpusId": 7079851, "publicationVenue": null, "url":
+        "https://www.semanticscholar.org/paper/983d19a3b6559e487b6ed831a4631ca1a1bc1a37",
+        "title": "View planning and automated data acquisition for three\u2010dimensional
+        modeling of complex sites", "abstract": "Constructing highly detailed three\u2010dimensional
+        (3\u2010D) models of large complex sites using range scanners can be a time\u2010consuming
+        manual process. One of the main drawbacks is determining where to place the
+        scanner to obtain complete coverage of a site. We have developed a system
+        for automatic view planning called VuePlan. When combined with our mobile
+        robot, AVENUE, we have a system that is capable of modeling large\u2010scale
+        environments with minimal human intervention throughout both the planning
+        and acquisition phases. The system proceeds in two distinct stages. In the
+        initial phase, the system is given a two\u2010dimensional site footprint with
+        which it plans a minimal set of sufficient and properly constrained covering
+        views. We then use a 3\u2010D laser scanner to take scans at each of these
+        views. When this planning system is combined with our mobile robot it automatically
+        computes and executes a tour of these viewing locations and acquires them
+        with the robot''s onboard laser scanner. These initial scans serve as an approximate
+        3\u2010D model of the site. The planning software then enters a second phase
+        in which it updates this model by using a voxel\u2010based occupancy procedure
+        to plan the next best view (NBV). This NBV is acquired, and further NBVs are
+        sequentially computed and acquired until an accurate and complete 3\u2010D
+        model is obtained. A simulator tool that we developed has allowed us to test
+        our entire view planning algorithm on simulated sites. We have also successfully
+        used our two\u2010phase system to construct precise 3\u2010D models of real\u2010world
+        sites located in New York City: Uris Hall on the campus of Columbia University
+        and Fort Jay on Governors Island. \u00a9 2009 Wiley Periodicals, Inc.", "venue":
+        "J. Field Robotics", "year": 2009, "referenceCount": 49, "citationCount":
+        30, "influentialCitationCount": 4, "isOpenAccess": true, "openAccessPdf":
+        {"url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/rob.20318",
+        "status": null}, "fieldsOfStudy": ["Computer Science"], "s2FieldsOfStudy":
+        [{"category": "Computer Science", "source": "external"}, {"category": "Computer
+        Science", "source": "s2-fos-model"}], "publicationTypes": ["JournalArticle"],
+        "publicationDate": null, "journal": {"volume": "26", "name": "Journal of Field
+        Robotics"}, "authors": [{"authorId": "1897655", "name": "P. Blaer"}, {"authorId":
+        "2193888", "name": "P. Allen"}]}, {"paperId": "d29f4c637a6b962e750ae97335b6866c84e5b9f4",
+        "externalIds": {"MAG": "1972135257", "DOI": "10.1002/ROB.V26:11/12", "CorpusId":
+        116576913}, "corpusId": 116576913, "publicationVenue": null, "url": "https://www.semanticscholar.org/paper/d29f4c637a6b962e750ae97335b6866c84e5b9f4",
+        "title": "View planning and automated data acquisition for three-dimensional
+        modeling of complex sites", "abstract": "Constructing highly detailed three-dimensional
+        (3-D) models of large complex sites using range scanners can be a time-consuming
+        manual process. One of the main drawbacks is determining where to place the
+        scanner to obtain complete coverage of a site. We have developed a system
+        for automatic view planning called VuePlan. When combined with our mobile
+        robot, AVENUE, we have a system that is capable of modeling large-scale environments
+        with minimal human intervention throughout both the planning and acquisition
+        phases. The system proceeds in two distinct stages. In the initial phase,
+        the system is given a two-dimensional site footprint with which it plans a
+        minimal set of sufficient and properly constrained covering views. We then
+        use a 3-D laser scanner to take scans at each of these views. When this planning
+        system is combined with our mobile robot it automatically computes and executes
+        a tour of these viewing locations and acquires them with the robot''s onboard
+        laser scanner. These initial scans serve as an approximate 3-D model of the
+        site. The planning software then enters a second phase in which it updates
+        this model by using a voxel-based occupancy procedure to plan the next best
+        view (NBV). This NBV is acquired, and further NBVs are sequentially computed
+        and acquired until an accurate and complete 3-D model is obtained. A simulator
+        tool that we developed has allowed us to test our entire view planning algorithm
+        on simulated sites. We have also successfully used our two-phase system to
+        construct precise 3-D models of real-world sites located in New York City:
+        Uris Hall on the campus of Columbia University and Fort Jay on Governors Island.
+        \u00a9 2009 Wiley Periodicals, Inc.", "venue": "", "year": 2009, "referenceCount":
+        42, "citationCount": 25, "influentialCitationCount": 1, "isOpenAccess": false,
+        "openAccessPdf": null, "fieldsOfStudy": ["Engineering"], "s2FieldsOfStudy":
+        [{"category": "Engineering", "source": "external"}, {"category": "Computer
+        Science", "source": "s2-fos-model"}], "publicationTypes": null, "publicationDate":
+        "2009-11-01", "journal": {"volume": "26", "pages": "865-891", "name": "Journal
+        of Field Robotics"}, "authors": [{"authorId": "1897655", "name": "P. Blaer"},
+        {"authorId": "2193888", "name": "P. Allen"}]}, {"paperId": "034bd82b3c3928facbe0f3a2fd6f3fb07d46ceed",
+        "externalIds": {"DBLP": "conf/iros/BlaerA07", "MAG": "2113775403", "DOI":
+        "10.1109/IROS.2007.4399581", "CorpusId": 6597255}, "corpusId": 6597255, "publicationVenue":
+        null, "url": "https://www.semanticscholar.org/paper/034bd82b3c3928facbe0f3a2fd6f3fb07d46ceed",
+        "title": "Data acquisition and view planning for 3-D modeling tasks", "abstract":
+        "In this paper we address the joint problems of automated data acquisition
+        and view planning for large-scale indoor and outdoor sites. Our method proceeds
+        in two distinct stages. In the initial stage, the system is given a 2-D map
+        with which it plans a minimal set of sufficient covering views. We then use
+        a 3-D laser scanner to take scans at each of these views. When this planning
+        system is combined with our mobile robot, it automatically computes and executes
+        a tour of these viewing locations and acquires the views with the robot''s
+        onboard laser scanner. These initial scans serve as an approximate 3-D model
+        of the site. The planning software then enters a second stage in which it
+        updates this model by using a voxel-based occupancy procedure to plan the
+        next best view. This next best view is acquired, and further next best views
+        are sequentially computed and acquired until a complete 3-D model is obtained.
+        Results are shown for Fort Jay on Governors Island in the City of New York
+        and for the church of Saint Menoux in the Bourbonnais region of France.",
+        "venue": "2007 IEEE/RSJ International Conference on Intelligent Robots and
+        Systems", "year": 2007, "referenceCount": 27, "citationCount": 97, "influentialCitationCount":
+        7, "isOpenAccess": false, "openAccessPdf": null, "fieldsOfStudy": ["Computer
+        Science", "Engineering"], "s2FieldsOfStudy": [{"category": "Computer Science",
+        "source": "external"}, {"category": "Engineering", "source": "external"},
+        {"category": "Computer Science", "source": "s2-fos-model"}], "publicationTypes":
+        ["JournalArticle", "Conference"], "publicationDate": "2007-12-10", "journal":
+        {"pages": "417-422", "name": "2007 IEEE/RSJ International Conference on Intelligent
+        Robots and Systems"}, "authors": [{"authorId": "1897655", "name": "P. Blaer"},
+        {"authorId": "2193888", "name": "P. Allen"}]}, {"paperId": "036124d58d5152f0e557f9d526473ecfb8ff93bc",
+        "externalIds": {"DBLP": "conf/3dpvt/BlaerA06", "MAG": "2062818941", "DOI":
+        "10.1109/3DPVT.2006.143", "CorpusId": 3205689}, "corpusId": 3205689, "publicationVenue":
+        {"id": "3cb69e6b-baee-4c82-8a93-1ac0c264491b", "name": "3D Data Processing
+        Visualization and Transmission", "type": "conference", "alternate_names":
+        ["3DPVT", "3D Data Process Vis Transm", "Int Symp 3D Data Process Vis Transm",
+        "International Symposium on 3D Data Processing, Visualization and Transmission"]},
+        "url": "https://www.semanticscholar.org/paper/036124d58d5152f0e557f9d526473ecfb8ff93bc",
+        "title": "Two Stage View Planning for Large-Scale Site Modeling", "abstract":
+        "We present a systematic view planning method to assist construction of 3-D
+        models of large outdoor sites using a mobile robot platform with mounted scanner.
+        In the first stage, we begin with a 2-D site footprint and the planner generates
+        a minimal set of sufficient covering views. These views which incorporate
+        constraints on the scanner, including field of view, minimum and maximum scanning
+        distance, and grazing angle, serve as the initial set of scans which yields
+        an approximate 3-D model of the site. In the second stage, we update this
+        model by using a voxel-based occupancy procedure to plan and acquire the next
+        best view. The algorithm continues to update the model sequentially until
+        an accurate and complete 3-D model is obtained. Results are shown for a segment
+        of the Columbia University campus. The system can also be used as a planning
+        tool for manual construction of 3-D site models.", "venue": "3D Data Processing
+        Visualization and Transmission", "year": 2006, "referenceCount": 31, "citationCount":
+        10, "influentialCitationCount": 0, "isOpenAccess": true, "openAccessPdf":
+        {"url": "https://academiccommons.columbia.edu/doi/10.7916/D80P1886/download",
+        "status": null}, "fieldsOfStudy": ["Computer Science"], "s2FieldsOfStudy":
+        [{"category": "Computer Science", "source": "external"}, {"category": "Computer
+        Science", "source": "s2-fos-model"}], "publicationTypes": ["JournalArticle"],
+        "publicationDate": "2006-06-14", "journal": {"pages": "814-821", "name": "Third
+        International Symposium on 3D Data Processing, Visualization, and Transmission
+        (3DPVT''06)"}, "authors": [{"authorId": "1897655", "name": "P. Blaer"}, {"authorId":
+        "2193888", "name": "P. Allen"}]}, {"paperId": "1f2b869e8f8a9985ab1f8e0dd4fabf4c629371e7",
+        "externalIds": {"MAG": "2153644332", "DBLP": "conf/icra/BlaerA06", "DOI":
+        "10.1109/ROBOT.2006.1642097", "CorpusId": 14124722}, "corpusId": 14124722,
+        "publicationVenue": null, "url": "https://www.semanticscholar.org/paper/1f2b869e8f8a9985ab1f8e0dd4fabf4c629371e7",
+        "title": "View planning for automated site modeling", "abstract": "We present
+        a systematic method for constructing 3-D models of large outdoor sites. The
+        method is designed for a mobile robot platform and incorporates automated
+        acquisition of scanned data as well as automated view planning and model construction.
+        In our modeling process, we first use a preliminary view or set of preplanned
+        views to yield an initial, approximate, 3-D model of the target structure.
+        Then, we update this model by using a voxel-based procedure to plan and acquire
+        the next best view. This updating is repeated sequentially until an accurate
+        and complete 3-D model is finally obtained. The method was successfully tested
+        on a portion of the Columbia University campus", "venue": "Proceedings 2006
+        IEEE International Conference on Robotics and Automation, 2006. ICRA 2006.",
+        "year": 2006, "referenceCount": 31, "citationCount": 15, "influentialCitationCount":
+        1, "isOpenAccess": false, "openAccessPdf": null, "fieldsOfStudy": ["Computer
+        Science"], "s2FieldsOfStudy": [{"category": "Computer Science", "source":
+        "external"}, {"category": "Computer Science", "source": "s2-fos-model"}],
+        "publicationTypes": ["JournalArticle", "Conference"], "publicationDate": "2006-05-15",
+        "journal": {"pages": "2621-2626", "name": "Proceedings 2006 IEEE International
+        Conference on Robotics and Automation, 2006. ICRA 2006."}, "authors": [{"authorId":
+        "1897655", "name": "P. Blaer"}, {"authorId": "2193888", "name": "P. Allen"}]},
+        {"paperId": "1a012a7ad0cf23a24ddb5aa1ff778a89d2314468", "externalIds": {"MAG":
+        "1607317787", "DOI": "10.7916/D8BK1M7Z", "CorpusId": 7954134}, "corpusId":
+        7954134, "publicationVenue": null, "url": "https://www.semanticscholar.org/paper/1a012a7ad0cf23a24ddb5aa1ff778a89d2314468",
+        "title": "A Hybrid Approach to Topological Mobile Robot Localization", "abstract":
+        "We present a hybrid method for localizing a mobile robot in a complex environment.
+        The method combines the use of multiresolution histograms with a signal strength
+        analysis of existing wireless networks. We tested this localization procedure
+        on the campus of Columbia University with our mobile robot, the Autonomous
+        Vehicle for Exploration and Navigation of Urban Environments. Our results
+        indicate that localization accuracy is significantly improved when five levels
+        of resolution are used instead of one in color histogramming. We also find
+        that incorporating wireless signal strengths into the method further improves
+        reliability and helps to resolve ambiguities which arise when different regions
+        have similar visual appearances.", "venue": "", "year": 2005, "referenceCount":
+        28, "citationCount": 2, "influentialCitationCount": 0, "isOpenAccess": false,
+        "openAccessPdf": null, "fieldsOfStudy": ["Computer Science"], "s2FieldsOfStudy":
+        [{"category": "Computer Science", "source": "external"}, {"category": "Computer
+        Science", "source": "s2-fos-model"}], "publicationTypes": null, "publicationDate":
+        null, "journal": {"volume": "", "name": ""}, "authors": [{"authorId": "1897655",
+        "name": "P. Blaer"}, {"authorId": "2193888", "name": "P. Allen"}]}, {"paperId":
+        "214fde2424eafd634d5846d32f8c26bdedae2d40", "externalIds": {"CorpusId": 1263990},
+        "corpusId": 1263990, "publicationVenue": null, "url": "https://www.semanticscholar.org/paper/214fde2424eafd634d5846d32f8c26bdedae2d40",
+        "title": "Automating the 3 D Modeling Pipeline", "abstract": "We describe
+        advances in automating the 3D modeling pipeline to create rich 3D textured
+        models. Our work is aimed at large scale site modeling, where much manual
+        effort is often needed to create complete models. We present i) an automatic
+        2D-3D registration method for texture using cast shadows as a cue to refine
+        the registration parameters, ii) methods for change detection in an acquired
+        model, and iii) a new mobile robot that can be used to automatically acquire
+        data for modeling.", "venue": "", "year": 2005, "referenceCount": 19, "citationCount":
+        3, "influentialCitationCount": 0, "isOpenAccess": false, "openAccessPdf":
+        null, "fieldsOfStudy": null, "s2FieldsOfStudy": [{"category": "Computer Science",
+        "source": "s2-fos-model"}], "publicationTypes": null, "publicationDate": null,
+        "journal": null, "authors": [{"authorId": "2193888", "name": "P. Allen"},
+        {"authorId": "2108195", "name": "Alejandro J. Troccoli"}, {"authorId": "1897655",
+        "name": "P. Blaer"}]}, {"paperId": "64033ad2fce488ca0c89972619f9ca3536720f0d",
+        "externalIds": {"MAG": "2559887499", "CorpusId": 18588175}, "corpusId": 18588175,
+        "publicationVenue": null, "url": "https://www.semanticscholar.org/paper/64033ad2fce488ca0c89972619f9ca3536720f0d",
+        "title": "Automated Construction of Environment Models by a Mobile Robot",
+        "abstract": null, "venue": "", "year": 2004, "referenceCount": 41, "citationCount":
+        0, "influentialCitationCount": 0, "isOpenAccess": false, "openAccessPdf":
+        null, "fieldsOfStudy": ["Computer Science"], "s2FieldsOfStudy": [{"category":
+        "Computer Science", "source": "external"}, {"category": "Business", "source":
+        "s2-fos-model"}], "publicationTypes": null, "publicationDate": null, "journal":
+        {"volume": "", "name": ""}, "authors": [{"authorId": "1897655", "name": "P.
+        Blaer"}]}, {"paperId": "dfe0bac75cd0ca1c5c3d04c91f4e006cc9eca41f", "externalIds":
+        {"DBLP": "conf/icra/BlaerA03", "MAG": "1579036295", "DOI": "10.1109/ROBOT.2003.1241820",
+        "CorpusId": 8202989}, "corpusId": 8202989, "publicationVenue": {"id": "3f2626a8-9d78-42ca-9e0d-4b853b59cdcc",
+        "name": "IEEE International Conference on Robotics and Automation", "type":
+        "conference", "alternate_names": ["International Conference on Robotics and
+        Automation", "Int Conf Robot Autom", "ICRA", "IEEE Int Conf Robot Autom"],
+        "issn": "2152-4092", "alternate_issns": ["2379-9544"], "url": "http://ieeexplore.ieee.org/xpl/conhome.jsp?punumber=1000639",
+        "alternate_urls": ["http://www.ncsu.edu/IEEE-RAS/"]}, "url": "https://www.semanticscholar.org/paper/dfe0bac75cd0ca1c5c3d04c91f4e006cc9eca41f",
+        "title": "TopBot: automated network topology detection with a mobile robot",
+        "abstract": "We have demonstrated that a properly-equipped mobile robot can
+        easily construct a detailed map of the wireless coverage of an urban environment.
+        The Autonomous Vehicle for Exploration and Navigation of Urban Environments
+        (AVENUE) mobile robot was successfully used to generate such maps in both
+        manual and autonomous modes of operation. The resulting database contained
+        a wealth of information for many different positions in the region, with a
+        list of all access points viewable from each location together with a quality
+        measure (the signal-to-noise ratio) of every detected signal. At a later time,
+        the AVENUE system effectively used the data in this map to determine the approximate
+        position of the robot as it traveled through the urban area.", "venue": "IEEE
+        International Conference on Robotics and Automation", "year": 2003, "referenceCount":
+        13, "citationCount": 19, "influentialCitationCount": 0, "isOpenAccess": true,
+        "openAccessPdf": {"url": "http://www1.cs.columbia.edu/~allen/PAPERS/icra2003.blaer.pdf",
+        "status": null}, "fieldsOfStudy": ["Computer Science"], "s2FieldsOfStudy":
+        [{"category": "Computer Science", "source": "external"}, {"category": "Computer
+        Science", "source": "s2-fos-model"}], "publicationTypes": ["JournalArticle",
+        "Conference"], "publicationDate": "2003-11-10", "journal": {"volume": "2",
+        "pages": "1582-1587 vol.2", "name": "2003 IEEE International Conference on
+        Robotics and Automation (Cat. No.03CH37422)"}, "authors": [{"authorId": "1897655",
+        "name": "P. Blaer"}, {"authorId": "2193888", "name": "P. Allen"}]}, {"paperId":
+        "06e7faf4adc8be14a7259616141b867f6a2482b8", "externalIds": {"DBLP": "conf/icra/BlaerA02",
+        "MAG": "2150496754", "DOI": "10.1109/ROBOT.2002.1013491", "CorpusId": 11548569},
+        "corpusId": 11548569, "publicationVenue": null, "url": "https://www.semanticscholar.org/paper/06e7faf4adc8be14a7259616141b867f6a2482b8",
+        "title": "Topological mobile robot localization using fast vision techniques",
+        "abstract": "We present a system for topologically localizing a mobile robot
+        using color histogram matching of omnidirectional images. The system is intended
+        for use as a navigational tool for the autonomous vehicle for exploration
+        and navigation of urban environments (AVENUE) mobile robot. Our method makes
+        use of omnidirectional images which are acquired from the robot''s on-board
+        camera. The method is fast and rotation invariant. Our tests have indicated
+        that normalized color histograms are best for an outdoor environment while
+        normalization is not required for indoor work. The system quickly narrows
+        down the robot''s location to one or two regions within the much larger test
+        environment. Using this regional localization information, other vision systems
+        that we have developed can further localize the robot.", "venue": "Proceedings
+        2002 IEEE International Conference on Robotics and Automation (Cat. No.02CH37292)",
+        "year": 2002, "referenceCount": 20, "citationCount": 107, "influentialCitationCount":
+        5, "isOpenAccess": true, "openAccessPdf": {"url": "http://www.cs.columbia.edu/~pblaer/papers/icra2002.pdf",
+        "status": null}, "fieldsOfStudy": ["Computer Science"], "s2FieldsOfStudy":
+        [{"category": "Computer Science", "source": "external"}, {"category": "Computer
+        Science", "source": "s2-fos-model"}], "publicationTypes": ["JournalArticle",
+        "Conference"], "publicationDate": "2002-08-07", "journal": {"volume": "1",
+        "pages": "1031-1036 vol.1", "name": "Proceedings 2002 IEEE International Conference
+        on Robotics and Automation (Cat. No.02CH37292)"}, "authors": [{"authorId":
+        "1897655", "name": "P. Blaer"}, {"authorId": "2193888", "name": "P. Allen"}]},
+        {"paperId": "862967da1feb15fc9dcfd9a6a1e61f9821fa0ece", "externalIds": {"DBLP":
+        "conf/3dim/AllenSGGB01", "MAG": "2137867631", "DOI": "10.1109/IM.2001.924477",
+        "CorpusId": 9087570}, "corpusId": 9087570, "publicationVenue": null, "url":
+        "https://www.semanticscholar.org/paper/862967da1feb15fc9dcfd9a6a1e61f9821fa0ece",
+        "title": "AVENUE: Automated site modeling in urban environments", "abstract":
+        "This paper is an overview of the AVENUE project at Columbia University. AVENUE''s
+        main goal is to automate the site modeling process in urban environments.
+        The first component of AVENUE is a 3-D modeling system which constructs complete
+        3-D geometric models with photometric texture mapping acquired from different
+        viewpoints. The second component is a planning system that plans the Next-Best-View
+        for acquiring a model of the site. The third component is a mobile robot we
+        have built that contains an integrated sensor suite for automatically performing
+        the site modeling task. We present results for modeling buildings in New York
+        City.", "venue": "Proceedings Third International Conference on 3-D Digital
+        Imaging and Modeling", "year": 2001, "referenceCount": 24, "citationCount":
+        108, "influentialCitationCount": 2, "isOpenAccess": false, "openAccessPdf":
+        null, "fieldsOfStudy": ["Computer Science"], "s2FieldsOfStudy": [{"category":
+        "Computer Science", "source": "external"}, {"category": "Computer Science",
+        "source": "s2-fos-model"}], "publicationTypes": ["JournalArticle", "Conference",
+        "Review"], "publicationDate": "2001-05-28", "journal": {"pages": "357-364",
+        "name": "Proceedings Third International Conference on 3-D Digital Imaging
+        and Modeling"}, "authors": [{"authorId": "2193888", "name": "P. Allen"}, {"authorId":
+        "3135383", "name": "I. Stamos"}, {"authorId": "48051189", "name": "A. Gueorguiev"},
+        {"authorId": "1582151627", "name": "Ethan Gold"}, {"authorId": "1897655",
+        "name": "P. Blaer"}]}, {"paperId": "9bd959bac105c8a25cb50776cc25e6090754f035",
+        "externalIds": {"MAG": "2116658589", "DBLP": "conf/icra/GueorguievAGB00",
+        "DOI": "10.1109/ROBOT.2000.845166", "CorpusId": 26696112}, "corpusId": 26696112,
+        "publicationVenue": null, "url": "https://www.semanticscholar.org/paper/9bd959bac105c8a25cb50776cc25e6090754f035",
+        "title": "Design, architecture and control of a mobile site-modeling robot",
+        "abstract": "A distributed, modular, heterogeneous architecture is presented
+        that illustrates an approach to solving and integrating common tasks in mobile
+        robotics, such as path planning, localization, sensor fusion, environmental
+        modeling, and motion control. Experimental results are shown for an autonomous
+        navigation task to confirm the applicability of our approach.", "venue": "Proceedings
+        2000 ICRA. Millennium Conference. IEEE International Conference on Robotics
+        and Automation. Symposia Proceedings (Cat. No.00CH37065)", "year": 2000, "referenceCount":
+        16, "citationCount": 28, "influentialCitationCount": 0, "isOpenAccess": true,
+        "openAccessPdf": {"url": "http://academiccommons.columbia.edu/download/fedora_content/download/ac:154131/CONTENT/00845166.pdf",
+        "status": null}, "fieldsOfStudy": ["Engineering", "Computer Science"], "s2FieldsOfStudy":
+        [{"category": "Engineering", "source": "external"}, {"category": "Computer
+        Science", "source": "external"}, {"category": "Computer Science", "source":
+        "s2-fos-model"}], "publicationTypes": ["JournalArticle", "Conference"], "publicationDate":
+        "2000-04-24", "journal": {"volume": "4", "pages": "3266-3271 vol.4", "name":
+        "Proceedings 2000 ICRA. Millennium Conference. IEEE International Conference
+        on Robotics and Automation. Symposia Proceedings (Cat. No.00CH37065)"}, "authors":
+        [{"authorId": "48051189", "name": "A. Gueorguiev"}, {"authorId": "2193888",
+        "name": "P. Allen"}, {"authorId": "1582151627", "name": "Ethan Gold"}, {"authorId":
+        "1897655", "name": "P. Blaer"}]}]}]}
+
+        '
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '25714'
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 19 Oct 2023 18:07:33 GMT
+      Via:
+      - 1.1 11280d8f37ba4cb1d8f36f9f2a6e4c76.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - nYa2ARXVzDrauuj-lEtytG5y45elzX-nCQqRGtr9_oYOxAAkcZ_hdQ==
+      X-Amz-Cf-Pop:
+      - JFK52-P2
+      X-Cache:
+      - Miss from cloudfront
+      x-amz-apigw-id:
+      - ND5_3H_tPHcF5sA=
+      x-amzn-Remapped-Connection:
+      - keep-alive
+      x-amzn-Remapped-Content-Length:
+      - '25714'
+      x-amzn-Remapped-Date:
+      - Thu, 19 Oct 2023 18:07:33 GMT
+      x-amzn-Remapped-Server:
+      - gunicorn
+      x-amzn-RequestId:
+      - cc2072ad-d84e-46cc-b534-35820f43aa96
+    status:
+      code: 200
+      message: OK
+version: 1
