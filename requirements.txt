@@ -1,3 +1,6 @@
 semanticscholar
 vcrpy
 pandas
+flask
+sqlalchemy
+python-dotenv
