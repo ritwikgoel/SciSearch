@@ -59,7 +59,8 @@ def author_page(author_id):
         text(
             f"""
                 SELECT p.paper_id, p.title,
-                    p.date_published, p.url, pb.publication_name
+                    p.date_published, p.url, pb.publication_name,
+                    p.abstract
                 FROM paper p
                 LEFT JOIN publication pb
                     ON p.publication_name = pb.publication_name
@@ -71,10 +72,25 @@ def author_page(author_id):
             """
         )
     )
+
+    affiliations_cursor = db.execute(
+        text(
+            f"""
+                SELECT i.institution_name
+                FROM affiliation a
+                LEFT JOIN institution i
+                    ON a.institution_id = i.institution_id 
+                WHERE a.author_id = '{ author_id }'
+            """
+        )
+    )
     close_db()
     papers = [list(el) for el in paper_cursor]
+    affiliations = [list(el) for el in affiliations_cursor]
+    print(affiliations)
     context = {
         "author": author[0],
-        "papers": papers
+        "papers": papers,
+        "affiliations": affiliations
     }
     return render_template("author.html", **context)

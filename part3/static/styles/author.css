@@ -28,4 +28,13 @@ body {
     display: flex;
     gap: 2rem;
     flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.abstract {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 6; /* Specify the maximum number of lines */
 }

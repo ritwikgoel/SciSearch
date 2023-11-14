@@ -8,3 +8,4 @@ ChatGPT Prompts
 4. Where should I store my template file when using flask to render Jinja2 template?
 5. Give me an example of a css style sheet
 6. Can I add more than one CSS stylesheet to my html header?
+7. I'm using a jinja template and I want to render some text on a box, but if the text has more than 100 characters then I just want the 100 characters to render followed by a ... How do I do this in my Jinja template?
