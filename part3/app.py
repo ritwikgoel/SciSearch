@@ -1,5 +1,5 @@
 import os
-from flask import Flask, g, render_template
+from flask import Flask, g, render_template, request, redirect, url_for, session
 from sqlalchemy import create_engine, text
 from dotenv import load_dotenv
 
@@ -94,3 +94,76 @@ def author_page(author_id):
         "affiliations": affiliations
     }
     return render_template("author.html", **context)
+
+
+
+def is_authenticated(username, password):
+    # Implement your authentication logic here
+    # For simplicity, let's assume you have a table 'users' with columns 'username' and 'password'
+    db = get_db()
+    result = db.execute(
+        text("SELECT * FROM users WHERE username = :username AND password = :password"),
+        {"username": username, "password": password}
+    )
+    user = result.fetchone()
+    db.close()
+    return user is not None
+
+
+
+@app.route("/login", methods=["GET", "POST"])
+def login():
+    if request.method == "POST":
+        username = request.form.get("username")
+        password = request.form.get("password")
+
+        if is_authenticated(username, password):
+            session["username"] = username
+            return redirect(url_for("index"))
+        else:
+            error_message = "Invalid credentials. Please try again."
+
+    return render_template("login.html", error_message=error_message if "error_message" in locals() else None)
+
+
+@app.route("/logout")
+def logout():
+    session.pop("username", None)
+    return redirect(url_for("index"))
+
+
+
+def create_user(username, password):
+    # Implement your user creation logic here
+    db = get_db()
+    db.execute(
+        text("INSERT INTO users (username, password) VALUES (:username, :password)"),
+        {"username": username, "password": password}
+    )
+    db.commit()
+    db.close()
+
+
+@app.route("/signup", methods=["GET", "POST"])
+def signup():
+    if request.method == "POST":
+        username = request.form.get("username")
+        password = request.form.get("password")
+
+        # Check if the username already exists
+        db = get_db()
+        result = db.execute(
+            text("SELECT * FROM users WHERE username = :username"),
+            {"username": username}
+        )
+        existing_user = result.fetchone()
+
+        if existing_user:
+            error_message = "Username already exists. Please choose a different one."
+        else:
+            create_user(username, password)
+            session["username"] = username
+            return redirect(url_for("index"))
+
+    return render_template("signup.html", error_message=error_message if "error_message" in locals() else None)
+
