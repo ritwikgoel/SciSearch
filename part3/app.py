@@ -2,12 +2,16 @@ import os
 from flask import Flask, g, render_template, request, redirect, url_for, session
 from sqlalchemy import create_engine, text
 from dotenv import load_dotenv
+# from werkzeug.security import generate_password_hash, check_password_hash
+
 
 
 app = Flask(__name__)
 app.static_folder = "static"
 load_dotenv()
 engine = create_engine(os.getenv("DATABASEURI"))
+app.secret_key = 'your_secret_key'
+# Figure out this app.secret
 
 
 '''
@@ -97,33 +101,46 @@ def author_page(author_id):
 
 
 
-def is_authenticated(username, password):
-    # Implement your authentication logic here
-    # For simplicity, let's assume you have a table 'users' with columns 'username' and 'password'
+def is_authenticated(email, password):
     db = get_db()
     result = db.execute(
-        text("SELECT * FROM users WHERE username = :username AND password = :password"),
-        {"username": username, "password": password}
+        text("SELECT * FROM users WHERE email = :email"),
+        {"email": email}
     )
     user = result.fetchone()
+    print("FROM AUTH")
+    print(user)
     db.close()
-    return user is not None
+    if user:
+        print("password is ::", user[2].strip())
+        print("password2 is ::", password)
+        if user[2].strip()==password.strip():
+            return user
+    return None
 
 
 
 @app.route("/login", methods=["GET", "POST"])
 def login():
+    error_message = None
     if request.method == "POST":
-        username = request.form.get("username")
+        email = request.form.get("email")
         password = request.form.get("password")
 
-        if is_authenticated(username, password):
-            session["username"] = username
+        user = is_authenticated(email, password)  # Getting the user object
+        print("THe user in login")
+        print(user)
+        if user:
+            session["username"] = user[1]  # Assuming 'username' is the user's username field in your database
+            # Add any other user info you need to maintain context
             return redirect(url_for("index"))
         else:
             error_message = "Invalid credentials. Please try again."
 
-    return render_template("login.html", error_message=error_message if "error_message" in locals() else None)
+    return render_template("login.html", error_message=error_message)
+
+
+
 
 
 @app.route("/logout")
@@ -133,22 +150,25 @@ def logout():
 
 
 
-def create_user(username, password):
-    # Implement your user creation logic here
+
+def create_user(email, username, password):
     db = get_db()
     db.execute(
-        text("INSERT INTO users (username, password) VALUES (:username, :password)"),
-        {"username": username, "password": password}
+        text("INSERT INTO users (email, username, password_hash) VALUES (:email, :username, :password)"),
+        {"email": email, "username": username, "password": password}
     )
     db.commit()
     db.close()
 
 
+
 @app.route("/signup", methods=["GET", "POST"])
 def signup():
     if request.method == "POST":
+        email = request.form.get("email")
         username = request.form.get("username")
         password = request.form.get("password")
+
 
         # Check if the username already exists
         db = get_db()
@@ -161,7 +181,7 @@ def signup():
         if existing_user:
             error_message = "Username already exists. Please choose a different one."
         else:
-            create_user(username, password)
+            create_user(email, username, password)
             session["username"] = username
             return redirect(url_for("index"))
 
