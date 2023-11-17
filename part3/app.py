@@ -3,6 +3,7 @@ from flask import Flask, g, render_template, request, redirect, url_for, session
 from sqlalchemy import create_engine, text
 from dotenv import load_dotenv
 # from werkzeug.security import generate_password_hash, check_password_hash
+# chrome://net-internals/#sockets -> To flush socket pools when the flask application stops working
 
 
 
