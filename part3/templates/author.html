@@ -10,6 +10,11 @@
             <p>Publications</p>
             <p>Papers</p>
             <p>My Collections</p>
+            {% if session.get("username") %}
+                <div class="navbar-text">
+                    Signed in as: <strong>{{ session.get("username") }}</strong>
+                </div>
+            {% endif %}
         </div>
     </div>
 
