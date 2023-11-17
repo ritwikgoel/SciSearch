@@ -10,9 +10,12 @@
             <p>Publications</p>
             <p>Papers</p>
             <p>My Collections</p>
+            <!-- User Display and Sign out button -->
             {% if session.get("username") %}
                 <div class="navbar-text">
                     Signed in as: <strong>{{ session.get("username") }}</strong>
+                    <!-- Sign out button -->
+                    <a href="/logout" class="btn btn-sm btn-outline-secondary ml-2">Sign Out</a>
                 </div>
             {% endif %}
         </div>
