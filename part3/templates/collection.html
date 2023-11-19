@@ -1,0 +1,57 @@
+<!doctype html>
+<title>{% block title %}{% endblock %} - Flaskr</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="{{ url_for('static',filename='styles/collection.css') }}">
+<body>
+    <div class="navbar-container">
+        <div class="navbar">
+            <p>Authors</p>
+            <p>Institutions</p>
+            <p>Publications</p>
+            <p>Papers</p>
+            <p>My Collections</p>
+        </div>
+    </div>
+
+    <div class="main-body">
+        <div class="card-container">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">{{author[1]}}</h5>
+                    <h6 class="card-subtitle mb-2 text-body-secondary">Affiliations: {{1}}</h6>
+                    <h6 class="card-subtitle mb-2 text-body-secondary">Publications: {{papers|length}}</h6>
+                        <a href="{{author[2]}}" class="card-link">Webpage</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="papers-container">
+        {% for row in papers %}
+        <div class="card" style="width: 30rem;">
+            <div class="card-body">
+                <h5 class="card-title">{{row[1]}}</h5>
+                <h6 class="card-subtitle mb-2 text-body-secondary text-danger">
+                    {% if row[2] is not none %}
+                        {{row[2]}}
+                    {% endif %}
+                    {% if row[2] is none %}
+                        {{"Date not available"}}
+                    {% endif %}
+                </h6>
+                <h6 class="card-subtitle mb-2 text-body-secondary text-success">{{row[4]}}</h6>
+                <p class="card-text abstract">
+                    {% if row[5] is not none %}
+                        {{row[5]}}
+                    {% endif %}
+                    {% if row[5] is none %}
+                        {{"Abstract not available."}}
+                    {% endif %}
+                </p>
+                <a href="{{row[3]}}" class="card-link">Paper URL</a>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</body>
