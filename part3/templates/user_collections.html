@@ -1,7 +1,7 @@
 <!doctype html>
 <title>{% block title %}{% endblock %} - Flaskr</title>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-<link rel="stylesheet" href="{{ url_for('static',filename='styles/author.css') }}">
+<link rel="stylesheet" href="{{ url_for('static',filename='styles/user_collections.css') }}">
 <body>
     <div class="navbar-container">
         <div class="navbar">
@@ -24,11 +24,23 @@
     <div class="main-body">
         <div class="card-container">
             <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">{{author[1]}}</h5>
-                    <h6 class="card-subtitle mb-2 text-body-secondary">Affiliations: {{1}}</h6>
-                    <h6 class="card-subtitle mb-2 text-body-secondary">Publications: {{papers|length}}</h6>
-                        <a href="{{author[2]}}" class="card-link">Webpage</a>
+                <div class="card-body my-card-body">
+                    <div class="card-column">
+                        <h5 class="card-title">Welcome {{username}}!</h5>
+                        <h6 class="card-subtitle mb-2 text-body-secondary">Email: {{email}}</h6>
+                    </div>
+                    <div class="card-column">
+                        <form method="post" action="{{ url_for('create_collection') }}">
+
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+
+                            <label for="collection_name">Collection Name:</label>
+                            <input type="text" id="collection_name" name="collection_name" required>
+                    
+                            <button type="submit">Add Collection</button>
+                        </form>
+                    </div>
                     </div>
                 </div>
             </div>
@@ -36,10 +48,10 @@
     </div>
     
     <div class="papers-container">
-        {% for row in papers %}
+        {% for row in collections %}
         <div class="card" style="width: 22rem;">
             <div class="card-body">
-                <h5 class="card-title">{{row[1]}}</h5>
+                <h5 class="card-title">{{row[0]}}</h5>
                 <h6 class="card-subtitle mb-2 text-body-secondary text-danger">
                     {% if row[2] is not none %}
                         {{row[2]}}
@@ -48,16 +60,7 @@
                         {{"Date not available"}}
                     {% endif %}
                 </h6>
-                <h6 class="card-subtitle mb-2 text-body-secondary text-success">{{row[4]}}</h6>
-                <p class="card-text abstract">
-                    {% if row[5] is not none %}
-                        {{row[5]}}
-                    {% endif %}
-                    {% if row[5] is none %}
-                        {{"Abstract not available."}}
-                    {% endif %}
-                </p>
-                <a href="{{row[3]}}" class="card-link">Paper URL</a>
+                <h6 class="card-subtitle mb-2 text-body-secondary text-success">{{row[3]}} papers</h6>
             </div>
         </div>
         {% endfor %}
