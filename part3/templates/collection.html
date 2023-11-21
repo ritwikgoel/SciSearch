@@ -78,6 +78,14 @@
                         {% endif %}
                     </p>
                     <a href="{{row[3]}}" class="card-link">Paper URL</a>
+                    <a href="
+                        {{url_for(
+                            'include_paper', 
+                            collection_name=collection_name, 
+                            email=email,
+                            paper_id=row[0]
+                            )}}
+                    " class="card-link">Add to Collection</a>
                 </div>
             </div>
             {% endfor %}
@@ -106,6 +114,14 @@
                         {% endif %}
                     </p>
                     <a href="{{row[3]}}" class="card-link">Paper URL</a>
+                    <a href="
+                        {{url_for(
+                            'include_paper', 
+                            collection_name=collection_name, 
+                            email=email,
+                            paper_id=row[0]
+                            )}}
+                    " class="card-link">Add to Collection</a>
                 </div>
             </div>
             {% endfor %}
@@ -134,6 +150,14 @@
                         {% endif %}
                     </p>
                     <a href="{{row[3]}}" class="card-link">Paper URL</a>
+                    <a href="
+                        {{url_for(
+                            'include_paper', 
+                            collection_name=collection_name, 
+                            email=email,
+                            paper_id=row[0]
+                            )}}
+                    " class="card-link">Add to Collection</a>
                 </div>
             </div>
             {% endfor %}

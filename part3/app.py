@@ -262,8 +262,7 @@ def collection_page(email, collection_name):
         }
     )
     collection_papers_citations = [list(el) for el in papers_that_collection_cites_cursor]
-    print(len(cite_collection_papers))
-    print(len(collection_papers_citations))
+    print(collection_papers_citations[0])
     context = {
         "email": email,
         "collection_name": collection_name,
