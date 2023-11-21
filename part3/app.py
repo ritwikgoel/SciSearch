@@ -60,7 +60,7 @@ def author_page(author_id):
 
     if not author:
         return "Author not found."
-    
+
     paper_cursor = db.execute(
         text(
             """
@@ -119,7 +119,6 @@ def user_collections(email):
              }
     )
     collections = [list(el) for el in collections_cursor]
-    print(collections)
     context = {
         "username": session.get("username"),
         "email": session.get("email"),
@@ -154,7 +153,7 @@ def create_collection():
 
 @app.route("/collections/<email>/<collection_name>")
 def collection_page(email, collection_name):
-    if session.get("email") != email:
+    if False and session.get("email") != email:
         return "Unauthorized access."
     db = get_db()
     collections_cursor = db.execute(
@@ -167,7 +166,8 @@ def collection_page(email, collection_name):
                 "collection_name": collection_name
              }
     )
-    if not [list(el) for el in collections_cursor]:
+    collection = [list(el) for el in collections_cursor]
+    if not collection:
         return "Collection not found."
     
     collection_papers_cursor = db.execute(
@@ -187,9 +187,125 @@ def collection_page(email, collection_name):
             "collection_name": collection_name
         }
     )
-    return "Found collection."
+    collection_papers = [list(el) for el in collection_papers_cursor]
+    collection_paper_ids = tuple([el[0] for el in collection_papers])
+    authors_cursor = db.execute(
+        text(
+            """
+                SELECT DISTINCT(a.author_id)
+                FROM authored a
+                WHERE a.paper_id IN :paper_ids
+            """
+        ),
+        {
+            "paper_ids": collection_paper_ids
+        }
+    )
+    authors = tuple([el[0] for el in authors_cursor])
+    from_same_authors_cursor = db.execute(
+        text(
+            """
+                SELECT p.paper_id, p.title,
+                    p.date_published, p.url, pb.publication_name,
+                    p.abstract
+                FROM paper p LEFT JOIN authored a
+                    ON a.paper_id = p.paper_id
+                LEFT JOIN publication pb
+                    ON p.publication_name = pb.publication_name
+                WHERE a.author_id IN :authors
+                    AND p.paper_id not in :paper_ids
+            """
+        ),
+        {
+            "authors": authors,
+            "paper_ids": collection_paper_ids
+        }
+    )
+    from_same_authors_papers = [list(el) for el in from_same_authors_cursor]
 
+    papers_that_cite_collection_cursor = db.execute(
+        text(
+            """
+                SELECT p.paper_id, p.title,
+                    p.date_published, p.url, pb.publication_name,
+                    p.abstract
+                FROM paper p LEFT JOIN citedby c
+                    ON c.paper_citing = p.paper_id
+                LEFT JOIN publication pb
+                    ON p.publication_name = pb.publication_name
+                WHERE c.paper_cited IN :paper_ids
+                    AND c.paper_citing NOT IN :paper_ids
+            """
+        ),
+        {
+            "paper_ids": collection_paper_ids
+        }
+    )
+    cite_collection_papers = [list(el) for el in papers_that_cite_collection_cursor]
 
+    papers_that_collection_cites_cursor = db.execute(
+        text(
+            """
+                SELECT p.paper_id, p.title,
+                    p.date_published, p.url, pb.publication_name,
+                    p.abstract
+                FROM paper p LEFT JOIN citedby c
+                    ON c.paper_cited = p.paper_id
+                LEFT JOIN publication pb
+                    ON p.publication_name = pb.publication_name
+                WHERE c.paper_citing IN :paper_ids
+                    AND c.paper_cited NOT IN :paper_ids
+            """
+        ),
+        {
+            "paper_ids": collection_paper_ids
+        }
+    )
+    collection_papers_citations = [list(el) for el in papers_that_collection_cites_cursor]
+    print(len(cite_collection_papers))
+    print(len(collection_papers_citations))
+    context = {
+        "email": email,
+        "collection_name": collection_name,
+        "collection_size": len(collection_papers),
+        "collection_papers": collection_papers,
+        "since": str(collection[0][2]),
+        "from_same_authors_papers": from_same_authors_papers,
+        "cite_collection_papers": cite_collection_papers,
+        "collection_papers_citations": collection_papers_citations
+    }
+    db.close()
+    return render_template("collection.html", **context)
+
+@app.route("/include/<email>/<collection_name>/<paper_id>")
+def include_paper(email, collection_name, paper_id):
+    if False and session.get("email") != email:
+        return "Unauthorized access."
+    db = get_db()
+    try:
+        db.execute(
+            text(
+                """
+                    INSERT INTO includes (collection_name, paper_id, email, since)
+                    VALUES(:collection_name, :paper_id, :email, :since) RETURNING collection_name
+                """
+            ),
+            {
+                "collection_name": collection_name,
+                "paper_id": paper_id,
+                "email": email,
+                "since": str(datetime.now())[:10]
+            }
+        )
+        db.commit()
+        db.close()
+        return "Paper was added to the collection successfully."
+    except Exception:
+        db.close()
+        return """
+                Failed to add paper to collection.
+                Paper might already be in the collection.
+            """
 
 def is_authenticated(email, password):
     db = get_db()

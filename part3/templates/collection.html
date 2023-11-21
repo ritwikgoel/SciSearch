@@ -17,41 +17,126 @@
         <div class="card-container">
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title">{{author[1]}}</h5>
-                    <h6 class="card-subtitle mb-2 text-body-secondary">Affiliations: {{1}}</h6>
-                    <h6 class="card-subtitle mb-2 text-body-secondary">Publications: {{papers|length}}</h6>
-                        <a href="{{author[2]}}" class="card-link">Webpage</a>
+                    <h5 class="card-title">{{collection_name}}</h5>
+                    <h6 class="card-subtitle mb-2 text-danger">Created in {{since}}</h6>
+                    <h6 class="card-subtitle mb-2 text-success">{{collection_size}} papers</h6>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    
-    <div class="papers-container">
-        {% for row in papers %}
-        <div class="card" style="width: 30rem;">
-            <div class="card-body">
-                <h5 class="card-title">{{row[1]}}</h5>
-                <h6 class="card-subtitle mb-2 text-body-secondary text-danger">
-                    {% if row[2] is not none %}
-                        {{row[2]}}
-                    {% endif %}
-                    {% if row[2] is none %}
-                        {{"Date not available"}}
-                    {% endif %}
-                </h6>
-                <h6 class="card-subtitle mb-2 text-body-secondary text-success">{{row[4]}}</h6>
-                <p class="card-text abstract">
-                    {% if row[5] is not none %}
-                        {{row[5]}}
-                    {% endif %}
-                    {% if row[5] is none %}
-                        {{"Abstract not available."}}
-                    {% endif %}
-                </p>
-                <a href="{{row[3]}}" class="card-link">Paper URL</a>
+    <div class="columns-container">
+        <div class="papers-container twenty-five-div">
+            Papers in Collection
+            {% for row in collection_papers %}
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">{{row[1]}}</h5>
+                    <h6 class="card-subtitle mb-2 text-body-secondary text-danger">
+                        {% if row[2] is not none %}
+                            {{row[2]}}
+                        {% endif %}
+                        {% if row[2] is none %}
+                            {{"Date not available"}}
+                        {% endif %}
+                    </h6>
+                    <h6 class="card-subtitle mb-2 text-body-secondary text-success">{{row[4]}}</h6>
+                    <p class="card-text abstract">
+                        {% if row[5] is not none %}
+                            {{row[5]}}
+                        {% endif %}
+                        {% if row[5] is none %}
+                            {{"Abstract not available."}}
+                        {% endif %}
+                    </p>
+                    <a href="{{row[3]}}" class="card-link">Paper URL</a>
+                </div>
             </div>
+            {% endfor %}
         </div>
-        {% endfor %}
+        <div class="papers-container twenty-five-div">
+            More from the Authors in Your Collection
+            {% for row in from_same_authors_papers %}
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">{{row[1]}}</h5>
+                    <h6 class="card-subtitle mb-2 text-body-secondary text-danger">
+                        {% if row[2] is not none %}
+                            {{row[2]}}
+                        {% endif %}
+                        {% if row[2] is none %}
+                            {{"Date not available"}}
+                        {% endif %}
+                    </h6>
+                    <h6 class="card-subtitle mb-2 text-body-secondary text-success">{{row[4]}}</h6>
+                    <p class="card-text abstract">
+                        {% if row[5] is not none %}
+                            {{row[5]}}
+                        {% endif %}
+                        {% if row[5] is none %}
+                            {{"Abstract not available."}}
+                        {% endif %}
+                    </p>
+                    <a href="{{row[3]}}" class="card-link">Paper URL</a>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="papers-container twenty-five-div">
+            Papers that Cite Your Collection
+            {% for row in cite_collection_papers %}
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">{{row[1]}}</h5>
+                    <h6 class="card-subtitle mb-2 text-body-secondary text-danger">
+                        {% if row[2] is not none %}
+                            {{row[2]}}
+                        {% endif %}
+                        {% if row[2] is none %}
+                            {{"Date not available"}}
+                        {% endif %}
+                    </h6>
+                    <h6 class="card-subtitle mb-2 text-body-secondary text-success">{{row[4]}}</h6>
+                    <p class="card-text abstract">
+                        {% if row[5] is not none %}
+                            {{row[5]}}
+                        {% endif %}
+                        {% if row[5] is none %}
+                            {{"Abstract not available."}}
+                        {% endif %}
+                    </p>
+                    <a href="{{row[3]}}" class="card-link">Paper URL</a>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="papers-container twenty-five-div">
+            Papers Cited by Your Collection
+            {% for row in collection_papers_citations %}
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">{{row[1]}}</h5>
+                    <h6 class="card-subtitle mb-2 text-body-secondary text-danger">
+                        {% if row[2] is not none %}
+                            {{row[2]}}
+                        {% endif %}
+                        {% if row[2] is none %}
+                            {{"Date not available"}}
+                        {% endif %}
+                    </h6>
+                    <h6 class="card-subtitle mb-2 text-body-secondary text-success">{{row[4]}}</h6>
+                    <p class="card-text abstract">
+                        {% if row[5] is not none %}
+                            {{row[5]}}
+                        {% endif %}
+                        {% if row[5] is none %}
+                            {{"Abstract not available."}}
+                        {% endif %}
+                    </p>
+                    <a href="{{row[3]}}" class="card-link">Paper URL</a>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
     </div>
 </body>
