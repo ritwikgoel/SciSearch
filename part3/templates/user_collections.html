@@ -5,11 +5,13 @@
 <body>
     <div class="navbar-container">
         <div class="navbar">
-            <p>Authors</p>
-            <p>Institutions</p>
-            <p>Publications</p>
-            <p>Papers</p>
-            <p>My Collections</p>
+            <p><a href="{{url_for(
+                'index')}}">Authors
+            </a></p>
+            <p><a href="{{url_for(
+                'user_collections',  
+                email=email)}}">My Collections
+            </a></p>
             <!-- User Display and Sign out button -->
             {% if session.get("username") %}
                 <div class="navbar-text">
@@ -51,7 +53,10 @@
         {% for row in collections %}
         <div class="card" style="width: 22rem;">
             <div class="card-body">
-                <h5 class="card-title">{{row[0]}}</h5>
+                <h5 class="card-title"><a href="{{url_for(
+                    'collection_page', 
+                    collection_name=row[0], 
+                    email=email)}}">{{row[0]}}</a></h5>
                 <h6 class="card-subtitle mb-2 text-body-secondary text-danger">
                     {% if row[2] is not none %}
                         {{row[2]}}

@@ -5,11 +5,20 @@
 <body>
     <div class="navbar-container">
         <div class="navbar">
-            <p>Authors</p>
-            <p>Institutions</p>
-            <p>Publications</p>
-            <p>Papers</p>
-            <p>My Collections</p>
+            <p><a href="{{url_for(
+                'index')}}">Authors
+            </a></p>
+            <p><a href="{{url_for(
+                'user_collections',  
+                email=email)}}">My Collections
+            </a></p>
+            {% if session.get("username") %}
+                <div class="navbar-text">
+                    Signed in as: <strong>{{ session.get("username") }}</strong>
+                    <!-- Sign out button -->
+                    <a href="/logout" class="btn btn-sm btn-outline-secondary ml-2">Sign Out</a>
+                </div>
+            {% endif %}
         </div>
     </div>
 

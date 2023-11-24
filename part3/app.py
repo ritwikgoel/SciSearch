@@ -21,6 +21,7 @@ app.secret_key = 'your_secret_key'
 '''
 def get_db():
     if 'db' not in g:
+        print("opened")
         g.db = engine.connect()
     return g.db
 
@@ -31,16 +32,24 @@ def get_db():
 def close_db(e=None):
     db = g.pop('db', None)
     if db is not None:
+        print("closed")
         db.close()
 
 
 @app.route("/")
 def index():
     db = get_db()
-    cursor = db.execute(text("SELECT * FROM author"))
+    cursor = db.execute(text("""
+                                SELECT a.author_name, count(at.paper_id), a.author_id FROM paper p
+                                LEFT JOIN authored at
+                                    ON p.paper_id = at.paper_id
+                                LEFT JOIN author a
+                                    ON at.author_id = a.author_id
+                                GROUP BY(a.author_id, a.author_name)
+                             """))
     close_db()
     context = {
-        "data": [ list(el) for el in cursor ]
+        "data": [list(el) for el in cursor]
     }
     return render_template("base.html", **context)
 
@@ -75,6 +84,7 @@ def author_page(author_id):
                     FROM authored a
                     WHERE a.author_id = :author_id
                 )
+                ORDER BY p.date_published DESC NULLS LAST
             """
         ), { "author_id": author_id }
     )
@@ -118,6 +128,7 @@ def user_collections(email):
                 "email": email
              }
     )
+    close_db()
     collections = [list(el) for el in collections_cursor]
     context = {
         "username": session.get("username"),
@@ -144,10 +155,10 @@ def create_collection():
                 }
         )
         db.commit()
-        db.close()
+        close_db()
         return "Collection created successfully."
     except Exception:
-        db.close()
+        close_db()
         return "Failed to create collection."
 
 
@@ -159,7 +170,8 @@ def collection_page(email, collection_name):
     collections_cursor = db.execute(
         text("""
                 SELECT * FROM hascollection 
-                WHERE email = :email AND collection_name = :collection_name 
+                WHERE email = :email AND collection_name = :collection_name
+                ORDER BY since DESC
              """), 
              {
                 "email": email,
@@ -168,6 +180,7 @@ def collection_page(email, collection_name):
     )
     collection = [list(el) for el in collections_cursor]
     if not collection:
+        close_db()
         return "Collection not found."
     
     collection_papers_cursor = db.execute(
@@ -181,6 +194,7 @@ def collection_page(email, collection_name):
                 LEFT JOIN publication pb
                     ON p.publication_name = pb.publication_name
                 WHERE i.email = :email AND i.collection_name = :collection_name
+                ORDER BY p.date_published DESC NULLS LAST
             """
         ), {
             "email": email,
@@ -189,6 +203,19 @@ def collection_page(email, collection_name):
     )
     collection_papers = [list(el) for el in collection_papers_cursor]
     collection_paper_ids = tuple([el[0] for el in collection_papers])
+    if len(collection_paper_ids) == 0:
+        context = {
+            "email": email,
+            "collection_name": collection_name,
+            "collection_size": len(collection_papers),
+            "collection_papers": collection_papers,
+            "since": str(collection[0][2]),
+            "from_same_authors_papers": [],
+            "cite_collection_papers": [],
+            "collection_papers_citations": []
+        }
+        close_db()
+        return render_template("collection.html", **context)
     authors_cursor = db.execute(
         text(
             """
@@ -214,6 +241,7 @@ def collection_page(email, collection_name):
                     ON p.publication_name = pb.publication_name
                 WHERE a.author_id IN :authors
                     AND p.paper_id not in :paper_ids
+                ORDER BY p.date_published DESC NULLS LAST
             """
         ),
         {
@@ -235,6 +263,7 @@ def collection_page(email, collection_name):
                     ON p.publication_name = pb.publication_name
                 WHERE c.paper_cited IN :paper_ids
                     AND c.paper_citing NOT IN :paper_ids
+                ORDER BY p.date_published DESC NULLS LAST
             """
         ),
         {
@@ -255,6 +284,7 @@ def collection_page(email, collection_name):
                     ON p.publication_name = pb.publication_name
                 WHERE c.paper_citing IN :paper_ids
                     AND c.paper_cited NOT IN :paper_ids
+                ORDER BY p.date_published DESC NULLS LAST
             """
         ),
         {
@@ -262,7 +292,6 @@ def collection_page(email, collection_name):
         }
     )
     collection_papers_citations = [list(el) for el in papers_that_collection_cites_cursor]
-    print(collection_papers_citations[0])
     context = {
         "email": email,
         "collection_name": collection_name,
@@ -273,7 +302,7 @@ def collection_page(email, collection_name):
         "cite_collection_papers": cite_collection_papers,
         "collection_papers_citations": collection_papers_citations
     }
-    db.close()
+    close_db()
     return render_template("collection.html", **context)
 
 @app.route("/include/<email>/<collection_name>/<paper_id>")
@@ -297,10 +326,10 @@ def include_paper(email, collection_name, paper_id):
             }
         )
         db.commit()
-        db.close()
+        close_db()
         return "Paper was added to the collection successfully."
     except Exception:
-        db.close()
+        close_db()
         return """
                 Failed to add paper to collection.
                 Paper might already be in the collection.
@@ -315,7 +344,7 @@ def is_authenticated(email, password):
     user = result.fetchone()
     print("FROM AUTH")
     print(user)
-    db.close()
+    close_db()
     if user:
         print("password is ::", user[2].strip())
         print("password2 is ::", password)
@@ -364,7 +393,7 @@ def create_user(email, username, password):
         {"email": email, "username": username, "password": password}
     )
     db.commit()
-    db.close()
+    close_db()
 
 
 
