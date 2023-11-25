@@ -156,10 +156,12 @@ def create_collection():
         )
         db.commit()
         close_db()
-        return "Collection created successfully."
+        # Redirect to the relevant page, such as the user's collection page
+        return redirect(url_for('user_collections', email=request.form.get("email")))
     except Exception:
         close_db()
         return "Failed to create collection."
+
 
 
 @app.route("/collections/<email>/<collection_name>")
