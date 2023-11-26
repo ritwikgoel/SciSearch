@@ -38,3 +38,11 @@ body {
     overflow: hidden;
     -webkit-line-clamp: 6; /* Specify the maximum number of lines */
 }
+
+.card-column {
+    flex: 1;
+}
+
+.my-card-body {
+    display: flex;
+}

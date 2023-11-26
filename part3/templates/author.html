@@ -19,6 +19,13 @@
                     <!-- Sign out button -->
                     <a href="/logout" class="btn btn-sm btn-outline-secondary ml-2">Sign Out</a>
                 </div>
+            {% else %}
+                <p>
+                    <a class="nav-link" href="/signup">Sign Up</a>
+                </p>
+                <p>
+                    <a class="nav-link" href="/login">Sign In</a>
+                </p>
             {% endif %}
         </div>
     </div>
@@ -26,11 +33,27 @@
     <div class="main-body">
         <div class="card-container">
             <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">{{author[1]}}</h5>
-                    <h6 class="card-subtitle mb-2 text-body-secondary">Affiliations: {{1}}</h6>
-                    <h6 class="card-subtitle mb-2 text-body-secondary">Publications: {{papers|length}}</h6>
-                        <a href="{{author[2]}}" class="card-link">Webpage</a>
+                <div class="card-body my-card-body">
+                    <div class="card-column">
+                        <h5 class="card-title">{{author[1]}}</h5>
+                        <h6 class="card-subtitle mb-2 text-body-secondary">Affiliations: {{1}}</h6>
+                        <h6 class="card-subtitle mb-2 text-body-secondary">Publications: {{papers|length}}</h6>
+                            <a href="{{author[2]}}" class="card-link">Webpage</a>
+                    </div>
+                    <div class="card-column">
+                        <form method="post" action="{{ url_for('include_paper_post') }}">
+
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+
+                            <label for="collection_name">Collection Name:</label>
+                            <input type="text" id="collection_name" name="collection_name" required>
+
+                            <label for="paper_id">Paper Id:</label>
+                            <input type="text" id="paper_id" name="paper_id" required>
+                    
+                            <button type="submit">Add to Collection</button>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -51,6 +74,7 @@
                     {% endif %}
                 </h6>
                 <h6 class="card-subtitle mb-2 text-body-secondary text-success">{{row[4]}}</h6>
+                <h6 class="card-subtitle mb-2 text-body-secondary text-secondary">Paper id: {{row[0]}}</h6>
                 <p class="card-text abstract">
                     {% if row[5] is not none %}
                         {{row[5]}}

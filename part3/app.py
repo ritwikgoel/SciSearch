@@ -166,7 +166,7 @@ def create_collection():
 
 @app.route("/collections/<email>/<collection_name>")
 def collection_page(email, collection_name):
-    if False and session.get("email") != email:
+    if session.get("email") != email:
         return "Unauthorized access."
     db = get_db()
     collections_cursor = db.execute(
@@ -309,7 +309,40 @@ def collection_page(email, collection_name):
 
 @app.route("/include/<email>/<collection_name>/<paper_id>")
 def include_paper(email, collection_name, paper_id):
-    if False and session.get("email") != email:
+    if session.get("email") != email:
+        return "Unauthorized access."
+    db = get_db()
+    try:
+        db.execute(
+            text(
+                """
+                    INSERT INTO includes (collection_name, paper_id, email, since)
+                    VALUES(:collection_name, :paper_id, :email, :since) RETURNING collection_name
+                """
+            ),
+            {
+                "collection_name": collection_name,
+                "paper_id": paper_id,
+                "email": email,
+                "since": str(datetime.now())[:10]
+            }
+        )
+        db.commit()
+        close_db()
+        return "Paper was added to the collection successfully."
+    except Exception:
+        close_db()
+        return """
+                Failed to add paper to collection.
+                Paper might already be in the collection.
+            """
+
+@app.route("/include", methods=["POST"])
+def include_paper_post():
+    email = request.form.get("email")
+    paper_id = request.form.get("paper_id")
+    collection_name = request.form.get("collection_name")
+    if session.get("email") != email:
         return "Unauthorized access."
     db = get_db()
     try:
@@ -425,3 +458,29 @@ def signup():
 
     return render_template("signup.html", error_message=error_message if "error_message" in locals() else None)
 
+
+if __name__ == "__main__":
+    import click
+
+    @click.command()
+    @click.option('--debug', is_flag=True)
+    @click.option('--threaded', is_flag=True)
+    @click.argument('HOST', default='0.0.0.0')
+    @click.argument('PORT', default=8111, type=int)
+    def run(debug, threaded, host, port):
+        """
+            This function handles command line parameters.
+            Run the server using:
+
+            python3 server.py
+
+            Show the help text using:
+
+                python3 server.py --help
+        """
+
+        HOST, PORT = host, port
+        print("running on %s:%d" % (HOST, PORT))
+        app.run(host=HOST, port=PORT, debug=debug, threaded=threaded)
+
+    run()
