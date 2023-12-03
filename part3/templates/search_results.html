@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search Results</title>
+</head>
+<body>
+    <h1>Search Results</h1>
+    
+    <h2>Papers:</h2>
+    <ul>
+        {% for paper in papers_by_name %}
+            <li>
+                <a href="{{ url_for('author_page', author_id=paper[0]) }}">{{ paper[1] }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+    
+    <h2>Authors:</h2>
+    <ul>
+        {% for author in authors_by_name %}
+            <li>
+                <a href="{{ url_for('author_page', author_id=author[2]) }}">{{ author[0] }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
