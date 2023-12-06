@@ -512,6 +512,59 @@ def search():
     return render_template("search.html")
 
 
+# this is for the search with the paper, author name and also the Author bio! 
+
+# @app.route("/search", methods=["GET", "POST"])
+# def search():
+#     if request.method == "POST":
+#         search_query = request.form.get("search_query")
+#         db = get_db()
+        
+#         # Search by paper name
+#         paper_cursor = db.execute(
+#             text(
+#                 """
+#                 SELECT p.paper_id, p.title,
+#                     p.date_published, p.url, pb.publication_name,
+#                     p.abstract
+#                 FROM paper p
+#                 LEFT JOIN publication pb
+#                     ON p.publication_name = pb.publication_name
+#                 WHERE p.title ILIKE :search_query
+#                 ORDER BY p.date_published DESC NULLS LAST
+#                 """
+#             ), { "search_query": f"%{search_query}%" }
+#         )
+#         papers_by_name = [list(el) for el in paper_cursor]
+        
+#         # Search by author name or bio
+#         author_cursor = db.execute(
+#             text(
+#                 """
+#                 SELECT a.author_name, count(at.paper_id), a.author_id FROM paper p
+#                 LEFT JOIN authored at
+#                     ON p.paper_id = at.paper_id
+#                 LEFT JOIN author a
+#                     ON at.author_id = a.author_id
+#                 WHERE a.author_name ILIKE :search_query OR a.bio ILIKE :search_query
+#                 GROUP BY(a.author_id, a.author_name)
+#                 """
+#             ), { "search_query": f"%{search_query}%" }
+#         )
+#         authors_by_name = [list(el) for el in author_cursor]
+        
+#         close_db()
+        
+#         context = {
+#             "search_query": search_query,
+#             "papers_by_name": papers_by_name,
+#             "authors_by_name": authors_by_name
+#         }
+        
+#         return render_template("search_results.html", **context)
+    
+#     return render_template("search.html")
+
 
 
 
