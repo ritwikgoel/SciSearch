@@ -23,5 +23,15 @@
             </li>
         {% endfor %}
     </ul>
+    
+    <h2>Users Bio:</h2>
+    <ul>
+        {% for user in users_with_biography %}
+            <li>
+                <strong>{{ user[0] }}</strong>
+                <p>{{ user[1] }}</p>
+            </li>
+        {% endfor %}
+    </ul>
 </body>
 </html>
